@@ -1,0 +1,13 @@
+{
+  "prompt": "Keep this exact adult paper-doll woman, pink dress, body pose, hair and pure cyan background. Add ONLY a short lavender bolero jacket and golden ballet flats. NO handbag, NO hair clips, NO accessories in hands or hair. Preserve exact position, scale, proportions and polished hand-painted mobile game style.",
+  "jobs": [
+    {
+      "index": 0,
+      "job_id": "cd9f2336-c2c3-4b6b-8825-431cd23b2d83",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_234226_cd9f2336-c2c3-4b6b-8825-431cd23b2d83.png"
+    }
+  ]
+}

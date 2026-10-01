@@ -1,0 +1,66 @@
+{
+  "generator": "Nano Banana 2 via Higgsfield",
+  "requested_model": "nano_banana_2",
+  "assets": [
+    {
+      "index": 0,
+      "job_id": "fc72b853-68fb-4f04-ae10-d4a101a77c23",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_221213_fc72b853-68fb-4f04-ae10-d4a101a77c23.png",
+      "name": "button-symbols",
+      "prompt": "A sprite sheet EXACTLY 6 columns by 2 rows, 12 separated symbols, generous cyan gutters. Each row has these six symbols left to right: play triangle, circular restart arrow, four-square album grid, double next chevron, checkmark, movie clapperboard with play triangle. Each symbol has WHITE fill, a crisp thick colored outline and subtle hand-painted shading. TOP ROW: all outlines dark moss GREEN #527934, matching a green illustrated button outline. BOTTOM ROW: same six shapes but outlines dark PLUM #604281, matching a purple button outline. Absolutely NO lavender glow, NO sticker border, NO outer white rim, NO button backgrounds. Only simple solid white symbols with dark green or dark plum outlines. Exactly two rows."
+    },
+    {
+      "index": 1,
+      "job_id": "6a78dacb-5d28-4d4a-9e70-a5b96ee823e9",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_221213_6a78dacb-5d28-4d4a-9e70-a5b96ee823e9.png",
+      "name": "lucky-wheel",
+      "prompt": "One perfectly circular lucky reward wheel, facing straight forward, centered, filling 85% of the square. EXACTLY EIGHT EQUAL radial wedge sectors, alternating pastel lilac and warm ivory, each completely EMPTY for game overlays. First ivory sector is centered straight UP at twelve o'clock; its edges are at 11:15 and 12:45. Thin violet seams. Polished lilac double rim with eight tiny golden lamps equally spaced and small gold central hub. No icons or text inside the sectors. No pointer, no stand, no banner. Perfect rotational symmetry, painted cartoon finish."
+    },
+    {
+      "index": 2,
+      "job_id": "065f9cca-b527-48f1-a987-3bd86e57c7b6",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_221213_065f9cca-b527-48f1-a987-3bd86e57c7b6.png",
+      "name": "reward-objects",
+      "prompt": "Sprite sheet EXACTLY 3 columns and 2 rows, six separate objects, no cell borders, centered in each cell with wide cyan gutters. Row1: closed purple treasure chest with golden corners and pink heart clasp; same treasure chest OPEN with shiny gold coins spilling out; lush pile of golden coins with embossed tiny stars. Row2: purple foil collectible card booster pack with gold star seal; luxurious golden skincare serum bottle with pink gem stopper; large grand prize bundle consisting of open treasure chest, golden serum bottle, pink bow and three collectible cards. Charming glossy toy-like rendering, readable compact silhouettes."
+    },
+    {
+      "index": 3,
+      "job_id": "58e11325-4c71-4e5b-b258-245f73a3e67e",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_221213_58e11325-4c71-4e5b-b258-245f73a3e67e.png",
+      "name": "reward-widgets",
+      "prompt": "Sprite sheet EXACTLY 3 columns and 2 rows, six separated objects with wide cyan gutters. Row1: empty lilac DAILY REWARD card panel with rounded ivory center and blank lilac header strip, near-square proportions; empty pink grand-prize reward panel with gold edges, wide horizontal 2:1 shape; empty portrait collectible achievement card frame with golden corners and lilac velvet blank center. Row2: small purple movie clapperboard with white play triangle and gold rim; cute pastel calendar icon with tiny pink heart, no digits; golden seven-point achievement medal with lavender ribbon tails and pink heart center. No text, no letters, no numbers anywhere."
+    },
+    {
+      "index": 4,
+      "job_id": "36848c42-8d11-40aa-99c2-19ad02bb8b28",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_221213_36848c42-8d11-40aa-99c2-19ad02bb8b28.png",
+      "name": "bonus-art",
+      "prompt": "Sprite sheet EXACTLY 2 columns and 2 rows, four isolated illustrations with generous cyan gutters. Top left: cute shallow lavender crystal bowl filled with pastel pink blue and pearl soap bubbles, a tiny flower and sparkles, cozy Bubble Garden minigame icon. Top right: three smoothly balanced pastel jade and rose quartz spa stones with orchid blossom, cozy Zen Stones minigame icon. Bottom left: elegant small golden butterfly hair clip, pretty detailed wings and pink jewel. Bottom right: cute pink silk bow hair clip with gold heart brooch in the center. Premium polished painted cartoon collectibles. No text."
+    },
+    {
+      "index": 5,
+      "job_id": "4b2d2978-18bc-4b24-844e-1ec398d4063b",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_221213_4b2d2978-18bc-4b24-844e-1ec398d4063b.png",
+      "name": "achievement-art",
+      "prompt": "Sprite sheet EXACTLY 3 columns and 2 rows, six individual charming collectible badge illustrations on cyan, no frames, wide gutters. Row1: fluffy white cleansing cloud with a gold star; pink berry mask cosmetic jar with a strawberry; cute lavender bunny plush spa headband. Row2: premium jade facial roller with leaves; glossy pink lipstick with a heart; magnificent small golden crown with pink gems. Coordinated hand-painted reward art, subtle depth, thick plum outlines, bright candy pastels. No text, no letters."
+    }
+  ]
+}

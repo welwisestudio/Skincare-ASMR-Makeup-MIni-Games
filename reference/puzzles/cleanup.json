@@ -1,0 +1,42 @@
+[
+  {
+    "index": 20,
+    "asset": "diff-tea-clean",
+    "prompt": "Clean this finished game background illustration. Remove EVERY written annotation, coordinate, number, label, letter, and all rectangle outlines that indicate empty placement zones. Inpaint those tiny regions naturally to match the surrounding tabletop, shelves and furniture. Keep the exact composition, palette and painted objects unchanged. Final image must have absolutely NO text, NO digits, NO annotations, NO placeholder squares. It is an actual playable illustrated scene, not a design mockup.",
+    "job_id": "b7f9c880-e0de-4aea-9164-19074d334d6d",
+    "status": "completed",
+    "type": "image",
+    "model": "nano_banana_flash",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_084714_b7f9c880-e0de-4aea-9164-19074d334d6d.png"
+  },
+  {
+    "index": 21,
+    "asset": "diff-garden-clean",
+    "prompt": "Clean this finished game background illustration. Remove EVERY written annotation, coordinate, number, label, letter, and all rectangle outlines that indicate empty placement zones. Inpaint those tiny regions naturally to match the surrounding tabletop, shelves and furniture. Keep the exact composition, palette and painted objects unchanged. Final image must have absolutely NO text, NO digits, NO annotations, NO placeholder squares. It is an actual playable illustrated scene, not a design mockup.",
+    "job_id": "dbc85ad4-148b-4187-99f7-31dbb84632be",
+    "status": "completed",
+    "type": "image",
+    "model": "nano_banana_flash",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_084714_dbc85ad4-148b-4187-99f7-31dbb84632be.png"
+  },
+  {
+    "index": 22,
+    "asset": "diff-vanity-clean",
+    "prompt": "Clean this finished game background illustration. Remove EVERY written annotation, coordinate, number, label, letter, and all rectangle outlines that indicate empty placement zones. Inpaint those tiny regions naturally to match the surrounding tabletop, shelves and furniture. Keep the exact composition, palette and painted objects unchanged. Final image must have absolutely NO text, NO digits, NO annotations, NO placeholder squares. It is an actual playable illustrated scene, not a design mockup.",
+    "job_id": "41204689-e11e-4713-aa08-865db9000c8d",
+    "status": "completed",
+    "type": "image",
+    "model": "nano_banana_flash",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_084714_41204689-e11e-4713-aa08-865db9000c8d.png"
+  },
+  {
+    "index": 23,
+    "asset": "diff-pets-clean",
+    "prompt": "Clean this finished game background illustration. Remove EVERY written annotation, coordinate, number, label, letter, and all rectangle outlines that indicate empty placement zones. Inpaint those tiny regions naturally to match the surrounding tabletop, shelves and furniture. Keep the exact composition, palette and painted objects unchanged. Final image must have absolutely NO text, NO digits, NO annotations, NO placeholder squares. It is an actual playable illustrated scene, not a design mockup.",
+    "job_id": "06bf8677-e2f1-47f3-b855-acf40212fd3f",
+    "status": "completed",
+    "type": "image",
+    "model": "nano_banana_flash",
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_084715_06bf8677-e2f1-47f3-b855-acf40212fd3f.png"
+  }
+]

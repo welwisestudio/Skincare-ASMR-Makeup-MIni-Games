@@ -1,0 +1,30 @@
+import {chromium} from '@playwright/test';
+import assert from 'node:assert/strict';
+import {mkdir} from 'node:fs/promises';
+await mkdir('test-results/chest-flow',{recursive:true});
+const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});
+const page=await browser.newPage({viewport:{width:454,height:886}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
+try{
+await page.goto('http://localhost:5173');await page.waitForSelector('#start-button');
+await page.evaluate(async()=>{const a=window.__spa.app;a.audio.enabled=false;await a.start(0);a.save.levelChest={steps:4,prizes:[]};a.save.passAds=7;a.completed(0,10);if(a.cardCelebration)a.finishCardCelebration();});
+assert.equal(await page.evaluate(()=>window.__spa.app.ui.mode),'result');
+assert.ok(await page.evaluate(()=>window.__spa.app.ui.chestMeter.meter.value<4.2));
+assert.ok(await page.locator('#next-button').isDisabled());
+await page.waitForTimeout(1000);
+assert.ok(await page.evaluate(()=>{const a=window.__spa.app;return a.ui.mode==='result'&&a.ui.chestMeter.meter.value>4&&a.ui.chestMeter.meter.value<5;}));
+await page.screenshot({path:'test-results/chest-flow/progress.png'});
+await page.waitForFunction(()=>window.__spa.app.ui.mode==='level-chest');
+await page.evaluate(()=>{const a=window.__spa.app;a.ads.duration=100;a.save.levelChest.prizes=[0,2,4];});
+await page.click('#level-chest-open');await page.waitForTimeout(150);await page.evaluate(()=>window.__spa.app.ads.complete());
+await page.waitForFunction(()=>window.__spa.app.ui.mode==='chest-reveal');
+assert.equal(await page.evaluate(()=>window.__spa.app.ui.chestVisual.chest.texture.key),'ui-chest-closed');
+await page.evaluate(()=>window.__spa.app.backMeta());assert.equal(await page.evaluate(()=>window.__spa.app.ui.mode),'chest-reveal');
+await page.waitForFunction(()=>window.__spa.app.chestReveal.ready);
+assert.equal(await page.evaluate(()=>window.__spa.app.ui.chestVisual.chest.texture.key),'ui-chest-open');
+assert.equal(await page.evaluate(()=>window.__spa.app.ui.chestVisual.tiles.filter(t=>t.group.alpha===1).length),3);
+await page.screenshot({path:'test-results/chest-flow/reveal-portrait.png'});
+await page.setViewportSize({width:1245,height:880});await page.waitForTimeout(200);await page.screenshot({path:'test-results/chest-flow/reveal-landscape.png'});
+await page.click('#chest-reveal-continue');assert.equal(await page.evaluate(()=>window.__spa.app.ui.mode),'result');assert.ok(await page.locator('#next-button').isEnabled());
+await page.waitForTimeout(2400);assert.equal(await page.evaluate(()=>window.__spa.app.ui.mode),'result');
+assert.deepEqual(errors,[]);console.log('PASS: victory first, visible 80–100% progression, delayed modal, closed/open chest, staggered icon tiles, guarded close, resize and return');
+}finally{await browser.close();}

@@ -1,0 +1,34 @@
+{
+  "specs": [
+    {
+      "index": 0,
+      "name": "nails-polished",
+      "ref": "a6ae5174-eb37-4a87-9dfb-d3af8d5c620b",
+      "prompt": "Edit only the FIVE fingernails of this exact hand: paint them with beautiful glossy candy pink nail polish, tiny pearly specular highlights, an elegant subtle ombre. NO pearls, gems, rings, jewelry or any additional objects. Keep original exact fingers, skin, cuff, hand pose, silhouette, position, proportions and absolutely pure flat cyan background. Same thick plum outlines and polished hand-painted mobile game style."
+    },
+    {
+      "index": 1,
+      "name": "stitch-finished",
+      "ref": "2d1f3eb0-d81b-4184-8283-354f27951d1c",
+      "prompt": "On the cream linen inside this EXACT wooden embroidery hoop, add an exquisitely embroidered pink heart in the central area, about 48 percent of inner fabric width. Tiny satin stitches fill the heart, darker pink embroidered outline, two delicate green embroidered leaves below, one tiny pearl at their base. Preserve exact hoop shape, scale, position, gold screw and pure cyan background. Tangible beautiful thread texture, same polished hand-painted casual game style, no text."
+    }
+  ],
+  "jobs": [
+    {
+      "index": 0,
+      "job_id": "0cb83561-d028-42c8-80ab-667c147ba03d",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_235645_0cb83561-d028-42c8-80ab-667c147ba03d.png"
+    },
+    {
+      "index": 1,
+      "job_id": "d8597a1f-4154-42e1-a3df-fa04486250dd",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_235646_d8597a1f-4154-42e1-a3df-fa04486250dd.png"
+    }
+  ]
+}

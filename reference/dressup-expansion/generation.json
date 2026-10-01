@@ -1,0 +1,134 @@
+{
+  "themes": [
+    {
+      "key": "garden",
+      "name": "Garden Brunch",
+      "person": "a smiling adult woman with warm brown skin, long dark curly hair swept behind shoulders",
+      "dress": "a pale peach knee-length floral dress with a fitted waist and softly flared skirt",
+      "jacket": "a short ivory cardigan worn open",
+      "shoes": "a pair of peach ballet flats",
+      "bag": "a small woven straw handbag held by her RIGHT hand (viewer LEFT)",
+      "clip": "a peach flower hair clip above her LEFT temple (viewer RIGHT)"
+    },
+    {
+      "key": "city",
+      "name": "City Chic",
+      "person": "a smiling adult East Asian woman with a neat dark brown shoulder-length bob",
+      "dress": "a lilac knee-length pleated dress with a fitted bodice",
+      "jacket": "a cropped pale beige blazer worn open",
+      "shoes": "a pair of plum low-heeled ankle boots",
+      "bag": "a structured mauve handbag held by her RIGHT hand (viewer LEFT)",
+      "clip": "a silver star hair clip above her LEFT temple (viewer RIGHT)"
+    },
+    {
+      "key": "seaside",
+      "name": "Seaside Afternoon",
+      "person": "a smiling adult woman with light freckled skin and long copper-red wavy hair swept behind shoulders",
+      "dress": "a soft butter-yellow knee-length sundress with white eyelet trim",
+      "jacket": "a short pale lavender open linen jacket",
+      "shoes": "a pair of lavender flat sandals",
+      "bag": "a small cream canvas handbag held by her RIGHT hand (viewer LEFT)",
+      "clip": "a lavender seashell hair clip above her LEFT temple (viewer RIGHT)"
+    },
+    {
+      "key": "evening",
+      "name": "Evening in Velvet",
+      "person": "a smiling adult woman with medium olive skin and dark hair in a graceful high bun",
+      "dress": "a midnight-plum knee-length satin cocktail dress with a softly flared skirt",
+      "jacket": "a short dusty rose bolero worn open",
+      "shoes": "a pair of pearl-gray low-heeled pumps",
+      "bag": "a small pearl-gray evening handbag held by her RIGHT hand (viewer LEFT)",
+      "clip": "a small pearl crescent hair clip above her LEFT temple (viewer RIGHT)"
+    }
+  ],
+  "requests": [
+    {
+      "index": 0,
+      "params": {
+        "model": "gpt_image_2_5",
+        "resolution": "2k",
+        "quality": "high",
+        "aspect_ratio": "1:1",
+        "folder_id": "7d9c931b-5933-4504-9eca-7d16314b475c",
+        "prompt": "Create a production 2D dress-up mobile game sprite sheet: EXACT 3 columns by 3 rows, nine equal square cells, no visible grid, no labels, no text. Entire background pure uniform cyan #00FFFF (key color), no cyan anywhere on objects. Hand-painted pastel cartoon, crisp dark plum outlines, soft gentle shading, elegant casual proportions like a paper doll, NOT photorealistic. Every sprite isolated with generous margin and nothing touching cell boundaries. Character: a smiling adult woman with warm brown skin, long dark curly hair swept behind shoulders. Full body head to toes, facing directly forward, arms slightly away from body, right hand lowered, legs straight, same neutral standing pose in ALL FOUR character states, exact same scale and head/feet registration in each cell. All characters adult. Figure occupies 90% of cell height, centered. NO floor, scenery, shadow, sparkles, extra people or extra objects.\nROW 1 COL 1: character wearing a simple modest ivory sleeveless knee-length slip dress, bare feet, no accessories.\nROW 1 COL 2: SAME character wearing a pale peach knee-length floral dress with a fitted waist and softly flared skirt, bare feet, no accessories.\nROW 1 COL 3: SAME character wearing the identical a pale peach knee-length floral dress with a fitted waist and softly flared skirt, plus a short ivory cardigan worn open, plus a pair of peach ballet flats, no bag or hair clip.\nROW 2 COL 1: SAME character wearing the identical dress, jacket and shoes, plus a small woven straw handbag held by her RIGHT hand (viewer LEFT), plus a peach flower hair clip above her LEFT temple (viewer RIGHT).\nROW 2 COL 2: ONLY the exact a pale peach knee-length floral dress with a fitted waist and softly flared skirt, front view empty garment, no body, no hanger.\nROW 2 COL 3: ONLY the exact a short ivory cardigan worn open, front view empty garment, no body or hanger.\nROW 3 COL 1: ONLY the matching a pair of peach ballet flats, pair side by side, toes facing viewer.\nROW 3 COL 2: ONLY the matching a small woven straw handbag.\nROW 3 COL 3: ONLY the matching a peach flower hair clip.\nAll clothing props must match the garments on the character exactly. Four full-body characters and five clothing/accessory props, nothing else."
+      }
+    },
+    {
+      "index": 1,
+      "params": {
+        "model": "gpt_image_2_5",
+        "resolution": "2k",
+        "quality": "high",
+        "aspect_ratio": "1:1",
+        "folder_id": "7d9c931b-5933-4504-9eca-7d16314b475c",
+        "prompt": "Create a production 2D dress-up mobile game sprite sheet: EXACT 3 columns by 3 rows, nine equal square cells, no visible grid, no labels, no text. Entire background pure uniform cyan #00FFFF (key color), no cyan anywhere on objects. Hand-painted pastel cartoon, crisp dark plum outlines, soft gentle shading, elegant casual proportions like a paper doll, NOT photorealistic. Every sprite isolated with generous margin and nothing touching cell boundaries. Character: a smiling adult East Asian woman with a neat dark brown shoulder-length bob. Full body head to toes, facing directly forward, arms slightly away from body, right hand lowered, legs straight, same neutral standing pose in ALL FOUR character states, exact same scale and head/feet registration in each cell. All characters adult. Figure occupies 90% of cell height, centered. NO floor, scenery, shadow, sparkles, extra people or extra objects.\nROW 1 COL 1: character wearing a simple modest ivory sleeveless knee-length slip dress, bare feet, no accessories.\nROW 1 COL 2: SAME character wearing a lilac knee-length pleated dress with a fitted bodice, bare feet, no accessories.\nROW 1 COL 3: SAME character wearing the identical a lilac knee-length pleated dress with a fitted bodice, plus a cropped pale beige blazer worn open, plus a pair of plum low-heeled ankle boots, no bag or hair clip.\nROW 2 COL 1: SAME character wearing the identical dress, jacket and shoes, plus a structured mauve handbag held by her RIGHT hand (viewer LEFT), plus a silver star hair clip above her LEFT temple (viewer RIGHT).\nROW 2 COL 2: ONLY the exact a lilac knee-length pleated dress with a fitted bodice, front view empty garment, no body, no hanger.\nROW 2 COL 3: ONLY the exact a cropped pale beige blazer worn open, front view empty garment, no body or hanger.\nROW 3 COL 1: ONLY the matching a pair of plum low-heeled ankle boots, pair side by side, toes facing viewer.\nROW 3 COL 2: ONLY the matching a structured mauve handbag.\nROW 3 COL 3: ONLY the matching a silver star hair clip.\nAll clothing props must match the garments on the character exactly. Four full-body characters and five clothing/accessory props, nothing else."
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "gpt_image_2_5",
+        "resolution": "2k",
+        "quality": "high",
+        "aspect_ratio": "1:1",
+        "folder_id": "7d9c931b-5933-4504-9eca-7d16314b475c",
+        "prompt": "Create a production 2D dress-up mobile game sprite sheet: EXACT 3 columns by 3 rows, nine equal square cells, no visible grid, no labels, no text. Entire background pure uniform cyan #00FFFF (key color), no cyan anywhere on objects. Hand-painted pastel cartoon, crisp dark plum outlines, soft gentle shading, elegant casual proportions like a paper doll, NOT photorealistic. Every sprite isolated with generous margin and nothing touching cell boundaries. Character: a smiling adult woman with light freckled skin and long copper-red wavy hair swept behind shoulders. Full body head to toes, facing directly forward, arms slightly away from body, right hand lowered, legs straight, same neutral standing pose in ALL FOUR character states, exact same scale and head/feet registration in each cell. All characters adult. Figure occupies 90% of cell height, centered. NO floor, scenery, shadow, sparkles, extra people or extra objects.\nROW 1 COL 1: character wearing a simple modest ivory sleeveless knee-length slip dress, bare feet, no accessories.\nROW 1 COL 2: SAME character wearing a soft butter-yellow knee-length sundress with white eyelet trim, bare feet, no accessories.\nROW 1 COL 3: SAME character wearing the identical a soft butter-yellow knee-length sundress with white eyelet trim, plus a short pale lavender open linen jacket, plus a pair of lavender flat sandals, no bag or hair clip.\nROW 2 COL 1: SAME character wearing the identical dress, jacket and shoes, plus a small cream canvas handbag held by her RIGHT hand (viewer LEFT), plus a lavender seashell hair clip above her LEFT temple (viewer RIGHT).\nROW 2 COL 2: ONLY the exact a soft butter-yellow knee-length sundress with white eyelet trim, front view empty garment, no body, no hanger.\nROW 2 COL 3: ONLY the exact a short pale lavender open linen jacket, front view empty garment, no body or hanger.\nROW 3 COL 1: ONLY the matching a pair of lavender flat sandals, pair side by side, toes facing viewer.\nROW 3 COL 2: ONLY the matching a small cream canvas handbag.\nROW 3 COL 3: ONLY the matching a lavender seashell hair clip.\nAll clothing props must match the garments on the character exactly. Four full-body characters and five clothing/accessory props, nothing else."
+      }
+    },
+    {
+      "index": 3,
+      "params": {
+        "model": "gpt_image_2_5",
+        "resolution": "2k",
+        "quality": "high",
+        "aspect_ratio": "1:1",
+        "folder_id": "7d9c931b-5933-4504-9eca-7d16314b475c",
+        "prompt": "Create a production 2D dress-up mobile game sprite sheet: EXACT 3 columns by 3 rows, nine equal square cells, no visible grid, no labels, no text. Entire background pure uniform cyan #00FFFF (key color), no cyan anywhere on objects. Hand-painted pastel cartoon, crisp dark plum outlines, soft gentle shading, elegant casual proportions like a paper doll, NOT photorealistic. Every sprite isolated with generous margin and nothing touching cell boundaries. Character: a smiling adult woman with medium olive skin and dark hair in a graceful high bun. Full body head to toes, facing directly forward, arms slightly away from body, right hand lowered, legs straight, same neutral standing pose in ALL FOUR character states, exact same scale and head/feet registration in each cell. All characters adult. Figure occupies 90% of cell height, centered. NO floor, scenery, shadow, sparkles, extra people or extra objects.\nROW 1 COL 1: character wearing a simple modest ivory sleeveless knee-length slip dress, bare feet, no accessories.\nROW 1 COL 2: SAME character wearing a midnight-plum knee-length satin cocktail dress with a softly flared skirt, bare feet, no accessories.\nROW 1 COL 3: SAME character wearing the identical a midnight-plum knee-length satin cocktail dress with a softly flared skirt, plus a short dusty rose bolero worn open, plus a pair of pearl-gray low-heeled pumps, no bag or hair clip.\nROW 2 COL 1: SAME character wearing the identical dress, jacket and shoes, plus a small pearl-gray evening handbag held by her RIGHT hand (viewer LEFT), plus a small pearl crescent hair clip above her LEFT temple (viewer RIGHT).\nROW 2 COL 2: ONLY the exact a midnight-plum knee-length satin cocktail dress with a softly flared skirt, front view empty garment, no body, no hanger.\nROW 2 COL 3: ONLY the exact a short dusty rose bolero worn open, front view empty garment, no body or hanger.\nROW 3 COL 1: ONLY the matching a pair of pearl-gray low-heeled pumps, pair side by side, toes facing viewer.\nROW 3 COL 2: ONLY the matching a small pearl-gray evening handbag.\nROW 3 COL 3: ONLY the matching a small pearl crescent hair clip.\nAll clothing props must match the garments on the character exactly. Four full-body characters and five clothing/accessory props, nothing else."
+      }
+    }
+  ],
+  "results": {
+    "jobs": [
+      {
+        "index": 0,
+        "job_id": "0d2264ac-073e-4ef3-80d5-e67b3eaa1531",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_171039_0d2264ac-073e-4ef3-80d5-e67b3eaa1531.png"
+      },
+      {
+        "index": 1,
+        "job_id": "f5962041-85c7-4902-8c95-9500dce422ac",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_171037_f5962041-85c7-4902-8c95-9500dce422ac.png"
+      },
+      {
+        "index": 2,
+        "job_id": "f5e6f1be-7d10-4b0a-b19a-681b27609560",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_171039_f5e6f1be-7d10-4b0a-b19a-681b27609560.png"
+      },
+      {
+        "index": 3,
+        "job_id": "1dd0ff91-82ed-42fa-baa1-abdfe326f75f",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_171037_1dd0ff91-82ed-42fa-baa1-abdfe326f75f.png"
+      }
+    ],
+    "summary": {
+      "total": 4,
+      "completed": 4,
+      "failed": 0,
+      "active": 0,
+      "errors": 0
+    },
+    "all_terminal": true
+  }
+}

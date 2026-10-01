@@ -1,0 +1,68 @@
+{
+  "generator": "Higgsfield / Nano Banana 2",
+  "requestedModel": "nano_banana_2",
+  "backendModel": "nano_banana_flash",
+  "project": "49458a93-2225-4fff-926c-be93874e0b63",
+  "assets": [
+    {
+      "index": 0,
+      "job_id": "86164e43-eec8-464d-a529-cfb1a178a03b",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_202217_86164e43-eec8-464d-a529-cfb1a178a03b.png",
+      "name": "controls",
+      "prompt": "Hand-painted 2D mobile casual beauty game UI artwork, matching a classic Skincare ASMR mobile game: cheerful lilac purple, candy pink, fresh lime green and warm cream paper, hand-inked slightly irregular violet contours, thin bright white outer keyline, brushed highlights and small painted bevels, gently imperfect illustrated shapes. It must look like a real painted game sprite, not flat vector UI, not website UI, not glassmorphism, not 3D render. Crisp detailed raster art, front view. No photorealism. Use a perfectly uniform solid pure CYAN background #00FFFF, including empty gaps. Every separate sprite is entirely within its assigned cell with a clear 12 percent empty margin. No shadows on the cyan background, no layout grid lines, no labels, no watermarks. All sprite interiors are fully opaque. A production sprite atlas, exactly 3 columns and 2 rows, equal square cells. SIX round purple interface buttons. Each has lavender painted face, thick white uneven ink outline, dark purple lower rim, modest soft hand-painted highlight. Row 1 from left: pause icon made of two bold white bars; back icon made of one bold white arrow pointing left; settings icon a bold white cog. Row 2: white question mark hint button with tiny yellow sparkle; white speaker icon with two sound waves; white speaker icon with a small white x. Buttons should match inexpensive but charming illustrated mobile beauty minigame reference art, not smooth enterprise design. No text except the question mark. Each circle fills about 72 percent of its square cell."
+    },
+    {
+      "index": 1,
+      "job_id": "1427f88c-4c49-4f4b-9ab9-267a145a3cb3",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_202217_1427f88c-4c49-4f4b-9ab9-267a145a3cb3.png",
+      "name": "hud",
+      "prompt": "Hand-painted 2D mobile casual beauty game UI artwork, matching a classic Skincare ASMR mobile game: cheerful lilac purple, candy pink, fresh lime green and warm cream paper, hand-inked slightly irregular violet contours, thin bright white outer keyline, brushed highlights and small painted bevels, gently imperfect illustrated shapes. It must look like a real painted game sprite, not flat vector UI, not website UI, not glassmorphism, not 3D render. Crisp detailed raster art, front view. No photorealism. Use a perfectly uniform solid pure CYAN background #00FFFF, including empty gaps. Every separate sprite is entirely within its assigned cell with a clear 12 percent empty margin. No shadows on the cyan background, no layout grid lines, no labels, no watermarks. All sprite interiors are fully opaque. A production HUD sprite atlas, exactly TWO columns and THREE rows, equal cells. Row 1 left: EMPTY horizontal white score pill with purple hand-drawn outline and a large golden five-point star attached to its left end, wide blank white center for numbers; row 1 right: EMPTY horizontal violet score pill with thick white painted outline and gold coin attached to left end, wide blank violet center for numbers. Row 2 left: EMPTY long horizontal progress bar with dark desaturated violet interior, thin white irregular outlined frame and subtle hand-painted top highlight; row 2 right: matching full bright lime-green progress bar fill ONLY, pill shaped but no outer white frame, brightest green at top, darker green at bottom, hand-painted. Row 3 left: cute tiny orange kitten peeking over a round green-and-gold stopwatch with a white clock face and purple hands; row 3 right: a single large puffy gold five-point reward star, painted yellow with orange edge, bright buttery highlight and a thin dark gold contour. No numbers or text anywhere. The top FOUR sprites are wide and low, ratio 4.4:1, centered in their cells; kitten stopwatch and star are compact square icons."
+    },
+    {
+      "index": 2,
+      "job_id": "67af84f6-43b0-40d5-8d67-99284e7272b8",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_202216_67af84f6-43b0-40d5-8d67-99284e7272b8.png",
+      "name": "banners",
+      "prompt": "Hand-painted 2D mobile casual beauty game UI artwork, matching a classic Skincare ASMR mobile game: cheerful lilac purple, candy pink, fresh lime green and warm cream paper, hand-inked slightly irregular violet contours, thin bright white outer keyline, brushed highlights and small painted bevels, gently imperfect illustrated shapes. It must look like a real painted game sprite, not flat vector UI, not website UI, not glassmorphism, not 3D render. Crisp detailed raster art, front view. No photorealism. Use a perfectly uniform solid pure CYAN background #00FFFF, including empty gaps. Every separate sprite is entirely within its assigned cell with a clear 12 percent empty margin. No shadows on the cyan background, no layout grid lines, no labels, no watermarks. All sprite interiors are fully opaque. Production button and ribbon atlas, EXACTLY TWO columns and TWO rows, four equal square cells. Row 1 left: a broad lime-green rectangular CLAIM-style game button, slightly rounded sculpted corners, thick darker green contour and painted lower edge, pale lime inner bevel and strong little hand-drawn light streak at top, a WIDE EMPTY center for text. Row 1 right: matching broad lilac purple game button, dark plum contour, lavender hand-painted bevel, EMPTY center. Row 2 left: an EMPTY candy pink ribbon banner with folded darker tails visible on both sides and a wide gently arched central band; two tiny white hand-painted sparkles at the far sides, empty center for a title. Row 2 right: an EMPTY warm golden orange celebratory ribbon banner with folded deeper orange tails on either end, bright pale yellow central band, tiny white highlights, empty center for a title. Every object has aspect ratio 3.5:1 and generous cyan margins. Buttons are not capsules, they are chunkier classic casual-game rounded rectangles. No text, no icons, no logo."
+    },
+    {
+      "index": 3,
+      "job_id": "14f5c9ad-dd8b-4a56-8434-4cac2a193755",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_202216_14f5c9ad-dd8b-4a56-8434-4cac2a193755.png",
+      "name": "paper",
+      "prompt": "Hand-painted 2D mobile casual beauty game UI artwork, matching a classic Skincare ASMR mobile game: cheerful lilac purple, candy pink, fresh lime green and warm cream paper, hand-inked slightly irregular violet contours, thin bright white outer keyline, brushed highlights and small painted bevels, gently imperfect illustrated shapes. It must look like a real painted game sprite, not flat vector UI, not website UI, not glassmorphism, not 3D render. Crisp detailed raster art, front view. No photorealism. Use a perfectly uniform solid pure CYAN background #00FFFF, including empty gaps. Every separate sprite is entirely within its assigned cell with a clear 12 percent empty margin. No shadows on the cyan background, no layout grid lines, no labels, no watermarks. All sprite interiors are fully opaque. Production paper and reward sprite atlas, exactly TWO columns and TWO rows. FOUR independent sprites. Row 1 left: a portrait polaroid-style level-selection card frame made of slightly bent warm cream paper, wide lower margin to hold three stars, small pink corner tab at lower right with no numeral, a shiny illustrated black paperclip hooked over its upper left corner, thin dark purple line and hand-painted lavender offset edge. Interior photo opening is a perfectly flat dark muted sage rectangle #5E6B64, no scene inside. Portrait proportion 0.78 width to height. Row 1 right: a large blank tall softly irregular warm off-white paper dialog panel, pale lavender hand-inked outline, painted lilac lower rim and delicate paper surface shading, no decoration or icons, no text, ratio width to height 0.78. Row 2 left: a celebratory cluster of THREE golden five-point stars, center star larger and elevated, orange edges, rich hand-painted yellow highlights, a few little glitter stars and two golden coins below, no words; ratio width to height 1.5. Row 2 right: a small bright yellow padlock with curved metal shackle, warm gold hand-painted shine and dark purple keyhole, isolated icon. NO typography anywhere."
+    },
+    {
+      "index": 4,
+      "job_id": "48f95a67-7fcb-46d2-8258-cde9dd7ed834",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_202216_48f95a67-7fcb-46d2-8258-cde9dd7ed834.png",
+      "name": "logo",
+      "prompt": "Hand-painted 2D mobile casual beauty game UI artwork, matching a classic Skincare ASMR mobile game: cheerful lilac purple, candy pink, fresh lime green and warm cream paper, hand-inked slightly irregular violet contours, thin bright white outer keyline, brushed highlights and small painted bevels, gently imperfect illustrated shapes. It must look like a real painted game sprite, not flat vector UI, not website UI, not glassmorphism, not 3D render. Crisp detailed raster art, front view. No photorealism. A finished game logo ONLY, exact words \"SKINCARE\" on first line and \"ASMR\" on second line. Chunky playful irregular hand-lettered uppercase glyphs, white outline and fine dark violet ink contour, subtle offset lilac painted shadow. First line letters alternate coral pink, sunny yellow, lime green, mint and baby blue. Second line ASMR is big powder blue with white hand-painted shine. A cute orange kitten head peeks over the upper right corner, tiny peach paws resting on the letter E. Compact 2-line composition shaped like a classic cheerful mobile beauty-game logo. Logo fills 85 percent of canvas width and 70 percent of height. NO surrounding panel, no subtitle, no additional words. Use a perfectly uniform solid pure CYAN background #00FFFF, including empty gaps. Every separate sprite is entirely within its assigned cell with a clear 12 percent empty margin. No shadows on the cyan background, no layout grid lines, no labels, no watermarks. All sprite interiors are fully opaque. "
+    },
+    {
+      "index": 5,
+      "job_id": "b6dfc707-1dba-4e2d-bb72-b46de791a83b",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_202216_b6dfc707-1dba-4e2d-bb72-b46de791a83b.png",
+      "name": "tiles",
+      "prompt": "Hand-painted 2D mobile casual beauty game UI artwork, matching a classic Skincare ASMR mobile game: cheerful lilac purple, candy pink, fresh lime green and warm cream paper, hand-inked slightly irregular violet contours, thin bright white outer keyline, brushed highlights and small painted bevels, gently imperfect illustrated shapes. It must look like a real painted game sprite, not flat vector UI, not website UI, not glassmorphism, not 3D render. Crisp detailed raster art, front view. No photorealism. Portrait 3:4 background ONLY for a mobile game level-selection screen, full bleed illustration: flat lilac lavender tiled wall like a hand-drawn square graph paper grid. Muted periwinkle square tiles, thin pale lavender chalky imperfect grout lines, a very subtle brighter middle and gentle darker corners, tiny hand-painted paper texture. The square tiles are 1/10th of image width. No furniture, no props, no plants, no icons, no characters, no text, no borders, no vignette black edges, no UI. This is a calm uncluttered tiled pattern behind a grid of polaroid level cards, matching a classic illustrated Skincare ASMR mobile game."
+    }
+  ]
+}

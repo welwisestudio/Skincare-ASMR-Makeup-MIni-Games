@@ -1,0 +1,112 @@
+[
+  {
+    "key": "rose",
+    "name": "Rosie",
+    "title": "Rose Garden Romance",
+    "look": "fair warm skin, green eyes, long copper-red wavy hair, delicate freckles",
+    "dress": "dusty rose satin off-shoulder gown with embroidered rose bodice",
+    "jewel": "rose-gold heart necklace and tiny rose hair clip",
+    "bride": "ivory lace bridal ballgown with pink rose bouquet and long translucent veil",
+    "venue": "lush rose garden, blush arch, petals and antique greenhouse",
+    "man": "handsome adult man with chestnut hair, warm hazel eyes, cream wedding suit"
+  },
+  {
+    "key": "pearl",
+    "name": "Chloe",
+    "title": "Pearl Coast Promise",
+    "look": "fair golden skin, blue eyes, long honey-blonde hair styled in a loose side braid",
+    "dress": "seafoam chiffon dress with pearl straps and flowing skirt",
+    "jewel": "pearl earrings and pearl hair vine",
+    "bride": "pearl-white flowing wedding dress, seashell tiara and white lily bouquet",
+    "venue": "sunlit Mediterranean coast, turquoise sea, white flower arch and pearl lanterns",
+    "man": "handsome adult man with dark wavy hair, blue eyes and pale linen suit"
+  },
+  {
+    "key": "violet",
+    "name": "Amara",
+    "title": "Violet Evening",
+    "look": "deep warm brown skin, dark brown eyes, gorgeous voluminous black natural curls",
+    "dress": "royal lavender velvet gown with gold waist sash",
+    "jewel": "gold star earrings and jeweled lavender hair comb",
+    "bride": "ivory and gold embroidered wedding gown and lavender bouquet",
+    "venue": "lavender garden at golden hour, pale stone pavilion, wisteria arch and warm fairy lights",
+    "man": "handsome adult Black man with short neat black curls and ivory gold-trimmed suit"
+  },
+  {
+    "key": "cherry",
+    "name": "Mei",
+    "title": "Cherry Blossom Vows",
+    "look": "light warm East Asian skin, brown almond-shaped eyes, straight glossy jet-black hair in elegant half-up style",
+    "dress": "cherry pink modern silk evening gown with blossom embroidery",
+    "jewel": "delicate blossom hairpin and pink gemstone pendant",
+    "bride": "white satin A-line wedding gown with blossom veil and pale cherry bouquet",
+    "venue": "blush cherry blossom garden, wooden footbridge, pale pink lanterns and floral wedding arch",
+    "man": "handsome adult East Asian man with neat black hair and elegant ivory suit"
+  },
+  {
+    "key": "sunflower",
+    "name": "Lucia",
+    "title": "Sunflower Sweetheart",
+    "look": "olive tan skin, hazel eyes, long chocolate-brown waves with caramel highlights",
+    "dress": "butter-yellow flowing satin dress with sunflower embroidery",
+    "jewel": "gold sunflower necklace and amber hair clip",
+    "bride": "warm ivory lace wedding gown with sunflower bouquet",
+    "venue": "Tuscan sunflower estate, golden fields, cream villa and rustic flower-covered arch",
+    "man": "handsome adult man with olive skin, brown curls and warm ivory suit"
+  },
+  {
+    "key": "winter",
+    "name": "Freya",
+    "title": "Snowflake Fairytale",
+    "look": "fair rosy skin, ice blue eyes, platinum-blonde short bob with soft waves",
+    "dress": "ice-blue velvet gown with silver snowflake embroidery and modest shoulder cape",
+    "jewel": "silver snowflake necklace and crystal hair comb",
+    "bride": "white long-sleeved winter wedding gown with soft white fur cape and crystal tiara",
+    "venue": "romantic snow palace courtyard, ice-blue twilight, snowy firs and warm glowing lanterns",
+    "man": "handsome adult blond man with blue eyes, white royal coat and silver details"
+  },
+  {
+    "key": "amber",
+    "name": "Sienna",
+    "title": "Autumn in Love",
+    "look": "warm light brown skin, amber eyes, long auburn-red curly hair",
+    "dress": "terracotta silk dress with golden leaf details and flowing skirt",
+    "jewel": "amber leaf pendant and gold leaf hair clip",
+    "bride": "ivory wedding gown with gold autumn embroidery and peach rose bouquet",
+    "venue": "golden autumn orchard, copper leaves, cream gazebo and candlelit floral arch",
+    "man": "handsome adult man with brown skin, dark short hair and elegant cream suit"
+  },
+  {
+    "key": "moon",
+    "name": "Luna",
+    "title": "Moonlit Ballroom",
+    "look": "fair cool skin, grey-green eyes, long glossy raven-black hair in a high elegant bun",
+    "dress": "midnight plum ballgown with tiny silver stars and satin bodice",
+    "jewel": "crescent moon necklace and silver star hair comb",
+    "bride": "pearl-white celestial wedding gown with silver embroidery and flowing starry veil",
+    "venue": "moonlit palace terrace, lavender sky, silver moon, marble balustrade and glowing white roses",
+    "man": "handsome adult man with black hair, gentle green eyes and white prince suit with silver trim"
+  },
+  {
+    "key": "coral",
+    "name": "Isla",
+    "title": "Coral Island Kiss",
+    "look": "warm tan skin, brown eyes, strawberry-blonde long beach waves",
+    "dress": "coral silk halter gown with orchid details and graceful flowing skirt",
+    "jewel": "rose-gold shell pendant and white orchid hair clip",
+    "bride": "white tropical lace bridal gown with orchid bouquet and light veil",
+    "venue": "dreamy tropical island, pastel sunset, palms, coral-pink orchids and beach wedding arch",
+    "man": "handsome adult man with tan skin, short dark hair, friendly smile and white linen suit"
+  },
+  {
+    "key": "emerald",
+    "name": "Zara",
+    "title": "Emerald Royal Wedding",
+    "look": "rich medium brown skin, dark hazel eyes, long dark-brown hair in a thick elegant braid",
+    "dress": "emerald-green satin gown with ornate gold embroidery",
+    "jewel": "gold emerald pendant and delicate gold hair tiara",
+    "bride": "ivory royal wedding ballgown with emerald and gold trim and white rose bouquet",
+    "venue": "grand enchanted castle garden, emerald hedges, gold gates, cream marble fountain and rose arch",
+    "man": "handsome adult man with warm brown skin, dark wavy hair and cream royal suit with gold epaulettes"
+  }
+]

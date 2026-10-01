@@ -1,0 +1,50 @@
+{
+  "generator": "Nano Banana 2 via Higgsfield",
+  "requestedModel": "nano_banana_2",
+  "assets": [
+    {
+      "index": 0,
+      "job_id": "aaea0f2b-c16c-4354-a78c-bbb36ba6208b",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_205107_aaea0f2b-c16c-4354-a78c-bbb36ba6208b.png",
+      "name": "spa-room",
+      "ratio": "16:9",
+      "prompt": "Premium illustrated background for a relaxing skincare casual game, charming Pixar-inspired art direction rendered as a polished hand-painted 2.5D storybook environment, soft warm pastel rose, ivory and lavender. A dreamy boutique spa room viewed front on, airy peach-pink plaster walls, pale blush arched recess, sheer curtains at far edges, delicate plant leaves at very far corners, little cosmetic bottles and folded towels low in extreme corners. MAIN REQUIREMENT: central 75 percent of image is a beautifully calm light warm pink wall with subtle painterly illumination, empty clean space for an overlaid large face and interface. Gentle morning sunlight from upper left, soft volumetric warmth, exquisite soft material shading, optimistic cozy atmosphere. Composition symmetric and flat enough for a game, no perspective distortion. Quiet low contrast background, not busy, no furniture in center, no green or gray cast, no text, no UI, no people, no mirror or reflected person. Full bleed landscape image, usable cropped to portrait with center still quiet. Beautiful professional mobile game environment, sophisticated hand-painted brush texture, no web gradients."
+    },
+    {
+      "index": 1,
+      "job_id": "a907f230-383b-400a-870b-023f7f8e6589",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_205108_a907f230-383b-400a-870b-023f7f8e6589.png",
+      "name": "celebration",
+      "ratio": "3:4",
+      "prompt": "A beautiful calm full bleed backdrop for a skincare game victory screen. Premium Pixar-inspired dreamy illustrated atmosphere, softly painted peach light in the center fading into lilac at the edges, very subtle pearly clouds of color, a few tiny warm gold sparkles near the edges only, delicate cream light rays behind center, sumptuous pastel color and gentle painterly shading. Center must be empty, pale, calm and low contrast to host a large illustrated photo and headings. No objects, no stars in center, no letters, no text, no frame, no UI, no character. No dark colors, no gray-green, no harsh saturated rainbow. Elegant magical spa glow, lovely hand-painted casual game quality, portrait orientation."
+    },
+    {
+      "index": 2,
+      "job_id": "c5065e6e-e422-4f60-8866-9a54dae8a2aa",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_205108_c5065e6e-e422-4f60-8866-9a54dae8a2aa.png",
+      "name": "ribbons-v3",
+      "ratio": "1:1",
+      "prompt": "Production game sprite sheet, exactly TWO separate horizontal ribbons in a single column, top pink and bottom warm golden yellow. Each ribbon has a wide perfectly straight rectangular central face with softly curved top and bottom, short folded tails extending out to sides and behind, gentle puffed satin volume, lovingly hand-painted 2.5D casual mobile beauty game aesthetic, inked plum or amber contours, thin white keyline, soft pearly highlights. Central face occupies 75% of ribbon width, its center is exactly the visual center vertically, absolutely ample EMPTY area for a two word heading. Top ribbon blush pink with rose shadows. Bottom ribbon buttery yellow with amber shadows. These must be balanced symmetrical production assets, not tall arched banners. NO text, letters, stars, sparkles, coins, extra shapes or decorations. Both entire ribbons isolated on perfectly flat pure cyan #00ffff including margins, 15% empty outer margins and a large cyan gap between the two rows. Sharp high resolution. Each ribbon ratio 4.5 wide by 1 high. NO cast shadows on cyan."
+    },
+    {
+      "index": 3,
+      "job_id": "cfb1a91e-6320-47a5-a0f1-b97ed5e8dcb4",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_205108_cfb1a91e-6320-47a5-a0f1-b97ed5e8dcb4.png",
+      "name": "vfx",
+      "ratio": "1:1",
+      "prompt": "Production sprite atlas for an elegant pastel skincare casual game, EXACTLY 2 columns and 2 rows with four separate isolated small effects: top left one beautiful pearlescent transparent soap bubble with pink and lavender rim highlights, top right one soft blush pink heart puff with warm pearly shading, bottom left one delicate warm pink rose petal gently curved, bottom right a single radiant four pointed champagne gold sparkle with soft pearly highlights. Pixar-inspired appealing volume in hand-painted 2.5D illustration style, soft premium material shading, sharp defined clean silhouette. Each isolated object centered in equal square cell, filling 55 percent of its cell with generous empty margins, uniform perfectly solid PURE CYAN #00FFFF background everywhere around shapes, including through bubble interior. No labels, letters, text, logos, no panel outlines, no grids, no cast shadows on cyan, no extra objects. This is four individually separable game effect assets, not a composed picture."
+    }
+  ]
+}

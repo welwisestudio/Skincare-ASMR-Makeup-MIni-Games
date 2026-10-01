@@ -1,0 +1,23 @@
+import assert from 'node:assert/strict';
+import {freshSave,normalizeSave,unlocked} from '../src/save.js';
+import {DAILY,PASS,WHEEL,grant,dailyReady,dayKey} from '../src/meta-content.js';
+import {LEVELS} from '../src/levels.js';
+import {PUZZLE_LEVELS} from '../src/puzzle-levels.js';
+import {ROMANCE_LEVELS} from '../src/romance-levels.js';
+import {PreviewRewardedProvider} from '../src/ads.js';
+const old={version:1,stars:[3,0,0,0,0],coins:375,sound:false},migrated=normalizeSave(old);
+assert.equal(migrated.coins,375);assert.equal(migrated.sound,false);assert.deepEqual(migrated.cards,['fresh']);assert.equal(migrated.boxes,1);assert.equal(migrated.version,3);
+assert.equal(normalizeSave({version:2,coins:-50,passAds:99,items:['bad'],stars:[10,-1]}).coins,0);assert.equal(normalizeSave({version:2,passAds:99}).passAds,7);
+const s=freshSave();s.purchased.push(4);assert.equal(unlocked(s,4),true);assert.equal(unlocked(s,3),false);assert.equal(unlocked(s,5),false);
+assert.equal(migrated.stars.length,LEVELS.length);const complete=normalizeSave({version:2,stars:[3,3,3,3,3],coins:375,purchased:[4],cards:['royal']});assert.equal(unlocked(complete,5),true);assert.equal(unlocked(complete,19),false);assert.equal(complete.stars.slice(5).every(x=>x===0),true);assert.equal(complete.cards.includes('royal'),true);const last=normalizeSave({version:3,stars:Array(20).fill(3),purchased:[19]});assert.equal(last.cards.includes('pouch'),true);assert.equal(unlocked(last,19),true);assert.equal(unlocked(last,20),true);assert.equal(unlocked(last,31),false);assert.equal(last.stars.slice(20).every(x=>x===0),true);
+const now=Date.UTC(2026,8,30,12);assert.equal(dailyReady(s,now),true);s.daily.lastDay=dayKey(now);assert.equal(dailyReady(s,now),false);assert.equal(dailyReady(s,now-86400000),false);assert.equal(dailyReady(s,now+86400000),true);
+for(const r of DAILY)grant(s,r);assert.ok(s.cards.includes('devoted'));assert.ok(s.items.includes('butterfly'));
+const duplicate=grant(s,{items:['butterfly'],cards:['devoted']});assert.equal(duplicate.coins,50);assert.deepEqual(duplicate.items,[]);assert.deepEqual(duplicate.cards,[]);
+for(const r of PASS)grant(s,r);assert.ok(s.items.includes('serum'));assert.ok(s.cards.includes('royal'));assert.equal(WHEEL.length,12);
+assert.deepEqual(normalizeSave(s).items,s.items);assert.deepEqual(normalizeSave(s).cards,s.cards);
+const ads=new PreviewRewardedProvider();let p=ads.show('cancel');assert.equal(ads.complete(),false);ads.cancel();assert.equal((await p).status,'cancelled');
+ads.duration=0;p=ads.show('complete');assert.equal(ads.complete(),true);assert.equal(ads.complete(),false);assert.equal((await p).status,'rewarded');
+console.log('Save migration, bounded balances, daily rollover, duplicate conversion, 7 rewards, unlocks and exactly-once ad completion: PASS');
+
+const full=normalizeSave({version:3,stars:Array(32).fill(3),purchased:[31],coins:2400});assert.equal(full.stars.length,LEVELS.length);assert.equal(full.coins,2400);for(const l of PUZZLE_LEVELS)assert.ok(full.cards.includes(l.id));assert.equal(unlocked(full,31),true);assert.equal(unlocked(full,32),true);assert.equal(unlocked(full,41),false);assert.ok(full.stars.slice(32).every(n=>n===0));
+const married=normalizeSave({version:3,stars:Array(42).fill(3),purchased:[41],coins:3150});for(const l of ROMANCE_LEVELS)assert.ok(married.cards.includes(l.id));assert.equal(unlocked(married,41),true);assert.equal(unlocked(married,42),false);

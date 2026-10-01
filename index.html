@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <script src="https://www.youtube.com/game_api/v1"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f8e7ed" />
+  <meta name="description" content="Twenty relaxing mini games: skincare, styling, kitten care, organizing and cozy crafts." />
+  <link rel="icon" type="image/webp" href="./assets/ui/timer.webp" />
+  <title>Skincare ASMR · Relaxing Mini Games</title>
+</head>
+<body>
+  <main id="app" aria-label="Skincare ASMR">
+    <div id="game-canvas" aria-label="Interactive skincare game"></div>
+    <div id="ui-accessibility" aria-label="Game controls"></div>
+    <div class="sr-only" id="game-status" role="status" aria-live="polite"></div>
+    <span class="sr-only" id="star-count">0 / 60</span><span class="sr-only" id="coin-count">0</span><span class="sr-only" id="progress-label">0%</span>
+    <div id="loading"><img src="./assets/ui/logo.webp" alt="Skincare ASMR"><p id="load-progress">Loading…</p></div>
+  </main>
+  <script src="./playables-startup.js"></script>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

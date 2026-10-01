@@ -1,0 +1,14 @@
+{
+  "note": "Keep particle grain exact; higher quality for fabric and accessory textures identified by native-resolution comparison.",
+  "overrides": {
+    "assets/ui/powder-stroke.webp": "original",
+    "assets/ui/foam-puff.webp": "original",
+    "assets/ui/world-outfit-seaside-jacket.webp": 92,
+    "assets/ui/world-outfit-seaside-bag.webp": 92,
+    "assets/ui/clean-towels.webp": 92,
+    "assets/ui/world-outfit-evening-bag.webp": 92,
+    "assets/ui/world-outfit-city-bag.webp": 92,
+    "assets/ui/world-outfit-evening-jacket.webp": 92,
+    "assets/ui/clean-cushion.webp": 88
+  }
+}

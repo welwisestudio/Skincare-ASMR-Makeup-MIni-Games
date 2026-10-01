@@ -1,0 +1,50 @@
+{
+  "provider": "Higgsfield",
+  "model": "gpt_image_2_5",
+  "project": {
+    "project_id": "7d9c931b-5933-4504-9eca-7d16314b475c",
+    "default_folder_id": "7d9c931b-5933-4504-9eca-7d16314b475c",
+    "workspace_id": "0db062fd-109c-473c-9466-5eb5b762f733",
+    "name": "Skincare ASMR — VIP expansion"
+  },
+  "jobs": [
+    {
+      "index": 0,
+      "job_id": "0e7863c4-96bb-44da-a7e7-0c68dc326d87",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_151441_0e7863c4-96bb-44da-a7e7-0c68dc326d87.png"
+    },
+    {
+      "index": 1,
+      "job_id": "11c34237-ac84-4f19-b5ee-7b12a499d8ec",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_151442_11c34237-ac84-4f19-b5ee-7b12a499d8ec.png"
+    },
+    {
+      "index": 2,
+      "job_id": "a3c7fb45-4def-4002-970a-6b28358fc531",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_151441_a3c7fb45-4def-4002-970a-6b28358fc531.png"
+    },
+    {
+      "index": 3,
+      "job_id": "a78c1ca5-f8d8-46bb-94ee-bf1ed7b70b42",
+      "status": "completed",
+      "type": "image",
+      "model": "gpt_image_2_5",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_151442_a78c1ca5-f8d8-46bb-94ee-bf1ed7b70b42.png"
+    }
+  ],
+  "prompts": [
+    "Production game asset sheet for a cozy premium princess spa mobile game. Hand-painted 2D pastel illustration, clean dark plum ink outlines, soft lavender and blush colors, warm polished gold, pearl highlights, sophisticated cute casual-game style. Flat pure cyan #00FFFF chroma key background, no shadows cast on background, no text, no labels, no watermark. Exactly FOUR isolated objects in an evenly spaced 2 by 2 grid, each entirely inside its own quadrant with generous cyan margins, no objects crossing quadrant boundaries. High detail crisp edges. Top left: ornate golden crown with pale lilac velvet and EMPTY round gemstone sockets. Top right: open gold moonstone locket with an empty oval center. Bottom left: luxury lavender perfume bottle with faceted glass, gold cap and pink silk bow, bottle half filled. Bottom right: fully opened pink silk folding fan with gold ribs and elegant blank silk panels.",
+    "Production game asset sheet for a cozy premium princess spa mobile game. Hand-painted 2D pastel illustration, clean dark plum ink outlines, soft lavender and blush colors, warm polished gold, pearl highlights, sophisticated cute casual-game style. Flat pure cyan #00FFFF chroma key background, no shadows cast on background, no text, no labels, no watermark. Exactly FOUR isolated objects in an evenly spaced 2 by 2 grid, each entirely inside its own quadrant with generous cyan margins, no objects crossing quadrant boundaries. High detail crisp edges. Top left: open lavender and gold music box with elegant gold winding key and little ballerina, clean front face. Top right: ornate gold and lilac teacup on a matching saucer with steaming tea, side view. Bottom left: standing oval gold vanity mirror with rose details and pale reflective glass. Bottom right: delicate rose gold tiara with pearl motifs and EMPTY round gemstone sockets.",
+    "Production game asset sheet for a cozy premium princess spa mobile game. Hand-painted 2D pastel illustration, clean dark plum ink outlines, soft lavender and blush colors, warm polished gold, pearl highlights, sophisticated cute casual-game style. Flat pure cyan #00FFFF chroma key background, no shadows cast on background, no text, no labels, no watermark. Exactly FOUR isolated objects in an evenly spaced 2 by 2 grid, each entirely inside its own quadrant with generous cyan margins, no objects crossing quadrant boundaries. High detail crisp edges. Top left: a gold butterfly brooch with pale lavender wings and empty gem sockets. Top right: a luxury lavender masquerade eye mask with gold edges and pearl decorations, front view. Bottom left: an ornate gold base snow globe with tiny pastel castle and clean clear crystal glass globe. Bottom right: a golden Moroccan star lantern with purple glass panels, glowing softly, entire hanging ring and base visible.",
+    "Game UI sprite asset. Single tall portrait collectible level card, aspect ratio 3:4, on pure cyan #00FFFF background. Cozy hand-painted 2D cartoon, thick plum outlines, creamy gold highlights. Premium royal appearance: substantial bevelled GOLD ornate frame, lavender velvet inner panel with tiny subtle golden stars, a small gold crown built into the center top edge. Blank large rectangular lavender central display area for a separate game level illustration, broad blank cream-gold footer for 3 stars and level number. No writing, no symbols in the footer, no art in the central display, no paper clip. Symmetrical front view, whole card visible with cyan margin. Soft pastel pink flourishes at corners, polished gold, matching a princess spa game."
+  ]
+}

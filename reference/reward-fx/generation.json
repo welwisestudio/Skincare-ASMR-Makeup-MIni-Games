@@ -1,0 +1,15 @@
+{
+  "model": "nano_banana_2",
+  "jobs": [
+    {
+      "id": "6302edf2-a2d0-4c80-95f3-2eca925dea7d",
+      "asset": "reward-rays",
+      "prompt": "Premium 2D casual mobile game reward VFX sprite. A luminous warm golden SUNBURST centered exactly in the square, 12 broad soft tapered rays radiating evenly around a small glowing creamy-yellow center, subtle little sparkling dust. Beautiful dreamy painted light bloom, soft feathered edges fading smoothly to pure BLACK #000000 at all image borders. Radially balanced circle, occupies central 80 percent with black margin. NO objects, no chest, NO text, no frame, no icons, no UI. This is a light effects layer for additive blending behind a treasure chest in a pastel beauty spa game. Broad translucent silky triangular shafts of gold light, not thin star lines. Square isolated VFX."
+    },
+    {
+      "id": "60ba5da8-67e0-4c62-9de5-0e6c3456a064",
+      "asset": "reward-coin",
+      "prompt": "One single GOLD COIN sprite for a premium hand-painted 2D pastel mobile beauty game. Perfect front view, nearly circular gold coin, tiny embossed five-point star centered, warm amber beveled rim, creamy yellow highlight at upper left, subtle darker golden outline and thin clean white sticker outline. Cute polished richly painted shading, matches casual spa game reward currency. Only ONE coin, NO pile, no label, no ribbon, no UI, no text, no extra objects, no outside shadow. Large centered coin surrounded by generous perfectly flat cyan #00ffff background for sprite extraction."
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "specs": [
+    {
+      "index": 0,
+      "name": "hair",
+      "prompt": "Use case: stylized-concept. Production 2D casual mobile game sprite. Match a hand-painted Skincare ASMR game: thick clean dark plum outlines, softly brushed pastel shading, pearly highlights, lavender, blush pink, mint and honey gold palette. Very polished and cute, tangible materials, same visual family as the reference. One isolated object centered on absolutely flat pure CYAN #00FFFF background, no shadows outside the silhouette, no text or UI, no border, generous 8 percent empty cyan margins. Rear view of an adult woman's head and shoulders, long silky chestnut hair falling in three broad separate locks, soft pink salon cape, ivory bow near crown. Hair is the main focus. No face visible. Straight symmetrical view, full hair not cropped."
+    },
+    {
+      "index": 1,
+      "name": "dress",
+      "prompt": "Use case: stylized-concept. Production 2D casual mobile game sprite. Match a hand-painted Skincare ASMR game: thick clean dark plum outlines, softly brushed pastel shading, pearly highlights, lavender, blush pink, mint and honey gold palette. Very polished and cute, tangible materials, same visual family as the reference. One isolated object centered on absolutely flat pure CYAN #00FFFF background, no shadows outside the silhouette, no text or UI, no border, generous 8 percent empty cyan margins. A charming adult fashion paper doll woman standing facing forward in a relaxed symmetrical pose, arms slightly away from body, long brown hair, wearing a modest simple ivory sleeveless knee-length slip dress and ivory flats. Full body head to shoes visible. Long elegant adult proportions, NOT a child. Empty hands."
+    },
+    {
+      "index": 2,
+      "name": "laundry",
+      "prompt": "Use case: stylized-concept. Production 2D casual mobile game sprite. Match a hand-painted Skincare ASMR game: thick clean dark plum outlines, softly brushed pastel shading, pearly highlights, lavender, blush pink, mint and honey gold palette. Very polished and cute, tangible materials, same visual family as the reference. One isolated object centered on absolutely flat pure CYAN #00FFFF background, no shadows outside the silhouette, no text or UI, no border, generous 8 percent empty cyan margins. A single cozy rose-pink cardigan sweater laid flat, sleeves spread diagonally downwards, three ivory buttons, cable knit texture, small embroidered strawberry on chest. Perfectly clean, no wrinkles, top down view. Full garment visible."
+    },
+    {
+      "index": 3,
+      "name": "glam",
+      "prompt": "Use case: stylized-concept. Production 2D casual mobile game sprite. Match a hand-painted Skincare ASMR game: thick clean dark plum outlines, softly brushed pastel shading, pearly highlights, lavender, blush pink, mint and honey gold palette. Very polished and cute, tangible materials, same visual family as the reference. One isolated object centered on absolutely flat pure CYAN #00FFFF background, no shadows outside the silhouette, no text or UI, no border, generous 8 percent empty cyan margins. An adult woman beauty bust frontal view from shoulders upward, medium brown skin, dark curly hair pinned up with rose clips, closed eyes, natural lips and bare skin WITHOUT makeup, ivory neckline dress. Elegant adult features. Large face and both shoulders. No spa headband."
+    },
+    {
+      "index": 4,
+      "name": "kitten",
+      "prompt": "Use case: stylized-concept. Production 2D casual mobile game sprite. Match a hand-painted Skincare ASMR game: thick clean dark plum outlines, softly brushed pastel shading, pearly highlights, lavender, blush pink, mint and honey gold palette. Very polished and cute, tangible materials, same visual family as the reference. One isolated object centered on absolutely flat pure CYAN #00FFFF background, no shadows outside the silhouette, no text or UI, no border, generous 8 percent empty cyan margins. Adorable fluffy cream and ginger kitten sitting facing forward on a round lilac bath cushion, large kind amber eyes, small paws visible, curled tail to right. Whole body. Clean fluffy fur. No clothes no accessories."
+    },
+    {
+      "index": 5,
+      "name": "organizer",
+      "prompt": "Use case: stylized-concept. Production 2D casual mobile game sprite. Match a hand-painted Skincare ASMR game: thick clean dark plum outlines, softly brushed pastel shading, pearly highlights, lavender, blush pink, mint and honey gold palette. Very polished and cute, tangible materials, same visual family as the reference. One isolated object centered on absolutely flat pure CYAN #00FFFF background, no shadows outside the silhouette, no text or UI, no border, generous 8 percent empty cyan margins. Top-down open large lilac makeup organizer box, a simple thick hand-painted rectangular frame with a pale ivory EMPTY flat inner tray. Absolutely no dividers, no contents. Empty tray center occupies 80 percent width and height, frame only. Slight plush shading. Square shape."
+    },
+    {
+      "index": 6,
+      "name": "nails",
+      "prompt": "Use case: stylized-concept. Production 2D casual mobile game sprite. Match a hand-painted Skincare ASMR game: thick clean dark plum outlines, softly brushed pastel shading, pearly highlights, lavender, blush pink, mint and honey gold palette. Very polished and cute, tangible materials, same visual family as the reference. One isolated object centered on absolutely flat pure CYAN #00FFFF background, no shadows outside the silhouette, no text or UI, no border, generous 8 percent empty cyan margins. A single graceful adult woman's left hand, back of hand facing viewer, five fingers neatly spread upward, wrist downward, plain natural clean oval fingernails, medium warm beige skin, a small lavender rolled cuff at wrist. All five fingers fully visible, no nail polish, no jewelry. Frontal overhead top down."
+    },
+    {
+      "index": 7,
+      "name": "sneaker",
+      "prompt": "Use case: stylized-concept. Production 2D casual mobile game sprite. Match a hand-painted Skincare ASMR game: thick clean dark plum outlines, softly brushed pastel shading, pearly highlights, lavender, blush pink, mint and honey gold palette. Very polished and cute, tangible materials, same visual family as the reference. One isolated object centered on absolutely flat pure CYAN #00FFFF background, no shadows outside the silhouette, no text or UI, no border, generous 8 percent empty cyan margins. A single cute ivory and lavender low-top sneaker in SIDE THREE QUARTER TOP VIEW, toe points lower-left, heel upper-right, open unlaced tongue, six clearly visible golden eyelets along each side, pastel lavender panels, white rubber sole. Absolutely no laces. Clean new shoe, fully visible."
+    },
+    {
+      "index": 8,
+      "name": "jewels",
+      "prompt": "Use case: stylized-concept. Production 2D casual mobile game sprite. Match a hand-painted Skincare ASMR game: thick clean dark plum outlines, softly brushed pastel shading, pearly highlights, lavender, blush pink, mint and honey gold palette. Very polished and cute, tangible materials, same visual family as the reference. One isolated object centered on absolutely flat pure CYAN #00FFFF background, no shadows outside the silhouette, no text or UI, no border, generous 8 percent empty cyan margins. Open pink velvet jewelry box top down, ivory inside EMPTY rectangular tray area, delicate golden heart clasp at lower center, no jewelry or dividers. Thick soft rounded frame, pearl highlights, slightly wide rectangular shape."
+    },
+    {
+      "index": 9,
+      "name": "bouquet",
+      "prompt": "Use case: stylized-concept. Production 2D casual mobile game sprite. Match a hand-painted Skincare ASMR game: thick clean dark plum outlines, softly brushed pastel shading, pearly highlights, lavender, blush pink, mint and honey gold palette. Very polished and cute, tangible materials, same visual family as the reference. One isolated object centered on absolutely flat pure CYAN #00FFFF background, no shadows outside the silhouette, no text or UI, no border, generous 8 percent empty cyan margins. A loose bouquet of five beautiful blush roses, lavender daisies and white baby breath with long green stems gathered together at bottom. No wrapping, no ribbon, no vase. Flower heads concentrated at top half, long clearly visible stems below. Full bouquet visible."
+    },
+    {
+      "index": 10,
+      "name": "macaron",
+      "prompt": "Use case: stylized-concept. Production 2D casual mobile game sprite. Match a hand-painted Skincare ASMR game: thick clean dark plum outlines, softly brushed pastel shading, pearly highlights, lavender, blush pink, mint and honey gold palette. Very polished and cute, tangible materials, same visual family as the reference. One isolated object centered on absolutely flat pure CYAN #00FFFF background, no shadows outside the silhouette, no text or UI, no border, generous 8 percent empty cyan margins. A pretty empty round ivory ceramic dessert stand with lavender rim and little gold dots, seen from slightly above front, short pedestal. Empty wide flat plate. No food. Complete stand visible."
+    },
+    {
+      "index": 11,
+      "name": "candle",
+      "prompt": "Use case: stylized-concept. Production 2D casual mobile game sprite. Match a hand-painted Skincare ASMR game: thick clean dark plum outlines, softly brushed pastel shading, pearly highlights, lavender, blush pink, mint and honey gold palette. Very polished and cute, tangible materials, same visual family as the reference. One isolated object centered on absolutely flat pure CYAN #00FFFF background, no shadows outside the silhouette, no text or UI, no border, generous 8 percent empty cyan margins. A single large EMPTY clear glass candle jar, front view with slight top view, open circular rim, centered straight cotton wick from bottom to above rim, lilac small heart label on front, pale ivory empty interior. Jar large and wide, no lid, no wax. Whole object visible."
+    },
+    {
+      "index": 12,
+      "name": "stitch",
+      "prompt": "Use case: stylized-concept. Production 2D casual mobile game sprite. Match a hand-painted Skincare ASMR game: thick clean dark plum outlines, softly brushed pastel shading, pearly highlights, lavender, blush pink, mint and honey gold palette. Very polished and cute, tangible materials, same visual family as the reference. One isolated object centered on absolutely flat pure CYAN #00FFFF background, no shadows outside the silhouette, no text or UI, no border, generous 8 percent empty cyan margins. An embroidery hoop made of honey-colored wood with small gold tightening screw at top, stretched empty cream linen circle inside, top-down view, delicate fabric weave. No embroidery, no pattern or text. Complete round hoop."
+    },
+    {
+      "index": 13,
+      "name": "bath",
+      "prompt": "Use case: stylized-concept. Production 2D casual mobile game sprite. Match a hand-painted Skincare ASMR game: thick clean dark plum outlines, softly brushed pastel shading, pearly highlights, lavender, blush pink, mint and honey gold palette. Very polished and cute, tangible materials, same visual family as the reference. One isolated object centered on absolutely flat pure CYAN #00FFFF background, no shadows outside the silhouette, no text or UI, no border, generous 8 percent empty cyan margins. A pretty small oval white porcelain bathtub viewed from above, filled with pale clear mint water, pink rim, gold faucet at upper right. No bubbles no bath bomb no objects in the water. Entire tub visible."
+    },
+    {
+      "index": 14,
+      "name": "pouch",
+      "prompt": "Use case: stylized-concept. Production 2D casual mobile game sprite. Match a hand-painted Skincare ASMR game: thick clean dark plum outlines, softly brushed pastel shading, pearly highlights, lavender, blush pink, mint and honey gold palette. Very polished and cute, tangible materials, same visual family as the reference. One isolated object centered on absolutely flat pure CYAN #00FFFF background, no shadows outside the silhouette, no text or UI, no border, generous 8 percent empty cyan margins. A soft blush pink open travel toiletry suitcase seen directly from above, square ivory EMPTY inside compartment occupying 80 percent area, gold zipper around rim, small carrying handle on top. No dividers no items no letters, no perspective distortion."
+    },
+    {
+      "index": 15,
+      "name": "tools",
+      "prompt": "Use case: stylized-concept. Production 2D casual mobile game sprite. Match a hand-painted Skincare ASMR game: thick clean dark plum outlines, softly brushed pastel shading, pearly highlights, lavender, blush pink, mint and honey gold palette. Very polished and cute, tangible materials, same visual family as the reference. One isolated object centered on absolutely flat pure CYAN #00FFFF background, no shadows outside the silhouette, no text or UI, no border, generous 8 percent empty cyan margins. Exactly 3 columns and 2 rows of six isolated separate tools, each occupying its own equal cell with generous cyan gutters. Row1: pink wide-tooth comb; gold salon scissors; lavender steam iron. Row2: pink pet grooming brush; gold sewing needle with short pink thread; lavender small measuring jug. No extra objects."
+    },
+    {
+      "index": 16,
+      "name": "wardrobe",
+      "prompt": "Use case: stylized-concept. Production 2D casual mobile game sprite. Match a hand-painted Skincare ASMR game: thick clean dark plum outlines, softly brushed pastel shading, pearly highlights, lavender, blush pink, mint and honey gold palette. Very polished and cute, tangible materials, same visual family as the reference. One isolated object centered on absolutely flat pure CYAN #00FFFF background, no shadows outside the silhouette, no text or UI, no border, generous 8 percent empty cyan margins. Exactly 3 columns and 2 rows of six isolated clothing/accessory items, each equal cell with generous cyan gutters. Row1: elegant sleeveless pink knee-length party dress frontal view; short lavender bolero jacket frontal view; pair of matching gold ballet flats. Row2: pink handbag with golden chain; a jeweled butterfly hairpin; pink silk ribbon tied in a bow. No model or body, only items. Complete silhouette each."
+    },
+    {
+      "index": 17,
+      "name": "cosmetics",
+      "prompt": "Use case: stylized-concept. Production 2D casual mobile game sprite. Match a hand-painted Skincare ASMR game: thick clean dark plum outlines, softly brushed pastel shading, pearly highlights, lavender, blush pink, mint and honey gold palette. Very polished and cute, tangible materials, same visual family as the reference. One isolated object centered on absolutely flat pure CYAN #00FFFF background, no shadows outside the silhouette, no text or UI, no border, generous 8 percent empty cyan margins. Exactly 3 columns and 2 rows of six isolated objects equal cells with generous cyan gutters. Row1: upright gold lipstick with rose pink tip; upright lavender mascara tube; ivory-handled fluffy makeup brush. Row2: round closed rose blush compact with heart; small round blue perfume bottle; rectangular lilac eyeshadow palette with six different pink purple pans. Complete objects. No text."
+    },
+    {
+      "index": 18,
+      "name": "little-treats",
+      "prompt": "Use case: stylized-concept. Production 2D casual mobile game sprite. Match a hand-painted Skincare ASMR game: thick clean dark plum outlines, softly brushed pastel shading, pearly highlights, lavender, blush pink, mint and honey gold palette. Very polished and cute, tangible materials, same visual family as the reference. One isolated object centered on absolutely flat pure CYAN #00FFFF background, no shadows outside the silhouette, no text or UI, no border, generous 8 percent empty cyan margins. Exactly 3 columns and 2 rows of six isolated items in equal cells with generous cyan gutters. Row1: a pink macaron bottom shell open face upward, NO filling; a shiny mint macaron top shell dome; a lilac spherical bath bomb. Row2: a glowing pink heart-cut gemstone; a pearl with golden hole; a small lavender sachet tied with ribbon. No extra objects."
+    }
+  ],
+  "jobs": [
+    {
+      "index": 0,
+      "job_id": "24128c86-a9ab-498a-9bc6-335d2f930a66",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_231558_24128c86-a9ab-498a-9bc6-335d2f930a66.png"
+    },
+    {
+      "index": 1,
+      "job_id": "6b4c4f5e-8016-4c69-b204-4511d5e045c0",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_231557_6b4c4f5e-8016-4c69-b204-4511d5e045c0.png"
+    },
+    {
+      "index": 2,
+      "job_id": "1e095095-1fda-41f2-a60c-4f63f64767dd",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_231557_1e095095-1fda-41f2-a60c-4f63f64767dd.png"
+    },
+    {
+      "index": 3,
+      "job_id": "036f9270-b156-4c38-a437-10a46a76fac7",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_231557_036f9270-b156-4c38-a437-10a46a76fac7.png"
+    },
+    {
+      "index": 4,
+      "job_id": "d0fd4a5f-6ed3-448b-96be-31003a8f1d89",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_231557_d0fd4a5f-6ed3-448b-96be-31003a8f1d89.png"
+    },
+    {
+      "index": 5,
+      "job_id": "d6f0feb3-1731-4525-9877-3b66ab982666",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_231557_d6f0feb3-1731-4525-9877-3b66ab982666.png"
+    },
+    {
+      "index": 6,
+      "job_id": "a6ae5174-eb37-4a87-9dfb-d3af8d5c620b",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_231923_a6ae5174-eb37-4a87-9dfb-d3af8d5c620b.png"
+    },
+    {
+      "index": 7,
+      "job_id": "9a0e2b40-0412-4abd-9503-b5e9987c154d",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_231923_9a0e2b40-0412-4abd-9503-b5e9987c154d.png"
+    },
+    {
+      "index": 8,
+      "job_id": "545f7dfc-c5e7-4e8e-a090-cea17c6bf57f",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_231923_545f7dfc-c5e7-4e8e-a090-cea17c6bf57f.png"
+    },
+    {
+      "index": 9,
+      "job_id": "e076d0ae-7e6b-418f-8982-a7d45ada84c5",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_231923_e076d0ae-7e6b-418f-8982-a7d45ada84c5.png"
+    },
+    {
+      "index": 10,
+      "job_id": "3417acc0-339e-4619-b77f-8a8cbf7e9ec4",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_231923_3417acc0-339e-4619-b77f-8a8cbf7e9ec4.png"
+    },
+    {
+      "index": 11,
+      "job_id": "d60b8bd3-bd8c-467e-ada7-6aa19654b967",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_231923_d60b8bd3-bd8c-467e-ada7-6aa19654b967.png"
+    },
+    {
+      "index": 12,
+      "job_id": "2d1f3eb0-d81b-4184-8283-354f27951d1c",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_231924_2d1f3eb0-d81b-4184-8283-354f27951d1c.png"
+    },
+    {
+      "index": 13,
+      "job_id": "653236e7-80d1-4c1c-8027-21f981137886",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_231925_653236e7-80d1-4c1c-8027-21f981137886.png"
+    },
+    {
+      "index": 14,
+      "job_id": "6b00c110-2fbf-4cdb-82d2-d1d0902b531c",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_231924_6b00c110-2fbf-4cdb-82d2-d1d0902b531c.png"
+    },
+    {
+      "index": 15,
+      "job_id": "78479afd-c9a0-46cf-8b1b-bbe4164f1867",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_231925_78479afd-c9a0-46cf-8b1b-bbe4164f1867.png"
+    },
+    {
+      "index": 16,
+      "job_id": "b121cde5-7e45-4779-a8b8-05abf7c1000e",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_231925_b121cde5-7e45-4779-a8b8-05abf7c1000e.png"
+    },
+    {
+      "index": 17,
+      "job_id": "203af8bb-c63e-4c4b-852c-b6d844db30eb",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_231924_203af8bb-c63e-4c4b-852c-b6d844db30eb.png"
+    },
+    {
+      "index": 18,
+      "job_id": "fd916197-ad00-42f0-85ec-c570d32fd028",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_231927_fd916197-ad00-42f0-85ec-c570d32fd028.png"
+    }
+  ]
+}

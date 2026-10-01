@@ -1,0 +1,146 @@
+{
+  "model": "nano_banana_2",
+  "project_id": "49458a93-2225-4fff-926c-be93874e0b63",
+  "assets": [
+    {
+      "asset": "rescue-meadow",
+      "prompt": "Premium hand-painted 2D casual mobile game art, cozy pastel pink/lavender/cream palette with warm honey-gold accents, delicate dark plum outlines, softly shaded dimensional cartoon painting, polished cute beauty-spa game aesthetic. Not vector flat art, not photorealistic. NO TEXT, NO LETTERS, NO WATERMARK, NO UI. Environment background ONLY, wide frontal side-view garden puzzle stage. Blush-pink cherry trees at far left and right edges, distant soft rolling mint hills, ivory sky, scattered daisies on the lower edge. Large open empty central 80 percent suitable for drawing game mechanics. Flat horizon at bottom 90 percent. No animals, no bees, no hive, no platforms, no main foreground objects.",
+      "index": 0,
+      "job_id": "e0e85108-9d7d-40e6-8fe0-d46fe6fe976e",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_084209_e0e85108-9d7d-40e6-8fe0-d46fe6fe976e.png"
+    },
+    {
+      "asset": "rescue-pond",
+      "prompt": "Premium hand-painted 2D casual mobile game art, cozy pastel pink/lavender/cream palette with warm honey-gold accents, delicate dark plum outlines, softly shaded dimensional cartoon painting, polished cute beauty-spa game aesthetic. Not vector flat art, not photorealistic. NO TEXT, NO LETTERS, NO WATERMARK, NO UI. Environment background ONLY for side-view pet rescue puzzle. Dreamy blue-lilac water garden with distant lotus pond and willow branches framing edges, soft pink sunset. Large EMPTY light cream central 80 percent for gameplay. Water occupies only bottom 15 percent. No animals, no insects, no hive, no platforms, no text.",
+      "index": 1,
+      "job_id": "97dc2f0b-13d6-4e68-8720-b403615fca68",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_084209_97dc2f0b-13d6-4e68-8720-b403615fca68.png"
+    },
+    {
+      "asset": "rescue-orchard",
+      "prompt": "Premium hand-painted 2D casual mobile game art, cozy pastel pink/lavender/cream palette with warm honey-gold accents, delicate dark plum outlines, softly shaded dimensional cartoon painting, polished cute beauty-spa game aesthetic. Not vector flat art, not photorealistic. NO TEXT, NO LETTERS, NO WATERMARK, NO UI. Environment background ONLY for side-view pet rescue puzzle. Warm apricot orchard with tiny distant peaches, blush trees framing the far edges, soft cream clearing, whimsical spring countryside. Center 80 percent empty open gameplay space. Grass only bottom 10 percent. No animals, insects, hive or platforms.",
+      "index": 2,
+      "job_id": "19f83a81-71f7-4b8c-8bea-1917e4b239b6",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_084209_19f83a81-71f7-4b8c-8bea-1917e4b239b6.png"
+    },
+    {
+      "asset": "rescue-moon",
+      "prompt": "Premium hand-painted 2D casual mobile game art, cozy pastel pink/lavender/cream palette with warm honey-gold accents, delicate dark plum outlines, softly shaded dimensional cartoon painting, polished cute beauty-spa game aesthetic. Not vector flat art, not photorealistic. NO TEXT, NO LETTERS, NO WATERMARK, NO UI. Environment background ONLY for side-view pet rescue puzzle. Enchanted lavender twilight garden with distant crescent moon at upper left, soft misty rose clouds, twinkling little stars at edges, pale ivory-lilac center. Large EMPTY central gameplay space. No animals, insects, hive, platforms or foreground obstacles.",
+      "index": 3,
+      "job_id": "70fbe261-cd6c-417e-8c93-e342bfda9641",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_084209_70fbe261-cd6c-417e-8c93-e342bfda9641.png"
+    },
+    {
+      "asset": "rescue-sprites",
+      "prompt": "Premium hand-painted 2D casual mobile game art, cozy pastel pink/lavender/cream palette with warm honey-gold accents, delicate dark plum outlines, softly shaded dimensional cartoon painting, polished cute beauty-spa game aesthetic. Not vector flat art, not photorealistic. NO TEXT, NO LETTERS, NO WATERMARK, NO UI. SPRITE SHEET exact 3 columns by 3 rows, each cell equal size, evenly centered separate objects, generous margins, isolated on solid pure cyan #00FFFF background with no shadows outside objects. Row1: adorable orange kitten sitting front view; adorable cream corgi puppy sitting front view; golden hanging beehive with dark entrance. Row2: cute small yellow striped bee with wings facing right; wide horizontal grassy earth platform rectangular cross-section straight flat top; wide horizontal lavender stone platform rectangular cross-section straight flat top. Row3: wide horizontal pink mushroom cap platform straight flat top; pink pastel drawing pencil diagonal; mint and golden protective shield emblem. Every object completely separate and fully contained in its cell. No grid lines.",
+      "index": 4,
+      "job_id": "d05b6887-d4dd-4d91-95cd-71b66c49b6a8",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_084210_d05b6887-d4dd-4d91-95cd-71b66c49b6a8.png"
+    },
+    {
+      "asset": "memo-backs",
+      "prompt": "Premium hand-painted 2D casual mobile game art, cozy pastel pink/lavender/cream palette with warm honey-gold accents, delicate dark plum outlines, softly shaded dimensional cartoon painting, polished cute beauty-spa game aesthetic. Not vector flat art, not photorealistic. NO TEXT, NO LETTERS, NO WATERMARK, NO UI. Exact 2 by 2 sprite sheet of four DIFFERENT face-down collectible playing cards. Tall rounded portrait cards, cream rim, lavender thick painted outline, silky highlights, decorative filigree and centered emblem. Top left pink card with gold paw; top right lavender card with gold butterfly; bottom left peach card with gold teacup; bottom right mint card with gold heart-shaped perfume bottle. All same portrait shape and size, ample spaces, pure cyan #00FFFF background, nothing touches edges, no letters. Each card has decorative back only, no face-up objects.",
+      "index": 5,
+      "job_id": "8befec5d-3325-4960-8cbd-4507750b5e7f",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_084210_8befec5d-3325-4960-8cbd-4507750b5e7f.png"
+    },
+    {
+      "asset": "diff-tea",
+      "prompt": "Premium hand-painted 2D casual mobile game art, pastel pink/lavender/cream with warm gold accents, delicate dark plum outlines, dimensional polished cartoon painting, cozy beauty-spa game. NO TEXT, letters, watermark or UI. A cozy tiny patisserie tea salon interior seen straight on, ornate pastel rose shelves with many small pastries and jars, pink draped window, broad ivory table in lower half. A little bowl and delicate teacups at sides. Keep FIVE clear surfaces for small added objects at normalized coordinates (0.2,0.28) on a shelf, (0.72,0.23) on another shelf, (0.45,0.53) on table, (0.18,0.78) left table, (0.8,0.8) right table. Richly illustrated cute cozy scene, no people.",
+      "index": 6,
+      "job_id": "fe5f3ec5-76df-491f-8461-9d2214419943",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_084249_fe5f3ec5-76df-491f-8461-9d2214419943.png"
+    },
+    {
+      "asset": "diff-garden",
+      "prompt": "Premium hand-painted 2D casual mobile game art, pastel pink/lavender/cream with warm gold accents, delicate dark plum outlines, dimensional polished cartoon painting, cozy beauty-spa game. NO TEXT, letters, watermark or UI. A whimsical little greenhouse interior with pink arched window, lush potted plants along edges, wooden potting bench, cream shelves, flowers and vines. Five small clear surfaces to place items at (0.2,0.28), (0.72,0.23), (0.45,0.53), (0.18,0.78), (0.8,0.8). No animals or people. Rich layered but readable cute scene.",
+      "index": 7,
+      "job_id": "39dd9ad1-0368-4099-b4ed-63e6929ae6db",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_084249_39dd9ad1-0368-4099-b4ed-63e6929ae6db.png"
+    },
+    {
+      "asset": "diff-vanity",
+      "prompt": "Premium hand-painted 2D casual mobile game art, pastel pink/lavender/cream with warm gold accents, delicate dark plum outlines, dimensional polished cartoon painting, cozy beauty-spa game. NO TEXT, letters, watermark or UI. A beautiful pastel lavender and blush makeup vanity interior with oval mirror, gold lights and ribbons, elegant shelves and a creamy tabletop in lower half, pretty makeup jars at sides. Five clear surfaces for added tiny objects at (0.2,0.28), (0.72,0.23), (0.45,0.53), (0.18,0.78), (0.8,0.8). No people, no faces in mirror. Richly detailed cozy illustration.",
+      "index": 8,
+      "job_id": "cff1e494-cb49-45ee-aecc-e2ae998cd6fa",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_084249_cff1e494-cb49-45ee-aecc-e2ae998cd6fa.png"
+    },
+    {
+      "asset": "diff-pets",
+      "prompt": "Premium hand-painted 2D casual mobile game art, pastel pink/lavender/cream with warm gold accents, delicate dark plum outlines, dimensional polished cartoon painting, cozy beauty-spa game. NO TEXT, letters, watermark or UI. An adorable pet nursery living room with pink soft couch, lavender cat tree along one side, wicker baskets, cushions, a pale cream carpet, pastel paintings and window, toys along edges. Empty comfortable pet spots at (0.2,0.28), (0.72,0.23), (0.45,0.53), (0.18,0.78), (0.8,0.8) for placing little animal sprites. No animals or people. Beautiful detailed cozy room.",
+      "index": 9,
+      "job_id": "167ca3a1-995c-49c4-b20e-b48a22592d46",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_084249_167ca3a1-995c-49c4-b20e-b48a22592d46.png"
+    },
+    {
+      "asset": "memo-pets",
+      "prompt": "Premium hand-painted 2D casual mobile game art, pastel pink/lavender/cream with warm gold accents, delicate dark plum outlines, dimensional polished cartoon painting, cozy beauty-spa game. NO TEXT, letters, watermark or UI. SPRITE SHEET exact 3 columns and 2 rows of SIX individual adorable front view baby pets: row1 orange kitten, cream corgi puppy, lavender white bunny; row2 golden hamster, mint-green baby turtle, pink cockatiel bird. All on solid pure cyan #00FFFF, evenly sized separate cells, generous empty margin around each, no floor shadows, no overlapping. Large expressive sweet eyes, each a complete animal.",
+      "index": 10,
+      "job_id": "dddd76e1-f30d-4950-ab43-7feea32d9880",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_084249_dddd76e1-f30d-4950-ab43-7feea32d9880.png"
+    },
+    {
+      "asset": "memo-garden",
+      "prompt": "Premium hand-painted 2D casual mobile game art, pastel pink/lavender/cream with warm gold accents, delicate dark plum outlines, dimensional polished cartoon painting, cozy beauty-spa game. NO TEXT, letters, watermark or UI. SPRITE SHEET exact 3 columns and 2 rows of SIX separate garden treasures: row1 pink mushroom with cream dots, lavender daisy in mint pot, golden watering can with pink bow; row2 pink-and-gold butterfly, cute honey bee with lavender wings, mint snail with pink spiral shell. All on solid pure cyan #00FFFF, evenly sized separate cells, generous empty margin, no floor shadows, no overlapping.",
+      "index": 11,
+      "job_id": "96e48bc0-bb1f-4380-81e3-d1f9bafe39eb",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_084249_96e48bc0-bb1f-4380-81e3-d1f9bafe39eb.png"
+    },
+    {
+      "asset": "memo-sweets",
+      "prompt": "Premium hand-painted 2D casual pastel beauty-spa mobile game SPRITE SHEET exact 3 columns and 2 rows, SIX separate objects in order left-to-right top-to-bottom: gold-and-pink teapot, strawberry cupcake, lilac macaron, heart shaped pink iced cookie, elegant rose teacup with saucer, ripe strawberry with mint leaves. Dimensional polished cute cartoon painting, delicate dark plum outline, warm highlights, lavender pink cream and golden palette, each fully contained in an equal cell, generous cyan margin, no floor shadows, no overlapping. Solid pure cyan #00FFFF background. NO TEXT, labels, grid lines or watermark.",
+      "index": 12,
+      "job_id": "24c191d6-feb8-4a93-9d02-bbeac72d1c92",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_084316_24c191d6-feb8-4a93-9d02-bbeac72d1c92.png"
+    },
+    {
+      "asset": "memo-beauty",
+      "prompt": "Premium hand-painted 2D casual pastel beauty-spa mobile game SPRITE SHEET exact 3 columns and 2 rows, SIX separate objects in order left-to-right top-to-bottom: rose lipstick in gold case, lavender fluffy makeup brush, pink heart perfume bottle, mint nail polish bottle, ornate handheld gold mirror, silky pink bow with golden heart center. Dimensional polished cute cartoon painting, delicate dark plum outline, warm highlights, lavender pink cream and golden palette, each fully contained in an equal cell, generous cyan margin, no floor shadows, no overlapping. Solid pure cyan #00FFFF background. NO TEXT, labels, grid lines or watermark.",
+      "index": 13,
+      "job_id": "303ce459-f33d-4dfe-ba67-602b90027b86",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_084316_303ce459-f33d-4dfe-ba67-602b90027b86.png"
+    }
+  ]
+}

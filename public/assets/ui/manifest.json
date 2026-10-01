@@ -1,0 +1,330 @@
+[
+  {
+    "key": "ui-pause",
+    "file": "pause.webp",
+    "size": [
+      194,
+      198
+    ],
+    "sheet": "controls",
+    "crop": [
+      0.012,
+      0.012,
+      0.3213333333333333,
+      0.3213333333333333
+    ]
+  },
+  {
+    "key": "ui-back",
+    "file": "back.webp",
+    "size": [
+      194,
+      198
+    ],
+    "sheet": "controls",
+    "crop": [
+      0.3453333333333333,
+      0.012,
+      0.6546666666666666,
+      0.3213333333333333
+    ]
+  },
+  {
+    "key": "ui-settings",
+    "file": "settings.webp",
+    "size": [
+      194,
+      198
+    ],
+    "sheet": "controls",
+    "crop": [
+      0.6786666666666666,
+      0.012,
+      0.988,
+      0.3213333333333333
+    ]
+  },
+  {
+    "key": "ui-hint",
+    "file": "hint.webp",
+    "size": [
+      193,
+      198
+    ],
+    "sheet": "controls",
+    "crop": [
+      0.012,
+      0.3453333333333333,
+      0.3213333333333333,
+      0.6546666666666666
+    ]
+  },
+  {
+    "key": "ui-sound",
+    "file": "sound.webp",
+    "size": [
+      194,
+      198
+    ],
+    "sheet": "controls",
+    "crop": [
+      0.3453333333333333,
+      0.3453333333333333,
+      0.6546666666666666,
+      0.6546666666666666
+    ]
+  },
+  {
+    "key": "ui-muted",
+    "file": "muted.webp",
+    "size": [
+      193,
+      198
+    ],
+    "sheet": "controls",
+    "crop": [
+      0.6786666666666666,
+      0.3453333333333333,
+      0.988,
+      0.6546666666666666
+    ]
+  },
+  {
+    "key": "ui-score",
+    "file": "score.webp",
+    "size": [
+      436,
+      160
+    ],
+    "sheet": "hud",
+    "crop": [
+      0.012,
+      0.025,
+      0.49,
+      0.295
+    ]
+  },
+  {
+    "key": "ui-coins",
+    "file": "coins.webp",
+    "size": [
+      436,
+      143
+    ],
+    "sheet": "hud",
+    "crop": [
+      0.51,
+      0.025,
+      0.99,
+      0.295
+    ]
+  },
+  {
+    "key": "ui-progress-track",
+    "file": "progress-track.webp",
+    "size": [
+      606,
+      163
+    ],
+    "sheet": "hud",
+    "crop": [
+      0.012,
+      0.32,
+      0.49,
+      0.555
+    ]
+  },
+  {
+    "key": "ui-progress-fill",
+    "file": "progress-fill.webp",
+    "size": [
+      606,
+      150
+    ],
+    "sheet": "hud",
+    "crop": [
+      0.51,
+      0.32,
+      0.99,
+      0.555
+    ]
+  },
+  {
+    "key": "ui-timer",
+    "file": "timer.webp",
+    "size": [
+      363,
+      436
+    ],
+    "sheet": "hud",
+    "crop": [
+      0.015,
+      0.59,
+      0.49,
+      0.98
+    ]
+  },
+  {
+    "key": "ui-star",
+    "file": "star.webp",
+    "size": [
+      436,
+      421
+    ],
+    "sheet": "hud",
+    "crop": [
+      0.51,
+      0.59,
+      0.985,
+      0.98
+    ]
+  },
+  {
+    "key": "ui-green-button",
+    "file": "green-button.webp",
+    "size": [
+      706,
+      380
+    ],
+    "sheet": "banners",
+    "crop": [
+      0.012,
+      0.012,
+      0.488,
+      0.488
+    ]
+  },
+  {
+    "key": "ui-purple-button",
+    "file": "purple-button.webp",
+    "size": [
+      706,
+      380
+    ],
+    "sheet": "banners",
+    "crop": [
+      0.512,
+      0.012,
+      0.988,
+      0.488
+    ]
+  },
+  {
+    "key": "ui-pink-ribbon",
+    "file": "pink-ribbon.webp",
+    "size": [
+      706,
+      257
+    ],
+    "sheet": "banners",
+    "crop": [
+      0.012,
+      0.512,
+      0.488,
+      0.988
+    ]
+  },
+  {
+    "key": "ui-gold-ribbon",
+    "file": "gold-ribbon.webp",
+    "size": [
+      706,
+      261
+    ],
+    "sheet": "banners",
+    "crop": [
+      0.512,
+      0.512,
+      0.988,
+      0.988
+    ]
+  },
+  {
+    "key": "ui-polaroid",
+    "file": "polaroid.webp",
+    "size": [
+      707,
+      856
+    ],
+    "sheet": "paper",
+    "crop": [
+      0.04,
+      0.015,
+      0.475,
+      0.525
+    ]
+  },
+  {
+    "key": "ui-panel",
+    "file": "panel.webp",
+    "size": [
+      585,
+      856
+    ],
+    "sheet": "paper",
+    "crop": [
+      0.53,
+      0.03,
+      0.96,
+      0.65
+    ]
+  },
+  {
+    "key": "ui-trophy",
+    "file": "trophy.webp",
+    "size": [
+      856,
+      630
+    ],
+    "sheet": "paper",
+    "crop": [
+      0.025,
+      0.565,
+      0.545,
+      0.955
+    ]
+  },
+  {
+    "key": "ui-lock",
+    "file": "lock.webp",
+    "size": [
+      364,
+      456
+    ],
+    "sheet": "paper",
+    "crop": [
+      0.64,
+      0.685,
+      0.865,
+      0.95
+    ]
+  },
+  {
+    "key": "ui-logo",
+    "file": "logo.webp",
+    "size": [
+      1006,
+      627
+    ],
+    "sheet": "logo",
+    "crop": null
+  },
+  {
+    "key": "ui-polaroid-front",
+    "file": "polaroid-front.webp",
+    "size": [
+      707,
+      856
+    ],
+    "sheet": "paper"
+  },
+  {
+    "key": "ui-tiles",
+    "file": "tiles.webp",
+    "size": [
+      896,
+      1200
+    ],
+    "sheet": "tiles"
+  }
+]

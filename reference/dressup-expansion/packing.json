@@ -1,0 +1,722 @@
+[
+  {
+    "theme": "garden",
+    "sprite": "base",
+    "sourceCrop": [
+      0,
+      0,
+      683,
+      805
+    ],
+    "alphaBox": [
+      218,
+      21,
+      499,
+      780
+    ],
+    "size": [
+      512,
+      768
+    ]
+  },
+  {
+    "theme": "garden",
+    "sprite": "dressed",
+    "sourceCrop": [
+      683,
+      0,
+      1365,
+      805
+    ],
+    "alphaBox": [
+      195,
+      21,
+      479,
+      780
+    ],
+    "size": [
+      512,
+      768
+    ]
+  },
+  {
+    "theme": "garden",
+    "sprite": "layered",
+    "sourceCrop": [
+      1365,
+      0,
+      2048,
+      805
+    ],
+    "alphaBox": [
+      173,
+      21,
+      456,
+      782
+    ],
+    "size": [
+      512,
+      768
+    ]
+  },
+  {
+    "theme": "garden",
+    "sprite": "finished",
+    "sourceCrop": [
+      0,
+      805,
+      683,
+      1618
+    ],
+    "alphaBox": [
+      188,
+      23,
+      499,
+      787
+    ],
+    "size": [
+      512,
+      768
+    ]
+  },
+  {
+    "theme": "garden",
+    "sprite": "dress",
+    "sourceCrop": [
+      683,
+      805,
+      1365,
+      1618
+    ],
+    "alphaBox": [
+      129,
+      93,
+      539,
+      681
+    ],
+    "size": [
+      301,
+      428
+    ]
+  },
+  {
+    "theme": "garden",
+    "sprite": "jacket",
+    "sourceCrop": [
+      1365,
+      805,
+      2048,
+      1618
+    ],
+    "alphaBox": [
+      90,
+      170,
+      538,
+      522
+    ],
+    "size": [
+      428,
+      338
+    ]
+  },
+  {
+    "theme": "garden",
+    "sprite": "shoes",
+    "sourceCrop": [
+      0,
+      1618,
+      683,
+      2048
+    ],
+    "alphaBox": [
+      232,
+      50,
+      488,
+      327
+    ],
+    "size": [
+      264,
+      285
+    ]
+  },
+  {
+    "theme": "garden",
+    "sprite": "bag",
+    "sourceCrop": [
+      683,
+      1618,
+      1365,
+      2048
+    ],
+    "alphaBox": [
+      207,
+      18,
+      472,
+      317
+    ],
+    "size": [
+      273,
+      307
+    ]
+  },
+  {
+    "theme": "garden",
+    "sprite": "clip",
+    "sourceCrop": [
+      1365,
+      1618,
+      2048,
+      2048
+    ],
+    "alphaBox": [
+      213,
+      73,
+      460,
+      266
+    ],
+    "size": [
+      255,
+      201
+    ]
+  },
+  {
+    "theme": "city",
+    "sprite": "base",
+    "sourceCrop": [
+      0,
+      0,
+      683,
+      776
+    ],
+    "alphaBox": [
+      229,
+      24,
+      493,
+      751
+    ],
+    "size": [
+      512,
+      768
+    ]
+  },
+  {
+    "theme": "city",
+    "sprite": "dressed",
+    "sourceCrop": [
+      683,
+      0,
+      1365,
+      776
+    ],
+    "alphaBox": [
+      205,
+      24,
+      470,
+      751
+    ],
+    "size": [
+      512,
+      768
+    ]
+  },
+  {
+    "theme": "city",
+    "sprite": "layered",
+    "sourceCrop": [
+      1365,
+      0,
+      2048,
+      776
+    ],
+    "alphaBox": [
+      180,
+      24,
+      444,
+      752
+    ],
+    "size": [
+      512,
+      768
+    ]
+  },
+  {
+    "theme": "city",
+    "sprite": "finished",
+    "sourceCrop": [
+      0,
+      776,
+      683,
+      1561
+    ],
+    "alphaBox": [
+      187,
+      22,
+      492,
+      749
+    ],
+    "size": [
+      512,
+      768
+    ]
+  },
+  {
+    "theme": "city",
+    "sprite": "dress",
+    "sourceCrop": [
+      683,
+      776,
+      1365,
+      1561
+    ],
+    "alphaBox": [
+      194,
+      109,
+      482,
+      617
+    ],
+    "size": [
+      246,
+      428
+    ]
+  },
+  {
+    "theme": "city",
+    "sprite": "jacket",
+    "sourceCrop": [
+      1365,
+      776,
+      2048,
+      1561
+    ],
+    "alphaBox": [
+      100,
+      170,
+      522,
+      527
+    ],
+    "size": [
+      428,
+      363
+    ]
+  },
+  {
+    "theme": "city",
+    "sprite": "shoes",
+    "sourceCrop": [
+      0,
+      1561,
+      683,
+      2048
+    ],
+    "alphaBox": [
+      224,
+      83,
+      499,
+      375
+    ],
+    "size": [
+      283,
+      300
+    ]
+  },
+  {
+    "theme": "city",
+    "sprite": "bag",
+    "sourceCrop": [
+      683,
+      1561,
+      1365,
+      2048
+    ],
+    "alphaBox": [
+      166,
+      25,
+      512,
+      376
+    ],
+    "size": [
+      354,
+      359
+    ]
+  },
+  {
+    "theme": "city",
+    "sprite": "clip",
+    "sourceCrop": [
+      1365,
+      1561,
+      2048,
+      2048
+    ],
+    "alphaBox": [
+      183,
+      111,
+      430,
+      248
+    ],
+    "size": [
+      255,
+      145
+    ]
+  },
+  {
+    "theme": "seaside",
+    "sprite": "base",
+    "sourceCrop": [
+      0,
+      0,
+      683,
+      799
+    ],
+    "alphaBox": [
+      212,
+      26,
+      487,
+      773
+    ],
+    "size": [
+      512,
+      768
+    ]
+  },
+  {
+    "theme": "seaside",
+    "sprite": "dressed",
+    "sourceCrop": [
+      683,
+      0,
+      1365,
+      799
+    ],
+    "alphaBox": [
+      196,
+      26,
+      471,
+      773
+    ],
+    "size": [
+      512,
+      768
+    ]
+  },
+  {
+    "theme": "seaside",
+    "sprite": "layered",
+    "sourceCrop": [
+      1365,
+      0,
+      2048,
+      799
+    ],
+    "alphaBox": [
+      180,
+      26,
+      457,
+      773
+    ],
+    "size": [
+      512,
+      768
+    ]
+  },
+  {
+    "theme": "seaside",
+    "sprite": "finished",
+    "sourceCrop": [
+      0,
+      799,
+      683,
+      1581
+    ],
+    "alphaBox": [
+      183,
+      22,
+      492,
+      756
+    ],
+    "size": [
+      512,
+      768
+    ]
+  },
+  {
+    "theme": "seaside",
+    "sprite": "dress",
+    "sourceCrop": [
+      683,
+      799,
+      1365,
+      1581
+    ],
+    "alphaBox": [
+      159,
+      76,
+      522,
+      659
+    ],
+    "size": [
+      270,
+      428
+    ]
+  },
+  {
+    "theme": "seaside",
+    "sprite": "jacket",
+    "sourceCrop": [
+      1365,
+      799,
+      2048,
+      1581
+    ],
+    "alphaBox": [
+      84,
+      157,
+      551,
+      581
+    ],
+    "size": [
+      428,
+      389
+    ]
+  },
+  {
+    "theme": "seaside",
+    "sprite": "shoes",
+    "sourceCrop": [
+      0,
+      1581,
+      683,
+      2048
+    ],
+    "alphaBox": [
+      181,
+      67,
+      510,
+      355
+    ],
+    "size": [
+      337,
+      296
+    ]
+  },
+  {
+    "theme": "seaside",
+    "sprite": "bag",
+    "sourceCrop": [
+      683,
+      1581,
+      1365,
+      2048
+    ],
+    "alphaBox": [
+      191,
+      13,
+      488,
+      364
+    ],
+    "size": [
+      305,
+      359
+    ]
+  },
+  {
+    "theme": "seaside",
+    "sprite": "clip",
+    "sourceCrop": [
+      1365,
+      1581,
+      2048,
+      2048
+    ],
+    "alphaBox": [
+      211,
+      72,
+      462,
+      301
+    ],
+    "size": [
+      259,
+      237
+    ]
+  },
+  {
+    "theme": "evening",
+    "sprite": "base",
+    "sourceCrop": [
+      0,
+      0,
+      683,
+      774
+    ],
+    "alphaBox": [
+      222,
+      26,
+      494,
+      755
+    ],
+    "size": [
+      512,
+      768
+    ]
+  },
+  {
+    "theme": "evening",
+    "sprite": "dressed",
+    "sourceCrop": [
+      683,
+      0,
+      1365,
+      774
+    ],
+    "alphaBox": [
+      191,
+      26,
+      471,
+      755
+    ],
+    "size": [
+      512,
+      768
+    ]
+  },
+  {
+    "theme": "evening",
+    "sprite": "layered",
+    "sourceCrop": [
+      1365,
+      0,
+      2048,
+      774
+    ],
+    "alphaBox": [
+      164,
+      26,
+      446,
+      762
+    ],
+    "size": [
+      512,
+      768
+    ]
+  },
+  {
+    "theme": "evening",
+    "sprite": "finished",
+    "sourceCrop": [
+      0,
+      774,
+      683,
+      1540
+    ],
+    "alphaBox": [
+      198,
+      22,
+      491,
+      734
+    ],
+    "size": [
+      512,
+      768
+    ]
+  },
+  {
+    "theme": "evening",
+    "sprite": "dress",
+    "sourceCrop": [
+      683,
+      774,
+      1365,
+      1540
+    ],
+    "alphaBox": [
+      148,
+      79,
+      523,
+      627
+    ],
+    "size": [
+      295,
+      428
+    ]
+  },
+  {
+    "theme": "evening",
+    "sprite": "jacket",
+    "sourceCrop": [
+      1365,
+      774,
+      2048,
+      1540
+    ],
+    "alphaBox": [
+      88,
+      191,
+      528,
+      504
+    ],
+    "size": [
+      428,
+      307
+    ]
+  },
+  {
+    "theme": "evening",
+    "sprite": "shoes",
+    "sourceCrop": [
+      0,
+      1540,
+      683,
+      2048
+    ],
+    "alphaBox": [
+      227,
+      75,
+      507,
+      374
+    ],
+    "size": [
+      288,
+      307
+    ]
+  },
+  {
+    "theme": "evening",
+    "sprite": "bag",
+    "sourceCrop": [
+      683,
+      1540,
+      1365,
+      2048
+    ],
+    "alphaBox": [
+      196,
+      49,
+      478,
+      359
+    ],
+    "size": [
+      290,
+      318
+    ]
+  },
+  {
+    "theme": "evening",
+    "sprite": "clip",
+    "sourceCrop": [
+      1365,
+      1540,
+      2048,
+      2048
+    ],
+    "alphaBox": [
+      232,
+      113,
+      378,
+      309
+    ],
+    "size": [
+      154,
+      204
+    ]
+  }
+]

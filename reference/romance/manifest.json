@@ -1,0 +1,471 @@
+{
+  "model": "nano_banana_2",
+  "assets": [
+    {
+      "index": 0,
+      "asset": "actors-rose",
+      "params": {
+        "model": "nano_banana_2",
+        "folder_id": "49458a93-2225-4fff-926c-be93874e0b63",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "prompt": "Premium hand-painted 2D casual makeover mobile game artwork. Soft dimensional shading, elegant beautiful adult characters aged 25-30, expressive attractive faces, delicate dark plum outlines, pastel pink lavender ivory and gold palette, polished romantic fairytale storybook game art. NOT photorealistic, NOT flat vector. GAME SPRITE ATLAS, exactly THREE columns and TWO rows of equal SQUARE cells. Each cell contains ONE separate full-body standing woman, centered, head near top and feet near bottom, consistent identical pose and height, 10% empty margin in each cell. The SAME heroine in all six cells: fair warm skin, green eyes, long copper-red wavy hair, delicate freckles. Front view, hands relaxed slightly out from body; fully dressed at all stages. ROW 1 LEFT: before makeover, tired gentle expression, tangled hair, worn patched oversized taupe coat over modest faded dress, muddy boots, rain-stained clothes. ROW 1 CENTER: refreshed smiling face, clean hair still loose, modest closed blush-pink spa robe tied at waist, slippers, clean. ROW 1 RIGHT: same pink robe but hair beautifully groomed in the hairstyle described above. ROW 2 LEFT: wearing dusty rose satin off-shoulder gown with embroidered rose bodice, coordinated elegant shoes, groomed hair. ROW 2 CENTER: same evening dress now complete with rose-gold heart necklace and tiny rose hair clip, subtle makeup, joyful smile. ROW 2 RIGHT: the same heroine as radiant bride wearing ivory lace bridal ballgown with pink rose bouquet and long translucent veil. All six independent figures entirely visible, never overlap adjacent cells. SOLID FLAT CYAN #00ffff BACKGROUND THROUGHOUT for chroma extraction. No cyan in clothing or character. NO ground shadow, no floor, no frame, no gridlines, no labels, NO TEXT, no numbers. Each figure occupies same center and height so cropped sprites align."
+      },
+      "job_id": "94ecb0d7-f046-4220-bd66-39dd34dc65c0",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_091648_94ecb0d7-f046-4220-bd66-39dd34dc65c0.png"
+    },
+    {
+      "index": 1,
+      "asset": "actors-pearl",
+      "params": {
+        "model": "nano_banana_2",
+        "folder_id": "49458a93-2225-4fff-926c-be93874e0b63",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "prompt": "Premium hand-painted 2D casual makeover mobile game artwork. Soft dimensional shading, elegant beautiful adult characters aged 25-30, expressive attractive faces, delicate dark plum outlines, pastel pink lavender ivory and gold palette, polished romantic fairytale storybook game art. NOT photorealistic, NOT flat vector. GAME SPRITE ATLAS, exactly THREE columns and TWO rows of equal SQUARE cells. Each cell contains ONE separate full-body standing woman, centered, head near top and feet near bottom, consistent identical pose and height, 10% empty margin in each cell. The SAME heroine in all six cells: fair golden skin, blue eyes, long honey-blonde hair styled in a loose side braid. Front view, hands relaxed slightly out from body; fully dressed at all stages. ROW 1 LEFT: before makeover, tired gentle expression, tangled hair, worn patched oversized taupe coat over modest faded dress, muddy boots, rain-stained clothes. ROW 1 CENTER: refreshed smiling face, clean hair still loose, modest closed blush-pink spa robe tied at waist, slippers, clean. ROW 1 RIGHT: same pink robe but hair beautifully groomed in the hairstyle described above. ROW 2 LEFT: wearing seafoam chiffon dress with pearl straps and flowing skirt, coordinated elegant shoes, groomed hair. ROW 2 CENTER: same evening dress now complete with pearl earrings and pearl hair vine, subtle makeup, joyful smile. ROW 2 RIGHT: the same heroine as radiant bride wearing pearl-white flowing wedding dress, seashell tiara and white lily bouquet. All six independent figures entirely visible, never overlap adjacent cells. SOLID FLAT CYAN #00ffff BACKGROUND THROUGHOUT for chroma extraction. No cyan in clothing or character. NO ground shadow, no floor, no frame, no gridlines, no labels, NO TEXT, no numbers. Each figure occupies same center and height so cropped sprites align."
+      },
+      "job_id": "efc7a8d5-5071-46f0-bee8-c395fa25f063",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_091648_efc7a8d5-5071-46f0-bee8-c395fa25f063.png"
+    },
+    {
+      "index": 2,
+      "asset": "actors-violet",
+      "params": {
+        "model": "nano_banana_2",
+        "folder_id": "49458a93-2225-4fff-926c-be93874e0b63",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "prompt": "Premium hand-painted 2D casual makeover mobile game artwork. Soft dimensional shading, elegant beautiful adult characters aged 25-30, expressive attractive faces, delicate dark plum outlines, pastel pink lavender ivory and gold palette, polished romantic fairytale storybook game art. NOT photorealistic, NOT flat vector. GAME SPRITE ATLAS, exactly THREE columns and TWO rows of equal SQUARE cells. Each cell contains ONE separate full-body standing woman, centered, head near top and feet near bottom, consistent identical pose and height, 10% empty margin in each cell. The SAME heroine in all six cells: deep warm brown skin, dark brown eyes, gorgeous voluminous black natural curls. Front view, hands relaxed slightly out from body; fully dressed at all stages. ROW 1 LEFT: before makeover, tired gentle expression, tangled hair, worn patched oversized taupe coat over modest faded dress, muddy boots, rain-stained clothes. ROW 1 CENTER: refreshed smiling face, clean hair still loose, modest closed blush-pink spa robe tied at waist, slippers, clean. ROW 1 RIGHT: same pink robe but hair beautifully groomed in the hairstyle described above. ROW 2 LEFT: wearing royal lavender velvet gown with gold waist sash, coordinated elegant shoes, groomed hair. ROW 2 CENTER: same evening dress now complete with gold star earrings and jeweled lavender hair comb, subtle makeup, joyful smile. ROW 2 RIGHT: the same heroine as radiant bride wearing ivory and gold embroidered wedding gown and lavender bouquet. All six independent figures entirely visible, never overlap adjacent cells. SOLID FLAT CYAN #00ffff BACKGROUND THROUGHOUT for chroma extraction. No cyan in clothing or character. NO ground shadow, no floor, no frame, no gridlines, no labels, NO TEXT, no numbers. Each figure occupies same center and height so cropped sprites align."
+      },
+      "job_id": "fe608889-51ec-4bda-970e-0030b0c2d0af",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_091648_fe608889-51ec-4bda-970e-0030b0c2d0af.png"
+    },
+    {
+      "index": 3,
+      "asset": "actors-cherry",
+      "params": {
+        "model": "nano_banana_2",
+        "folder_id": "49458a93-2225-4fff-926c-be93874e0b63",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "prompt": "Premium hand-painted 2D casual makeover mobile game artwork. Soft dimensional shading, elegant beautiful adult characters aged 25-30, expressive attractive faces, delicate dark plum outlines, pastel pink lavender ivory and gold palette, polished romantic fairytale storybook game art. NOT photorealistic, NOT flat vector. GAME SPRITE ATLAS, exactly THREE columns and TWO rows of equal SQUARE cells. Each cell contains ONE separate full-body standing woman, centered, head near top and feet near bottom, consistent identical pose and height, 10% empty margin in each cell. The SAME heroine in all six cells: light warm East Asian skin, brown almond-shaped eyes, straight glossy jet-black hair in elegant half-up style. Front view, hands relaxed slightly out from body; fully dressed at all stages. ROW 1 LEFT: before makeover, tired gentle expression, tangled hair, worn patched oversized taupe coat over modest faded dress, muddy boots, rain-stained clothes. ROW 1 CENTER: refreshed smiling face, clean hair still loose, modest closed blush-pink spa robe tied at waist, slippers, clean. ROW 1 RIGHT: same pink robe but hair beautifully groomed in the hairstyle described above. ROW 2 LEFT: wearing cherry pink modern silk evening gown with blossom embroidery, coordinated elegant shoes, groomed hair. ROW 2 CENTER: same evening dress now complete with delicate blossom hairpin and pink gemstone pendant, subtle makeup, joyful smile. ROW 2 RIGHT: the same heroine as radiant bride wearing white satin A-line wedding gown with blossom veil and pale cherry bouquet. All six independent figures entirely visible, never overlap adjacent cells. SOLID FLAT CYAN #00ffff BACKGROUND THROUGHOUT for chroma extraction. No cyan in clothing or character. NO ground shadow, no floor, no frame, no gridlines, no labels, NO TEXT, no numbers. Each figure occupies same center and height so cropped sprites align."
+      },
+      "job_id": "475bf577-7a04-4ddb-92be-31f3fcd735cc",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_091648_475bf577-7a04-4ddb-92be-31f3fcd735cc.png"
+    },
+    {
+      "index": 4,
+      "asset": "actors-sunflower",
+      "params": {
+        "model": "nano_banana_2",
+        "folder_id": "49458a93-2225-4fff-926c-be93874e0b63",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "prompt": "Premium hand-painted 2D casual makeover mobile game artwork. Soft dimensional shading, elegant beautiful adult characters aged 25-30, expressive attractive faces, delicate dark plum outlines, pastel pink lavender ivory and gold palette, polished romantic fairytale storybook game art. NOT photorealistic, NOT flat vector. GAME SPRITE ATLAS, exactly THREE columns and TWO rows of equal SQUARE cells. Each cell contains ONE separate full-body standing woman, centered, head near top and feet near bottom, consistent identical pose and height, 10% empty margin in each cell. The SAME heroine in all six cells: olive tan skin, hazel eyes, long chocolate-brown waves with caramel highlights. Front view, hands relaxed slightly out from body; fully dressed at all stages. ROW 1 LEFT: before makeover, tired gentle expression, tangled hair, worn patched oversized taupe coat over modest faded dress, muddy boots, rain-stained clothes. ROW 1 CENTER: refreshed smiling face, clean hair still loose, modest closed blush-pink spa robe tied at waist, slippers, clean. ROW 1 RIGHT: same pink robe but hair beautifully groomed in the hairstyle described above. ROW 2 LEFT: wearing butter-yellow flowing satin dress with sunflower embroidery, coordinated elegant shoes, groomed hair. ROW 2 CENTER: same evening dress now complete with gold sunflower necklace and amber hair clip, subtle makeup, joyful smile. ROW 2 RIGHT: the same heroine as radiant bride wearing warm ivory lace wedding gown with sunflower bouquet. All six independent figures entirely visible, never overlap adjacent cells. SOLID FLAT CYAN #00ffff BACKGROUND THROUGHOUT for chroma extraction. No cyan in clothing or character. NO ground shadow, no floor, no frame, no gridlines, no labels, NO TEXT, no numbers. Each figure occupies same center and height so cropped sprites align."
+      },
+      "job_id": "2d321a96-d0c2-4138-9a47-394f1befebf8",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_091649_2d321a96-d0c2-4138-9a47-394f1befebf8.png"
+    },
+    {
+      "index": 5,
+      "asset": "actors-winter",
+      "params": {
+        "model": "nano_banana_2",
+        "folder_id": "49458a93-2225-4fff-926c-be93874e0b63",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "prompt": "Premium hand-painted 2D casual makeover mobile game artwork. Soft dimensional shading, elegant beautiful adult characters aged 25-30, expressive attractive faces, delicate dark plum outlines, pastel pink lavender ivory and gold palette, polished romantic fairytale storybook game art. NOT photorealistic, NOT flat vector. GAME SPRITE ATLAS, exactly THREE columns and TWO rows of equal SQUARE cells. Each cell contains ONE separate full-body standing woman, centered, head near top and feet near bottom, consistent identical pose and height, 10% empty margin in each cell. The SAME heroine in all six cells: fair rosy skin, ice blue eyes, platinum-blonde short bob with soft waves. Front view, hands relaxed slightly out from body; fully dressed at all stages. ROW 1 LEFT: before makeover, tired gentle expression, tangled hair, worn patched oversized taupe coat over modest faded dress, muddy boots, rain-stained clothes. ROW 1 CENTER: refreshed smiling face, clean hair still loose, modest closed blush-pink spa robe tied at waist, slippers, clean. ROW 1 RIGHT: same pink robe but hair beautifully groomed in the hairstyle described above. ROW 2 LEFT: wearing ice-blue velvet gown with silver snowflake embroidery and modest shoulder cape, coordinated elegant shoes, groomed hair. ROW 2 CENTER: same evening dress now complete with silver snowflake necklace and crystal hair comb, subtle makeup, joyful smile. ROW 2 RIGHT: the same heroine as radiant bride wearing white long-sleeved winter wedding gown with soft white fur cape and crystal tiara. All six independent figures entirely visible, never overlap adjacent cells. SOLID FLAT CYAN #00ffff BACKGROUND THROUGHOUT for chroma extraction. No cyan in clothing or character. NO ground shadow, no floor, no frame, no gridlines, no labels, NO TEXT, no numbers. Each figure occupies same center and height so cropped sprites align."
+      },
+      "job_id": "7a9eb18e-5b98-4c49-8e45-4859f426380d",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_091652_7a9eb18e-5b98-4c49-8e45-4859f426380d.png"
+    },
+    {
+      "index": 6,
+      "asset": "actors-amber",
+      "params": {
+        "model": "nano_banana_2",
+        "folder_id": "49458a93-2225-4fff-926c-be93874e0b63",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "prompt": "Premium hand-painted 2D casual makeover mobile game artwork. Soft dimensional shading, elegant beautiful adult characters aged 25-30, expressive attractive faces, delicate dark plum outlines, pastel pink lavender ivory and gold palette, polished romantic fairytale storybook game art. NOT photorealistic, NOT flat vector. GAME SPRITE ATLAS, exactly THREE columns and TWO rows of equal SQUARE cells. Each cell contains ONE separate full-body standing woman, centered, head near top and feet near bottom, consistent identical pose and height, 10% empty margin in each cell. The SAME heroine in all six cells: warm light brown skin, amber eyes, long auburn-red curly hair. Front view, hands relaxed slightly out from body; fully dressed at all stages. ROW 1 LEFT: before makeover, tired gentle expression, tangled hair, worn patched oversized taupe coat over modest faded dress, muddy boots, rain-stained clothes. ROW 1 CENTER: refreshed smiling face, clean hair still loose, modest closed blush-pink spa robe tied at waist, slippers, clean. ROW 1 RIGHT: same pink robe but hair beautifully groomed in the hairstyle described above. ROW 2 LEFT: wearing terracotta silk dress with golden leaf details and flowing skirt, coordinated elegant shoes, groomed hair. ROW 2 CENTER: same evening dress now complete with amber leaf pendant and gold leaf hair clip, subtle makeup, joyful smile. ROW 2 RIGHT: the same heroine as radiant bride wearing ivory wedding gown with gold autumn embroidery and peach rose bouquet. All six independent figures entirely visible, never overlap adjacent cells. SOLID FLAT CYAN #00ffff BACKGROUND THROUGHOUT for chroma extraction. No cyan in clothing or character. NO ground shadow, no floor, no frame, no gridlines, no labels, NO TEXT, no numbers. Each figure occupies same center and height so cropped sprites align."
+      },
+      "job_id": "38ed11b1-4a69-4afa-ba3a-7b52bb28aaf7",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_091651_38ed11b1-4a69-4afa-ba3a-7b52bb28aaf7.png"
+    },
+    {
+      "index": 7,
+      "asset": "actors-moon",
+      "params": {
+        "model": "nano_banana_2",
+        "folder_id": "49458a93-2225-4fff-926c-be93874e0b63",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "prompt": "Premium hand-painted 2D casual makeover mobile game artwork. Soft dimensional shading, elegant beautiful adult characters aged 25-30, expressive attractive faces, delicate dark plum outlines, pastel pink lavender ivory and gold palette, polished romantic fairytale storybook game art. NOT photorealistic, NOT flat vector. GAME SPRITE ATLAS, exactly THREE columns and TWO rows of equal SQUARE cells. Each cell contains ONE separate full-body standing woman, centered, head near top and feet near bottom, consistent identical pose and height, 10% empty margin in each cell. The SAME heroine in all six cells: fair cool skin, grey-green eyes, long glossy raven-black hair in a high elegant bun. Front view, hands relaxed slightly out from body; fully dressed at all stages. ROW 1 LEFT: before makeover, tired gentle expression, tangled hair, worn patched oversized taupe coat over modest faded dress, muddy boots, rain-stained clothes. ROW 1 CENTER: refreshed smiling face, clean hair still loose, modest closed blush-pink spa robe tied at waist, slippers, clean. ROW 1 RIGHT: same pink robe but hair beautifully groomed in the hairstyle described above. ROW 2 LEFT: wearing midnight plum ballgown with tiny silver stars and satin bodice, coordinated elegant shoes, groomed hair. ROW 2 CENTER: same evening dress now complete with crescent moon necklace and silver star hair comb, subtle makeup, joyful smile. ROW 2 RIGHT: the same heroine as radiant bride wearing pearl-white celestial wedding gown with silver embroidery and flowing starry veil. All six independent figures entirely visible, never overlap adjacent cells. SOLID FLAT CYAN #00ffff BACKGROUND THROUGHOUT for chroma extraction. No cyan in clothing or character. NO ground shadow, no floor, no frame, no gridlines, no labels, NO TEXT, no numbers. Each figure occupies same center and height so cropped sprites align."
+      },
+      "job_id": "2d88c5e2-0526-4cc8-9890-6ca44f7c87ac",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_091651_2d88c5e2-0526-4cc8-9890-6ca44f7c87ac.png"
+    },
+    {
+      "index": 8,
+      "asset": "actors-coral",
+      "params": {
+        "model": "nano_banana_2",
+        "folder_id": "49458a93-2225-4fff-926c-be93874e0b63",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "prompt": "Premium hand-painted 2D casual makeover mobile game artwork. Soft dimensional shading, elegant beautiful adult characters aged 25-30, expressive attractive faces, delicate dark plum outlines, pastel pink lavender ivory and gold palette, polished romantic fairytale storybook game art. NOT photorealistic, NOT flat vector. GAME SPRITE ATLAS, exactly THREE columns and TWO rows of equal SQUARE cells. Each cell contains ONE separate full-body standing woman, centered, head near top and feet near bottom, consistent identical pose and height, 10% empty margin in each cell. The SAME heroine in all six cells: warm tan skin, brown eyes, strawberry-blonde long beach waves. Front view, hands relaxed slightly out from body; fully dressed at all stages. ROW 1 LEFT: before makeover, tired gentle expression, tangled hair, worn patched oversized taupe coat over modest faded dress, muddy boots, rain-stained clothes. ROW 1 CENTER: refreshed smiling face, clean hair still loose, modest closed blush-pink spa robe tied at waist, slippers, clean. ROW 1 RIGHT: same pink robe but hair beautifully groomed in the hairstyle described above. ROW 2 LEFT: wearing coral silk halter gown with orchid details and graceful flowing skirt, coordinated elegant shoes, groomed hair. ROW 2 CENTER: same evening dress now complete with rose-gold shell pendant and white orchid hair clip, subtle makeup, joyful smile. ROW 2 RIGHT: the same heroine as radiant bride wearing white tropical lace bridal gown with orchid bouquet and light veil. All six independent figures entirely visible, never overlap adjacent cells. SOLID FLAT CYAN #00ffff BACKGROUND THROUGHOUT for chroma extraction. No cyan in clothing or character. NO ground shadow, no floor, no frame, no gridlines, no labels, NO TEXT, no numbers. Each figure occupies same center and height so cropped sprites align."
+      },
+      "job_id": "547c477e-7fc3-436a-a3f1-9ababccbfb27",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_091651_547c477e-7fc3-436a-a3f1-9ababccbfb27.png"
+    },
+    {
+      "index": 9,
+      "asset": "actors-emerald",
+      "params": {
+        "model": "nano_banana_2",
+        "folder_id": "49458a93-2225-4fff-926c-be93874e0b63",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "prompt": "Premium hand-painted 2D casual makeover mobile game artwork. Soft dimensional shading, elegant beautiful adult characters aged 25-30, expressive attractive faces, delicate dark plum outlines, pastel pink lavender ivory and gold palette, polished romantic fairytale storybook game art. NOT photorealistic, NOT flat vector. GAME SPRITE ATLAS, exactly THREE columns and TWO rows of equal SQUARE cells. Each cell contains ONE separate full-body standing woman, centered, head near top and feet near bottom, consistent identical pose and height, 10% empty margin in each cell. The SAME heroine in all six cells: rich medium brown skin, dark hazel eyes, long dark-brown hair in a thick elegant braid. Front view, hands relaxed slightly out from body; fully dressed at all stages. ROW 1 LEFT: before makeover, tired gentle expression, tangled hair, worn patched oversized taupe coat over modest faded dress, muddy boots, rain-stained clothes. ROW 1 CENTER: refreshed smiling face, clean hair still loose, modest closed blush-pink spa robe tied at waist, slippers, clean. ROW 1 RIGHT: same pink robe but hair beautifully groomed in the hairstyle described above. ROW 2 LEFT: wearing emerald-green satin gown with ornate gold embroidery, coordinated elegant shoes, groomed hair. ROW 2 CENTER: same evening dress now complete with gold emerald pendant and delicate gold hair tiara, subtle makeup, joyful smile. ROW 2 RIGHT: the same heroine as radiant bride wearing ivory royal wedding ballgown with emerald and gold trim and white rose bouquet. All six independent figures entirely visible, never overlap adjacent cells. SOLID FLAT CYAN #00ffff BACKGROUND THROUGHOUT for chroma extraction. No cyan in clothing or character. NO ground shadow, no floor, no frame, no gridlines, no labels, NO TEXT, no numbers. Each figure occupies same center and height so cropped sprites align."
+      },
+      "job_id": "eb64a1a9-20d0-465e-8bcd-38602871399a",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_091652_eb64a1a9-20d0-465e-8bcd-38602871399a.png"
+    },
+    {
+      "index": 10,
+      "asset": "story-rose",
+      "params": {
+        "model": "nano_banana_2",
+        "folder_id": "49458a93-2225-4fff-926c-be93874e0b63",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "medias": [
+          {
+            "role": "image",
+            "value": "94ecb0d7-f046-4220-bd66-39dd34dc65c0"
+          }
+        ],
+        "prompt": "Premium hand-painted 2D casual makeover mobile game illustration, beautiful adult characters aged 25-30, softly shaded dimensional cartoon painting, delicate dark plum outlines, romantic pastel pink lavender ivory gold palette, expensive polished fairytale storybook quality. Create EXACTLY TWO finished illustrations SIDE BY SIDE in a diptych, one LEFT half and one RIGHT half. Each half is a complete 8:9 portrait scene. Split exactly at the vertical center. NO extra panels, no characters repeated within a panel. Keep all people and horse entirely within their half. Match the adult woman's face, skin and hair identity to reference atlas: fair warm skin, green eyes, long copper-red wavy hair, delicate freckles. Setting both halves: lush rose garden, blush arch, petals and antique greenhouse. LEFT HALF: romantic marriage proposal. The heroine stands on the LEFT of this panel wearing dusty rose satin off-shoulder gown with embroidered rose bodice and rose-gold heart necklace and tiny rose hair clip, smiling with hands near her heart; handsome adult man with chestnut hair, warm hazel eyes, cream wedding suit kneels on ONE KNEE on the RIGHT, offering an open ring box at the center of this panel. Eye contact, tender and delighted. RIGHT HALF: magical wedding farewell. SAME couple married, the radiant bride on the LEFT in ivory lace bridal ballgown with pink rose bouquet and long translucent veil, the handsome groom on the RIGHT sitting on a majestic WHITE HORSE with gold and blush-pink decorated bridle. The bride gently holds his hand beside the horse. Clear horse head, elegant white mane and whole horse body visible. Flower arch behind the couple, petals, gorgeous luminous atmosphere. Storybook romance, affectionate nonsexual scene. NO TEXT, captions, letters, watermarks, UI or borders. Full bleed illustration. Important: only TWO equal halves, never a comic grid."
+      },
+      "job_id": "da241548-e05d-465d-97a8-c51429655b19",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_092009_da241548-e05d-465d-97a8-c51429655b19.png"
+    },
+    {
+      "index": 11,
+      "asset": "story-pearl",
+      "params": {
+        "model": "nano_banana_2",
+        "folder_id": "49458a93-2225-4fff-926c-be93874e0b63",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "medias": [
+          {
+            "role": "image",
+            "value": "efc7a8d5-5071-46f0-bee8-c395fa25f063"
+          }
+        ],
+        "prompt": "Premium hand-painted 2D casual makeover mobile game illustration, beautiful adult characters aged 25-30, softly shaded dimensional cartoon painting, delicate dark plum outlines, romantic pastel pink lavender ivory gold palette, expensive polished fairytale storybook quality. Create EXACTLY TWO finished illustrations SIDE BY SIDE in a diptych, one LEFT half and one RIGHT half. Each half is a complete 8:9 portrait scene. Split exactly at the vertical center. NO extra panels, no characters repeated within a panel. Keep all people and horse entirely within their half. Match the adult woman's face, skin and hair identity to reference atlas: fair golden skin, blue eyes, long honey-blonde hair styled in a loose side braid. Setting both halves: sunlit Mediterranean coast, turquoise sea, white flower arch and pearl lanterns. LEFT HALF: romantic marriage proposal. The heroine stands on the LEFT of this panel wearing seafoam chiffon dress with pearl straps and flowing skirt and pearl earrings and pearl hair vine, smiling with hands near her heart; handsome adult man with dark wavy hair, blue eyes and pale linen suit kneels on ONE KNEE on the RIGHT, offering an open ring box at the center of this panel. Eye contact, tender and delighted. RIGHT HALF: magical wedding farewell. SAME couple married, the radiant bride on the LEFT in pearl-white flowing wedding dress, seashell tiara and white lily bouquet, the handsome groom on the RIGHT sitting on a majestic WHITE HORSE with gold and blush-pink decorated bridle. The bride gently holds his hand beside the horse. Clear horse head, elegant white mane and whole horse body visible. Flower arch behind the couple, petals, gorgeous luminous atmosphere. Storybook romance, affectionate nonsexual scene. NO TEXT, captions, letters, watermarks, UI or borders. Full bleed illustration. Important: only TWO equal halves, never a comic grid."
+      },
+      "job_id": "95cb57d7-7ded-412c-9a9a-0ab65f06ce46",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_092009_95cb57d7-7ded-412c-9a9a-0ab65f06ce46.png"
+    },
+    {
+      "index": 12,
+      "asset": "story-violet",
+      "params": {
+        "model": "nano_banana_2",
+        "folder_id": "49458a93-2225-4fff-926c-be93874e0b63",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "medias": [
+          {
+            "role": "image",
+            "value": "fe608889-51ec-4bda-970e-0030b0c2d0af"
+          }
+        ],
+        "prompt": "Premium hand-painted 2D casual makeover mobile game illustration, beautiful adult characters aged 25-30, softly shaded dimensional cartoon painting, delicate dark plum outlines, romantic pastel pink lavender ivory gold palette, expensive polished fairytale storybook quality. Create EXACTLY TWO finished illustrations SIDE BY SIDE in a diptych, one LEFT half and one RIGHT half. Each half is a complete 8:9 portrait scene. Split exactly at the vertical center. NO extra panels, no characters repeated within a panel. Keep all people and horse entirely within their half. Match the adult woman's face, skin and hair identity to reference atlas: deep warm brown skin, dark brown eyes, gorgeous voluminous black natural curls. Setting both halves: lavender garden at golden hour, pale stone pavilion, wisteria arch and warm fairy lights. LEFT HALF: romantic marriage proposal. The heroine stands on the LEFT of this panel wearing royal lavender velvet gown with gold waist sash and gold star earrings and jeweled lavender hair comb, smiling with hands near her heart; handsome adult Black man with short neat black curls and ivory gold-trimmed suit kneels on ONE KNEE on the RIGHT, offering an open ring box at the center of this panel. Eye contact, tender and delighted. RIGHT HALF: magical wedding farewell. SAME couple married, the radiant bride on the LEFT in ivory and gold embroidered wedding gown and lavender bouquet, the handsome groom on the RIGHT sitting on a majestic WHITE HORSE with gold and blush-pink decorated bridle. The bride gently holds his hand beside the horse. Clear horse head, elegant white mane and whole horse body visible. Flower arch behind the couple, petals, gorgeous luminous atmosphere. Storybook romance, affectionate nonsexual scene. NO TEXT, captions, letters, watermarks, UI or borders. Full bleed illustration. Important: only TWO equal halves, never a comic grid."
+      },
+      "job_id": "82790d9a-decf-4e28-b04a-4c155d70ecf9",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_092008_82790d9a-decf-4e28-b04a-4c155d70ecf9.png"
+    },
+    {
+      "index": 13,
+      "asset": "story-cherry",
+      "params": {
+        "model": "nano_banana_2",
+        "folder_id": "49458a93-2225-4fff-926c-be93874e0b63",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "medias": [
+          {
+            "role": "image",
+            "value": "475bf577-7a04-4ddb-92be-31f3fcd735cc"
+          }
+        ],
+        "prompt": "Premium hand-painted 2D casual makeover mobile game illustration, beautiful adult characters aged 25-30, softly shaded dimensional cartoon painting, delicate dark plum outlines, romantic pastel pink lavender ivory gold palette, expensive polished fairytale storybook quality. Create EXACTLY TWO finished illustrations SIDE BY SIDE in a diptych, one LEFT half and one RIGHT half. Each half is a complete 8:9 portrait scene. Split exactly at the vertical center. NO extra panels, no characters repeated within a panel. Keep all people and horse entirely within their half. Match the adult woman's face, skin and hair identity to reference atlas: light warm East Asian skin, brown almond-shaped eyes, straight glossy jet-black hair in elegant half-up style. Setting both halves: blush cherry blossom garden, wooden footbridge, pale pink lanterns and floral wedding arch. LEFT HALF: romantic marriage proposal. The heroine stands on the LEFT of this panel wearing cherry pink modern silk evening gown with blossom embroidery and delicate blossom hairpin and pink gemstone pendant, smiling with hands near her heart; handsome adult East Asian man with neat black hair and elegant ivory suit kneels on ONE KNEE on the RIGHT, offering an open ring box at the center of this panel. Eye contact, tender and delighted. RIGHT HALF: magical wedding farewell. SAME couple married, the radiant bride on the LEFT in white satin A-line wedding gown with blossom veil and pale cherry bouquet, the handsome groom on the RIGHT sitting on a majestic WHITE HORSE with gold and blush-pink decorated bridle. The bride gently holds his hand beside the horse. Clear horse head, elegant white mane and whole horse body visible. Flower arch behind the couple, petals, gorgeous luminous atmosphere. Storybook romance, affectionate nonsexual scene. NO TEXT, captions, letters, watermarks, UI or borders. Full bleed illustration. Important: only TWO equal halves, never a comic grid."
+      },
+      "job_id": "27c8c36f-783a-4c29-8c25-38fdcf63960d",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_092009_27c8c36f-783a-4c29-8c25-38fdcf63960d.png"
+    },
+    {
+      "index": 14,
+      "asset": "story-sunflower",
+      "params": {
+        "model": "nano_banana_2",
+        "folder_id": "49458a93-2225-4fff-926c-be93874e0b63",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "medias": [
+          {
+            "role": "image",
+            "value": "2d321a96-d0c2-4138-9a47-394f1befebf8"
+          }
+        ],
+        "prompt": "Premium hand-painted 2D casual makeover mobile game illustration, beautiful adult characters aged 25-30, softly shaded dimensional cartoon painting, delicate dark plum outlines, romantic pastel pink lavender ivory gold palette, expensive polished fairytale storybook quality. Create EXACTLY TWO finished illustrations SIDE BY SIDE in a diptych, one LEFT half and one RIGHT half. Each half is a complete 8:9 portrait scene. Split exactly at the vertical center. NO extra panels, no characters repeated within a panel. Keep all people and horse entirely within their half. Match the adult woman's face, skin and hair identity to reference atlas: olive tan skin, hazel eyes, long chocolate-brown waves with caramel highlights. Setting both halves: Tuscan sunflower estate, golden fields, cream villa and rustic flower-covered arch. LEFT HALF: romantic marriage proposal. The heroine stands on the LEFT of this panel wearing butter-yellow flowing satin dress with sunflower embroidery and gold sunflower necklace and amber hair clip, smiling with hands near her heart; handsome adult man with olive skin, brown curls and warm ivory suit kneels on ONE KNEE on the RIGHT, offering an open ring box at the center of this panel. Eye contact, tender and delighted. RIGHT HALF: magical wedding farewell. SAME couple married, the radiant bride on the LEFT in warm ivory lace wedding gown with sunflower bouquet, the handsome groom on the RIGHT sitting on a majestic WHITE HORSE with gold and blush-pink decorated bridle. The bride gently holds his hand beside the horse. Clear horse head, elegant white mane and whole horse body visible. Flower arch behind the couple, petals, gorgeous luminous atmosphere. Storybook romance, affectionate nonsexual scene. NO TEXT, captions, letters, watermarks, UI or borders. Full bleed illustration. Important: only TWO equal halves, never a comic grid."
+      },
+      "job_id": "de76ff6d-652f-42b4-8243-e5a411e9ed6b",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_092009_de76ff6d-652f-42b4-8243-e5a411e9ed6b.png"
+    },
+    {
+      "index": 15,
+      "asset": "story-winter",
+      "params": {
+        "model": "nano_banana_2",
+        "folder_id": "49458a93-2225-4fff-926c-be93874e0b63",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "medias": [
+          {
+            "role": "image",
+            "value": "7a9eb18e-5b98-4c49-8e45-4859f426380d"
+          }
+        ],
+        "prompt": "Premium hand-painted 2D casual makeover mobile game illustration, beautiful adult characters aged 25-30, softly shaded dimensional cartoon painting, delicate dark plum outlines, romantic pastel pink lavender ivory gold palette, expensive polished fairytale storybook quality. Create EXACTLY TWO finished illustrations SIDE BY SIDE in a diptych, one LEFT half and one RIGHT half. Each half is a complete 8:9 portrait scene. Split exactly at the vertical center. NO extra panels, no characters repeated within a panel. Keep all people and horse entirely within their half. Match the adult woman's face, skin and hair identity to reference atlas: fair rosy skin, ice blue eyes, platinum-blonde short bob with soft waves. Setting both halves: romantic snow palace courtyard, ice-blue twilight, snowy firs and warm glowing lanterns. LEFT HALF: romantic marriage proposal. The heroine stands on the LEFT of this panel wearing ice-blue velvet gown with silver snowflake embroidery and modest shoulder cape and silver snowflake necklace and crystal hair comb, smiling with hands near her heart; handsome adult blond man with blue eyes, white royal coat and silver details kneels on ONE KNEE on the RIGHT, offering an open ring box at the center of this panel. Eye contact, tender and delighted. RIGHT HALF: magical wedding farewell. SAME couple married, the radiant bride on the LEFT in white long-sleeved winter wedding gown with soft white fur cape and crystal tiara, the handsome groom on the RIGHT sitting on a majestic WHITE HORSE with gold and blush-pink decorated bridle. The bride gently holds his hand beside the horse. Clear horse head, elegant white mane and whole horse body visible. Flower arch behind the couple, petals, gorgeous luminous atmosphere. Storybook romance, affectionate nonsexual scene. NO TEXT, captions, letters, watermarks, UI or borders. Full bleed illustration. Important: only TWO equal halves, never a comic grid."
+      },
+      "job_id": "3f594ea5-9b80-4ddd-95d8-a0a9ff148261",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_092012_3f594ea5-9b80-4ddd-95d8-a0a9ff148261.png"
+    },
+    {
+      "index": 16,
+      "asset": "story-amber",
+      "params": {
+        "model": "nano_banana_2",
+        "folder_id": "49458a93-2225-4fff-926c-be93874e0b63",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "medias": [
+          {
+            "role": "image",
+            "value": "38ed11b1-4a69-4afa-ba3a-7b52bb28aaf7"
+          }
+        ],
+        "prompt": "Premium hand-painted 2D casual makeover mobile game illustration, beautiful adult characters aged 25-30, softly shaded dimensional cartoon painting, delicate dark plum outlines, romantic pastel pink lavender ivory gold palette, expensive polished fairytale storybook quality. Create EXACTLY TWO finished illustrations SIDE BY SIDE in a diptych, one LEFT half and one RIGHT half. Each half is a complete 8:9 portrait scene. Split exactly at the vertical center. NO extra panels, no characters repeated within a panel. Keep all people and horse entirely within their half. Match the adult woman's face, skin and hair identity to reference atlas: warm light brown skin, amber eyes, long auburn-red curly hair. Setting both halves: golden autumn orchard, copper leaves, cream gazebo and candlelit floral arch. LEFT HALF: romantic marriage proposal. The heroine stands on the LEFT of this panel wearing terracotta silk dress with golden leaf details and flowing skirt and amber leaf pendant and gold leaf hair clip, smiling with hands near her heart; handsome adult man with brown skin, dark short hair and elegant cream suit kneels on ONE KNEE on the RIGHT, offering an open ring box at the center of this panel. Eye contact, tender and delighted. RIGHT HALF: magical wedding farewell. SAME couple married, the radiant bride on the LEFT in ivory wedding gown with gold autumn embroidery and peach rose bouquet, the handsome groom on the RIGHT sitting on a majestic WHITE HORSE with gold and blush-pink decorated bridle. The bride gently holds his hand beside the horse. Clear horse head, elegant white mane and whole horse body visible. Flower arch behind the couple, petals, gorgeous luminous atmosphere. Storybook romance, affectionate nonsexual scene. NO TEXT, captions, letters, watermarks, UI or borders. Full bleed illustration. Important: only TWO equal halves, never a comic grid."
+      },
+      "job_id": "85873aa5-f21d-4703-8dbb-b10086eaa2b2",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_092012_85873aa5-f21d-4703-8dbb-b10086eaa2b2.png"
+    },
+    {
+      "index": 17,
+      "asset": "story-moon",
+      "params": {
+        "model": "nano_banana_2",
+        "folder_id": "49458a93-2225-4fff-926c-be93874e0b63",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "medias": [
+          {
+            "role": "image",
+            "value": "2d88c5e2-0526-4cc8-9890-6ca44f7c87ac"
+          }
+        ],
+        "prompt": "Premium hand-painted 2D casual makeover mobile game illustration, beautiful adult characters aged 25-30, softly shaded dimensional cartoon painting, delicate dark plum outlines, romantic pastel pink lavender ivory gold palette, expensive polished fairytale storybook quality. Create EXACTLY TWO finished illustrations SIDE BY SIDE in a diptych, one LEFT half and one RIGHT half. Each half is a complete 8:9 portrait scene. Split exactly at the vertical center. NO extra panels, no characters repeated within a panel. Keep all people and horse entirely within their half. Match the adult woman's face, skin and hair identity to reference atlas: fair cool skin, grey-green eyes, long glossy raven-black hair in a high elegant bun. Setting both halves: moonlit palace terrace, lavender sky, silver moon, marble balustrade and glowing white roses. LEFT HALF: romantic marriage proposal. The heroine stands on the LEFT of this panel wearing midnight plum ballgown with tiny silver stars and satin bodice and crescent moon necklace and silver star hair comb, smiling with hands near her heart; handsome adult man with black hair, gentle green eyes and white prince suit with silver trim kneels on ONE KNEE on the RIGHT, offering an open ring box at the center of this panel. Eye contact, tender and delighted. RIGHT HALF: magical wedding farewell. SAME couple married, the radiant bride on the LEFT in pearl-white celestial wedding gown with silver embroidery and flowing starry veil, the handsome groom on the RIGHT sitting on a majestic WHITE HORSE with gold and blush-pink decorated bridle. The bride gently holds his hand beside the horse. Clear horse head, elegant white mane and whole horse body visible. Flower arch behind the couple, petals, gorgeous luminous atmosphere. Storybook romance, affectionate nonsexual scene. NO TEXT, captions, letters, watermarks, UI or borders. Full bleed illustration. Important: only TWO equal halves, never a comic grid."
+      },
+      "job_id": "74a004ab-1dc8-46d2-93a8-a2c2b81bd378",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_092012_74a004ab-1dc8-46d2-93a8-a2c2b81bd378.png"
+    },
+    {
+      "index": 18,
+      "asset": "story-coral",
+      "params": {
+        "model": "nano_banana_2",
+        "folder_id": "49458a93-2225-4fff-926c-be93874e0b63",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "medias": [
+          {
+            "role": "image",
+            "value": "547c477e-7fc3-436a-a3f1-9ababccbfb27"
+          }
+        ],
+        "prompt": "Premium hand-painted 2D casual makeover mobile game illustration, beautiful adult characters aged 25-30, softly shaded dimensional cartoon painting, delicate dark plum outlines, romantic pastel pink lavender ivory gold palette, expensive polished fairytale storybook quality. Create EXACTLY TWO finished illustrations SIDE BY SIDE in a diptych, one LEFT half and one RIGHT half. Each half is a complete 8:9 portrait scene. Split exactly at the vertical center. NO extra panels, no characters repeated within a panel. Keep all people and horse entirely within their half. Match the adult woman's face, skin and hair identity to reference atlas: warm tan skin, brown eyes, strawberry-blonde long beach waves. Setting both halves: dreamy tropical island, pastel sunset, palms, coral-pink orchids and beach wedding arch. LEFT HALF: romantic marriage proposal. The heroine stands on the LEFT of this panel wearing coral silk halter gown with orchid details and graceful flowing skirt and rose-gold shell pendant and white orchid hair clip, smiling with hands near her heart; handsome adult man with tan skin, short dark hair, friendly smile and white linen suit kneels on ONE KNEE on the RIGHT, offering an open ring box at the center of this panel. Eye contact, tender and delighted. RIGHT HALF: magical wedding farewell. SAME couple married, the radiant bride on the LEFT in white tropical lace bridal gown with orchid bouquet and light veil, the handsome groom on the RIGHT sitting on a majestic WHITE HORSE with gold and blush-pink decorated bridle. The bride gently holds his hand beside the horse. Clear horse head, elegant white mane and whole horse body visible. Flower arch behind the couple, petals, gorgeous luminous atmosphere. Storybook romance, affectionate nonsexual scene. NO TEXT, captions, letters, watermarks, UI or borders. Full bleed illustration. Important: only TWO equal halves, never a comic grid."
+      },
+      "job_id": "8dc42560-b449-4f05-a8ad-19daeef73feb",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_092012_8dc42560-b449-4f05-a8ad-19daeef73feb.png"
+    },
+    {
+      "index": 19,
+      "asset": "story-emerald",
+      "params": {
+        "model": "nano_banana_2",
+        "folder_id": "49458a93-2225-4fff-926c-be93874e0b63",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "medias": [
+          {
+            "role": "image",
+            "value": "eb64a1a9-20d0-465e-8bcd-38602871399a"
+          }
+        ],
+        "prompt": "Premium hand-painted 2D casual makeover mobile game illustration, beautiful adult characters aged 25-30, softly shaded dimensional cartoon painting, delicate dark plum outlines, romantic pastel pink lavender ivory gold palette, expensive polished fairytale storybook quality. Create EXACTLY TWO finished illustrations SIDE BY SIDE in a diptych, one LEFT half and one RIGHT half. Each half is a complete 8:9 portrait scene. Split exactly at the vertical center. NO extra panels, no characters repeated within a panel. Keep all people and horse entirely within their half. Match the adult woman's face, skin and hair identity to reference atlas: rich medium brown skin, dark hazel eyes, long dark-brown hair in a thick elegant braid. Setting both halves: grand enchanted castle garden, emerald hedges, gold gates, cream marble fountain and rose arch. LEFT HALF: romantic marriage proposal. The heroine stands on the LEFT of this panel wearing emerald-green satin gown with ornate gold embroidery and gold emerald pendant and delicate gold hair tiara, smiling with hands near her heart; handsome adult man with warm brown skin, dark wavy hair and cream royal suit with gold epaulettes kneels on ONE KNEE on the RIGHT, offering an open ring box at the center of this panel. Eye contact, tender and delighted. RIGHT HALF: magical wedding farewell. SAME couple married, the radiant bride on the LEFT in ivory royal wedding ballgown with emerald and gold trim and white rose bouquet, the handsome groom on the RIGHT sitting on a majestic WHITE HORSE with gold and blush-pink decorated bridle. The bride gently holds his hand beside the horse. Clear horse head, elegant white mane and whole horse body visible. Flower arch behind the couple, petals, gorgeous luminous atmosphere. Storybook romance, affectionate nonsexual scene. NO TEXT, captions, letters, watermarks, UI or borders. Full bleed illustration. Important: only TWO equal halves, never a comic grid."
+      },
+      "job_id": "bdfdb358-11bf-48c7-8a19-3c553515e3d1",
+      "status": "completed",
+      "adjustments": {
+        "medias[0].role": {
+          "requested": "image",
+          "used": "image_references",
+          "reason": "Nano Banana 2 backend expects schema-key media roles"
+        }
+      },
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_092012_bdfdb358-11bf-48c7-8a19-3c553515e3d1.png"
+    },
+    {
+      "index": 20,
+      "asset": "props",
+      "params": {
+        "model": "nano_banana_2",
+        "folder_id": "49458a93-2225-4fff-926c-be93874e0b63",
+        "resolution": "2k",
+        "aspect_ratio": "3:2",
+        "prompt": "Premium hand-painted 2D casual makeover mobile game illustration, beautiful adult characters aged 25-30, softly shaded dimensional cartoon painting, delicate dark plum outlines, romantic pastel pink lavender ivory gold palette, expensive polished fairytale storybook quality. Game prop sprite atlas exactly THREE columns and TWO rows, SIX independent objects, one per square cell with huge gaps. Top row: ornate rose-gold handheld shower head with short curved handle; elegant ivory gold hairbrush; sparkling diamond engagement ring standing upright. Bottom row: open rose velvet engagement ring box; delicate gold heart pendant necklace; small gold and pearl bridal tiara. Single object centered in each cell, no objects overlap, uniform scale, maximum 70 percent of cell. Solid flat CYAN #00ffff background for chroma extraction, no cyan in objects, no shadows, NO gridlines, NO letters, NO text."
+      },
+      "job_id": "d7d1f17a-4c0c-41f4-80b9-ba348d57ad95",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_092015_d7d1f17a-4c0c-41f4-80b9-ba348d57ad95.png"
+    }
+  ]
+}

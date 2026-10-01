@@ -1,0 +1,14 @@
+{
+  "requestedModel": "nano_banana_2",
+  "jobs": [
+    {
+      "index": 0,
+      "job_id": "59fdbc69-4b2f-49fe-b549-89b89b6fdef3",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260930_000554_59fdbc69-4b2f-49fe-b549-89b89b6fdef3.png"
+    }
+  ],
+  "prompt": "One single premium casual mobile game tutorial cursor sprite: a friendly white cartoon glove hand, index finger extended diagonally toward the UPPER LEFT, fingertip at the upper left of the silhouette, curled other fingers and short cuff at lower right. Back of the hand facing viewer. Hand painted polished 2D illustration, soft ivory highlights, lavender gray painted shadows, consistent clean dark plum outline, fine white sticker edge. Rounded appealing proportions, clearly readable index fingertip, cute beauty spa game aesthetic. NO text, no symbols, no other objects, no glow, no cast shadow outside silhouette. Isolated large hand with generous margins on perfectly flat pure cyan #00ffff background for game sprite extraction. Square image."
+}

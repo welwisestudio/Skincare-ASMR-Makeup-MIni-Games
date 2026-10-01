@@ -1,0 +1,68 @@
+{
+  "generator": "Nano Banana 2 via Higgsfield",
+  "assets": [
+    {
+      "index": 0,
+      "job_id": "f22114cd-2356-4e1c-b1ec-40d0a1ef12aa",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_212641_f22114cd-2356-4e1c-b1ec-40d0a1ef12aa.png",
+      "name": "cat-open",
+      "ref": "1bcc250c-6b2f-4920-94b2-3dc34a28e5f1",
+      "prompt": "Edit the supplied exact game character image. The ONLY change: her two eyes are now naturally OPEN, with beautiful warm hazel brown irises, soft friendly relaxed gaze toward the viewer, glossy tiny highlights and graceful eyelashes matching the existing illustration. Preserve the exact face, closed smiling mouth, nose, brows, headband, head shape, color palette, flat export background and image dimensions. ALL landmarks and artwork outside the two eyelids must stay in the EXACT SAME pixel positions. Do not zoom, crop, rotate, shift, repaint or restyle any other detail. The open eyes must fit the existing eyelid sockets and look like the idle expression of this exact character in a premium skincare game. No text, no new elements, same composition. High resolution polished hand-painted game artwork."
+    },
+    {
+      "index": 1,
+      "job_id": "4e8ecc17-5092-461b-a896-4676d4c6b51b",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_212641_4e8ecc17-5092-461b-a896-4676d4c6b51b.png",
+      "name": "frog-open",
+      "ref": "73f5df4a-a777-4ca1-9acf-6c8309882a71",
+      "prompt": "Edit the supplied exact game character image. The ONLY change: her two eyes are now naturally OPEN, with beautiful warm amber brown irises, soft friendly relaxed gaze toward the viewer, glossy tiny highlights and graceful eyelashes matching the existing illustration. Preserve the exact face, closed smiling mouth, nose, brows, headband, head shape, color palette, flat export background and image dimensions. ALL landmarks and artwork outside the two eyelids must stay in the EXACT SAME pixel positions. Do not zoom, crop, rotate, shift, repaint or restyle any other detail. The open eyes must fit the existing eyelid sockets and look like the idle expression of this exact character in a premium skincare game. No text, no new elements, same composition. High resolution polished hand-painted game artwork."
+    },
+    {
+      "index": 2,
+      "job_id": "0b427a9f-44b8-4ae4-8c86-0db9332467ef",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_212641_0b427a9f-44b8-4ae4-8c86-0db9332467ef.png",
+      "name": "bunny-open",
+      "ref": "b237854f-7cd6-4ec4-b03d-f4a53c1bfda6",
+      "prompt": "Edit the supplied exact game character image. The ONLY change: her two eyes are now naturally OPEN, with beautiful soft dark brown irises, soft friendly relaxed gaze toward the viewer, glossy tiny highlights and graceful eyelashes matching the existing illustration. Preserve the exact face, closed smiling mouth, nose, brows, headband, head shape, color palette, flat export background and image dimensions. ALL landmarks and artwork outside the two eyelids must stay in the EXACT SAME pixel positions. Do not zoom, crop, rotate, shift, repaint or restyle any other detail. The open eyes must fit the existing eyelid sockets and look like the idle expression of this exact character in a premium skincare game. No text, no new elements, same composition. High resolution polished hand-painted game artwork."
+    },
+    {
+      "index": 3,
+      "job_id": "2b9f6c5c-b712-43d9-bb56-e4e56bc84c16",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_212641_2b9f6c5c-b712-43d9-bb56-e4e56bc84c16.png",
+      "name": "action-icons",
+      "prompt": "Production sprite sheet of six beautifully hand-painted UI pictograms for a premium pastel skincare game. EXACTLY THREE columns and TWO rows, equal square cells, each separate symbol centered with generous 20% margins. Row 1: white PLAY triangle pointing right with soft lavender outline; white curved clockwise RESTART arrow with lavender outline; four little cream and lavender polaroid cards arranged as a 2x2 LEVELS grid. Row 2: white double chevron NEXT pointing right with lavender outline; shiny gold FINISH check mark with white edge; white BACK curved left arrow with lavender outline. Soft plush bevel, pearl highlights, charming Pixar-inspired volume, tasteful clean high end casual game hand-painted style. These are bare pictograms, NOT circles or buttons. No letters, words, numbers, extra ornaments. Perfectly uniform pure CYAN #00FFFF export backdrop all around each symbol, no shadows on cyan. Crisp clean silhouette, equal icon sizes, front view."
+    },
+    {
+      "index": 4,
+      "job_id": "917abcfd-8d19-4cb2-bb9b-d5f147b8c8dd",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_212641_917abcfd-8d19-4cb2-bb9b-d5f147b8c8dd.png",
+      "name": "tactile-fx",
+      "prompt": "A professional game effect sprite atlas, EXACTLY THREE columns and TWO rows on solid pure cyan #00FFFF. Six separate isolated effects, centered one per cell with 18 percent margins. Top row: (1) one glossy pearlescent transparent pale blue serum droplet with fine white specular highlight, vertical teardrop shape; (2) one shallow watery oval puddle with iridescent rim and two small bright reflected highlights, top view; (3) one airy round cluster of tiny white soap foam bubbles, pillowy volume. Bottom row: (4) a short fine spray mist cloud of many tiny silver white droplets fading at the edges; (5) a soft champagne shimmer brush stroke, a single curved soft-ended stroke of pearl powder; (6) one moist berry-pink mask strip curling over at its bottom end, with light pink underside and deep pink topside, no face. Hand-painted premium 2.5D skincare casual game art, rich polished Pixar-inspired tactile materials, appealing little cosmetic effects. Each object is fully isolated. No dark outlines, no text, no UI frame, no grid lines. Interior reflections white and pearl. Pure cyan export field in all margins. No drop shadows outside objects."
+    },
+    {
+      "index": 5,
+      "job_id": "19bbc820-1196-4430-af45-33008974bee8",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_212641_19bbc820-1196-4430-af45-33008974bee8.png",
+      "name": "progress-v4",
+      "prompt": "A single production UI sprite: one EMPTY long slim horizontal glossy bright lime green progress FILL, isolated on perfectly uniform pure CYAN #00FFFF background. Smooth truly semicircular left and right ends, capsule silhouette, ratio 14 wide to 1 high. Pure green interior, softly hand-painted highlight at top and darker emerald narrow bottom edge. NO outline frame, NO white border, NO purple, NO shadow outside object, NO text, NO percentage, NO surrounding track. This is only the vivid green fill element for a game health bar, intended to be sliced into left cap, stretchy center and right cap. Symmetric identical rounded endcaps. Center in the image with ample cyan margins. Crisp premium painted casual game sprite."
+    }
+  ]
+}

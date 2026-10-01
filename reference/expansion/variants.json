@@ -1,0 +1,84 @@
+{
+  "specs": [
+    {
+      "index": 0,
+      "name": "hair-braided",
+      "prompt": "Style the SAME hair into one long beautiful thick central French braid, pink ribbon tied near the end. Preserve head, shoulders, cape, composition, scale and background exactly."
+    },
+    {
+      "index": 1,
+      "name": "dress-pink",
+      "prompt": "Replace ONLY ivory dress with a beautiful blush pink knee-length party dress, same body and pose and face and shoes. Preserve exact silhouette position, scale and cyan background."
+    },
+    {
+      "index": 2,
+      "name": "dress-finished",
+      "prompt": "Dress the SAME adult woman in a blush pink knee-length party dress, short lavender bolero jacket, gold ballet flats, pink handbag at her right hand and butterfly hair clip. Preserve body pose face hair, exact position scale and pure cyan background."
+    },
+    {
+      "index": 3,
+      "name": "laundry-folded",
+      "prompt": "Fold this same rose-pink cable knit cardigan neatly into a compact folded rectangle with both sleeves tucked in. Keep strawberry emblem visible and buttons. One isolated folded sweater on same pure cyan background, same style."
+    },
+    {
+      "index": 4,
+      "name": "glam-finished",
+      "prompt": "Apply full glamorous makeup to the SAME adult woman: soft plum smoky eyeshadow with elegant eyeliner, rose blush, glossy rose pink lips and delicate cheek highlights. Preserve face anatomy pose hair flowers clothes and exact position and size on pure cyan background."
+    },
+    {
+      "index": 5,
+      "name": "bouquet-wrapped",
+      "prompt": "Wrap the same bouquet in elegant blush pink paper around the lower stems, tie with a big lavender silk ribbon. Preserve flower heads and their exact position, bouquet size and cyan background."
+    }
+  ],
+  "jobs": [
+    {
+      "index": 0,
+      "job_id": "1779d2d5-1635-412f-9ff9-9cb6df9a7e10",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_232123_1779d2d5-1635-412f-9ff9-9cb6df9a7e10.png"
+    },
+    {
+      "index": 1,
+      "job_id": "162cb1ff-f4fd-436e-86d1-fd5b15b3cefd",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_232123_162cb1ff-f4fd-436e-86d1-fd5b15b3cefd.png"
+    },
+    {
+      "index": 2,
+      "job_id": "3d802c53-8be8-4451-b72d-9cee1fe53f6c",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_232123_3d802c53-8be8-4451-b72d-9cee1fe53f6c.png"
+    },
+    {
+      "index": 3,
+      "job_id": "a3a16a2c-017f-4061-9942-0e1126a21956",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_232123_a3a16a2c-017f-4061-9942-0e1126a21956.png"
+    },
+    {
+      "index": 4,
+      "job_id": "30a1f67a-1a2c-4b78-b1ea-5924dabd4474",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_232123_30a1f67a-1a2c-4b78-b1ea-5924dabd4474.png"
+    },
+    {
+      "index": 5,
+      "job_id": "7648f676-c798-4e55-aaef-f18039498105",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_232123_7648f676-c798-4e55-aaef-f18039498105.png"
+    }
+  ]
+}

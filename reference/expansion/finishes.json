@@ -1,0 +1,34 @@
+{
+  "specs": [
+    {
+      "index": 0,
+      "name": "candle-filled",
+      "ref": "d60b8bd3-bd8c-467e-ada7-6aa19654b967",
+      "prompt": "Fill this exact glass candle jar with smooth pastel lavender pink wax to 75 percent height. Wick upright short and unlit. Keep heart label and all glass reflections and identical jar silhouette, position, composition and pure flat cyan background. Same polished hand-painted 2D mobile game asset style. No text, no other objects."
+    },
+    {
+      "index": 1,
+      "name": "bath-lavender",
+      "ref": "653236e7-80d1-4c1c-8027-21f981137886",
+      "prompt": "Change ONLY the water inside this same bathtub to dreamy pastel lavender, pink and ivory swirling bath bomb water with small pearl sparkles. No bubbles, no objects. Keep EXACT tub silhouette, position, gold faucet, perspective and flat pure cyan background. Identical hand painted game style."
+    }
+  ],
+  "jobs": [
+    {
+      "index": 0,
+      "job_id": "1212d30e-74f8-42cd-8702-1026a67039f5",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_233718_1212d30e-74f8-42cd-8702-1026a67039f5.png"
+    },
+    {
+      "index": 1,
+      "job_id": "5139e650-cc75-4fa9-bf3f-77fabdef8821",
+      "status": "completed",
+      "type": "image",
+      "model": "nano_banana_flash",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_233718_5139e650-cc75-4fa9-bf3f-77fabdef8821.png"
+    }
+  ]
+}

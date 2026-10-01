@@ -1,0 +1,14 @@
+import { chromium } from '@playwright/test';
+import { mkdir } from 'node:fs/promises';
+await mkdir('test-results',{recursive:true});
+const browser=await chromium.launch({executablePath:process.env.CHROME_PATH||'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});
+const page=await browser.newPage({viewport:{width:1440,height:1000}});
+page.on('pageerror',e=>console.log('PAGE ERROR:',e.message));
+page.on('console',e=>{if(e.type()==='error')console.log('CONSOLE:',e.text());});
+await page.goto('http://localhost:5173');await page.waitForSelector('#start-button');await page.waitForTimeout(800);
+await page.screenshot({path:'test-results/desktop-welcome.png'});
+await page.click('#start-button');await page.waitForTimeout(800);await page.screenshot({path:'test-results/desktop-game.png'});
+console.log(await page.evaluate(()=>window.__spa.getState()));
+await page.setViewportSize({width:390,height:844});await page.waitForTimeout(600);await page.screenshot({path:'test-results/mobile-game.png'});
+await page.setViewportSize({width:844,height:390});await page.waitForTimeout(600);await page.screenshot({path:'test-results/landscape-game.png'});
+await browser.close();

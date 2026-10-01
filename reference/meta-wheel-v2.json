@@ -1,0 +1,12 @@
+{
+  "index": 0,
+  "job_id": "d84fc10c-51ab-4fff-a9f8-5a5dc81b1d89",
+  "status": "completed",
+  "type": "image",
+  "model": "nano_banana_flash",
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3D5kdXPlCRSJxCIcXJ9sMjqKOkj/hf_20260929_221916_d84fc10c-51ab-4fff-a9f8-5a5dc81b1d89.png",
+  "requested_model": "nano_banana_2",
+  "reference_job": "6a78dacb-5d28-4d4a-9e70-a5b96ee823e9",
+  "prompt": "Correct ONLY the inner disk of this wheel: it must have exactly EIGHT sectors of exactly 45 degrees each. Build the disk with FOUR STRAIGHT DIAMETER LINES intersecting at its center: horizontal line, vertical line, diagonal / line, diagonal backslash line. Therefore the disk has eight equal slices, like an 8-slice pizza. Alternate ivory and lilac between adjacent slices. No extra lines. Keep all other artwork, rim and gold hub and cyan background identical. The sectors at the top meet on the vertical line; this is deliberate. No icons no text. Count the sectors carefully: exactly 8.",
+  "actual_result": "12 equal sectors. The implemented prize list and rotation use 12 slots to match the generated artwork exactly."
+}

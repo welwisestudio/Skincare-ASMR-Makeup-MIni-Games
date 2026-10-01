@@ -1,0 +1,2216 @@
+[
+  {
+    "path": "assets/bunny-eye-left.webp",
+    "original": 20954,
+    "encoded": 10796,
+    "chosen": 10796
+  },
+  {
+    "path": "assets/bunny-eye-right.webp",
+    "original": 21324,
+    "encoded": 10998,
+    "chosen": 10998
+  },
+  {
+    "path": "assets/bunny.webp",
+    "original": 61776,
+    "encoded": 52594,
+    "chosen": 52594
+  },
+  {
+    "path": "assets/cat-eye-left.webp",
+    "original": 17970,
+    "encoded": 9064,
+    "chosen": 9064
+  },
+  {
+    "path": "assets/cat-eye-right.webp",
+    "original": 18638,
+    "encoded": 9242,
+    "chosen": 9242
+  },
+  {
+    "path": "assets/cat.webp",
+    "original": 51008,
+    "encoded": 44372,
+    "chosen": 44372
+  },
+  {
+    "path": "assets/cleanser.webp",
+    "original": 8040,
+    "encoded": 6764,
+    "chosen": 6764
+  },
+  {
+    "path": "assets/compact.webp",
+    "original": 15516,
+    "encoded": 13282,
+    "chosen": 13282
+  },
+  {
+    "path": "assets/cotton.webp",
+    "original": 11590,
+    "encoded": 9706,
+    "chosen": 9706
+  },
+  {
+    "path": "assets/dropper.webp",
+    "original": 5828,
+    "encoded": 4916,
+    "chosen": 4916
+  },
+  {
+    "path": "assets/frog-eye-left.webp",
+    "original": 20326,
+    "encoded": 9620,
+    "chosen": 9620
+  },
+  {
+    "path": "assets/frog-eye-right.webp",
+    "original": 20802,
+    "encoded": 10194,
+    "chosen": 10194
+  },
+  {
+    "path": "assets/frog.webp",
+    "original": 53796,
+    "encoded": 46728,
+    "chosen": 46728
+  },
+  {
+    "path": "assets/lipstick.webp",
+    "original": 5746,
+    "encoded": 4850,
+    "chosen": 4850
+  },
+  {
+    "path": "assets/makeup-brush.webp",
+    "original": 8204,
+    "encoded": 6918,
+    "chosen": 6918
+  },
+  {
+    "path": "assets/mask-brush.webp",
+    "original": 5812,
+    "encoded": 4972,
+    "chosen": 4972
+  },
+  {
+    "path": "assets/patch-left.webp",
+    "original": 7302,
+    "encoded": 5790,
+    "chosen": 5790
+  },
+  {
+    "path": "assets/patch-right.webp",
+    "original": 7286,
+    "encoded": 5692,
+    "chosen": 5692
+  },
+  {
+    "path": "assets/patches.webp",
+    "original": 13546,
+    "encoded": 11614,
+    "chosen": 11614
+  },
+  {
+    "path": "assets/roller.webp",
+    "original": 10292,
+    "encoded": 8746,
+    "chosen": 8746
+  },
+  {
+    "path": "assets/spa.webp",
+    "original": 101112,
+    "encoded": 105612,
+    "chosen": 101112
+  },
+  {
+    "path": "assets/sponge.webp",
+    "original": 12958,
+    "encoded": 10724,
+    "chosen": 10724
+  },
+  {
+    "path": "assets/spray.webp",
+    "original": 7022,
+    "encoded": 5974,
+    "chosen": 5974
+  },
+  {
+    "path": "assets/towel.webp",
+    "original": 13468,
+    "encoded": 11118,
+    "chosen": 11118
+  },
+  {
+    "path": "assets/ui/achievement-frame.webp",
+    "original": 38864,
+    "encoded": 19718,
+    "chosen": 19718
+  },
+  {
+    "path": "assets/ui/action-back.webp",
+    "original": 15944,
+    "encoded": 11208,
+    "chosen": 11208
+  },
+  {
+    "path": "assets/ui/action-finish.webp",
+    "original": 16126,
+    "encoded": 10902,
+    "chosen": 10902
+  },
+  {
+    "path": "assets/ui/action-levels.webp",
+    "original": 22226,
+    "encoded": 16222,
+    "chosen": 16222
+  },
+  {
+    "path": "assets/ui/action-next.webp",
+    "original": 22644,
+    "encoded": 15674,
+    "chosen": 15674
+  },
+  {
+    "path": "assets/ui/action-play.webp",
+    "original": 13024,
+    "encoded": 8974,
+    "chosen": 8974
+  },
+  {
+    "path": "assets/ui/action-restart.webp",
+    "original": 20154,
+    "encoded": 14762,
+    "chosen": 14762
+  },
+  {
+    "path": "assets/ui/ad-badge.webp",
+    "original": 30214,
+    "encoded": 19236,
+    "chosen": 19236
+  },
+  {
+    "path": "assets/ui/back.webp",
+    "original": 12804,
+    "encoded": 10210,
+    "chosen": 10210
+  },
+  {
+    "path": "assets/ui/badge-berry.webp",
+    "original": 46106,
+    "encoded": 28532,
+    "chosen": 28532
+  },
+  {
+    "path": "assets/ui/badge-bunny.webp",
+    "original": 40960,
+    "encoded": 26842,
+    "chosen": 26842
+  },
+  {
+    "path": "assets/ui/badge-clean.webp",
+    "original": 33552,
+    "encoded": 20740,
+    "chosen": 20740
+  },
+  {
+    "path": "assets/ui/badge-crown.webp",
+    "original": 69258,
+    "encoded": 46876,
+    "chosen": 46876
+  },
+  {
+    "path": "assets/ui/badge-jade.webp",
+    "original": 73480,
+    "encoded": 51954,
+    "chosen": 51954
+  },
+  {
+    "path": "assets/ui/badge-lipstick.webp",
+    "original": 42824,
+    "encoded": 28162,
+    "chosen": 28162
+  },
+  {
+    "path": "assets/ui/bonus-bubbles.webp",
+    "original": 97800,
+    "encoded": 62696,
+    "chosen": 62696
+  },
+  {
+    "path": "assets/ui/bonus-stones.webp",
+    "original": 70622,
+    "encoded": 42930,
+    "chosen": 42930
+  },
+  {
+    "path": "assets/ui/bubble.webp",
+    "original": 36898,
+    "encoded": 26750,
+    "chosen": 26750
+  },
+  {
+    "path": "assets/ui/bundle-tile.webp",
+    "original": 28574,
+    "encoded": 17940,
+    "chosen": 17940
+  },
+  {
+    "path": "assets/ui/butterfly.webp",
+    "original": 85910,
+    "encoded": 56272,
+    "chosen": 56272
+  },
+  {
+    "path": "assets/ui/calendar.webp",
+    "original": 28932,
+    "encoded": 17074,
+    "chosen": 17074
+  },
+  {
+    "path": "assets/ui/card-pack.webp",
+    "original": 50390,
+    "encoded": 30560,
+    "chosen": 30560
+  },
+  {
+    "path": "assets/ui/celebration.webp",
+    "original": 141650,
+    "encoded": 62462,
+    "chosen": 62462
+  },
+  {
+    "path": "assets/ui/chest-closed.webp",
+    "original": 65964,
+    "encoded": 41054,
+    "chosen": 41054
+  },
+  {
+    "path": "assets/ui/chest-open.webp",
+    "original": 86800,
+    "encoded": 55136,
+    "chosen": 55136
+  },
+  {
+    "path": "assets/ui/clean-bag.webp",
+    "original": 35294,
+    "encoded": 16250,
+    "chosen": 16250
+  },
+  {
+    "path": "assets/ui/clean-bath.webp",
+    "original": 59724,
+    "encoded": 36666,
+    "chosen": 36666
+  },
+  {
+    "path": "assets/ui/clean-beauty.webp",
+    "original": 67834,
+    "encoded": 37546,
+    "chosen": 37546
+  },
+  {
+    "path": "assets/ui/clean-blanket.webp",
+    "original": 55362,
+    "encoded": 35296,
+    "chosen": 35296
+  },
+  {
+    "path": "assets/ui/clean-boutique.webp",
+    "original": 64316,
+    "encoded": 37956,
+    "chosen": 37956
+  },
+  {
+    "path": "assets/ui/clean-brush.webp",
+    "original": 29038,
+    "encoded": 18174,
+    "chosen": 18174
+  },
+  {
+    "path": "assets/ui/clean-car.webp",
+    "original": 141620,
+    "encoded": 79472,
+    "chosen": 79472
+  },
+  {
+    "path": "assets/ui/clean-cushion.webp",
+    "original": 63862,
+    "encoded": 39880,
+    "chosen": 39880
+  },
+  {
+    "path": "assets/ui/clean-jet.webp",
+    "original": 101188,
+    "encoded": 57678,
+    "chosen": 57678
+  },
+  {
+    "path": "assets/ui/clean-litter-0.webp",
+    "original": 24822,
+    "encoded": 15160,
+    "chosen": 15160
+  },
+  {
+    "path": "assets/ui/clean-litter-1.webp",
+    "original": 23654,
+    "encoded": 15170,
+    "chosen": 15170
+  },
+  {
+    "path": "assets/ui/clean-litter-2.webp",
+    "original": 21780,
+    "encoded": 14042,
+    "chosen": 14042
+  },
+  {
+    "path": "assets/ui/clean-litter-3.webp",
+    "original": 27400,
+    "encoded": 17134,
+    "chosen": 17134
+  },
+  {
+    "path": "assets/ui/clean-rug.webp",
+    "original": 410720,
+    "encoded": 247812,
+    "chosen": 247812
+  },
+  {
+    "path": "assets/ui/clean-sofa-mask.webp",
+    "original": 2438,
+    "encoded": 8188,
+    "chosen": 2438
+  },
+  {
+    "path": "assets/ui/clean-sofa.webp",
+    "original": 93512,
+    "encoded": 44286,
+    "chosen": 44286
+  },
+  {
+    "path": "assets/ui/clean-spray.webp",
+    "original": 22308,
+    "encoded": 14184,
+    "chosen": 14184
+  },
+  {
+    "path": "assets/ui/clean-squeegee.webp",
+    "original": 15190,
+    "encoded": 9722,
+    "chosen": 9722
+  },
+  {
+    "path": "assets/ui/clean-towels.webp",
+    "original": 52798,
+    "encoded": 27440,
+    "chosen": 27440
+  },
+  {
+    "path": "assets/ui/clean-trash-bag.webp",
+    "original": 27594,
+    "encoded": 17066,
+    "chosen": 17066
+  },
+  {
+    "path": "assets/ui/clean-vacuum.webp",
+    "original": 25168,
+    "encoded": 15004,
+    "chosen": 15004
+  },
+  {
+    "path": "assets/ui/clean-yacht.webp",
+    "original": 84680,
+    "encoded": 44306,
+    "chosen": 44306
+  },
+  {
+    "path": "assets/ui/coin-pile.webp",
+    "original": 72260,
+    "encoded": 48324,
+    "chosen": 48324
+  },
+  {
+    "path": "assets/ui/coins.webp",
+    "original": 14856,
+    "encoded": 11068,
+    "chosen": 11068
+  },
+  {
+    "path": "assets/ui/foam-puff.webp",
+    "original": 78726,
+    "encoded": 48072,
+    "chosen": 48072
+  },
+  {
+    "path": "assets/ui/glint.webp",
+    "original": 25680,
+    "encoded": 17910,
+    "chosen": 17910
+  },
+  {
+    "path": "assets/ui/gold-ribbon.webp",
+    "original": 36754,
+    "encoded": 26668,
+    "chosen": 26668
+  },
+  {
+    "path": "assets/ui/grand-bundle.webp",
+    "original": 85606,
+    "encoded": 56238,
+    "chosen": 56238
+  },
+  {
+    "path": "assets/ui/green-button.webp",
+    "original": 30110,
+    "encoded": 22270,
+    "chosen": 22270
+  },
+  {
+    "path": "assets/ui/heart.webp",
+    "original": 24304,
+    "encoded": 13436,
+    "chosen": 13436
+  },
+  {
+    "path": "assets/ui/hint-hand.webp",
+    "original": 32392,
+    "encoded": 20334,
+    "chosen": 20334
+  },
+  {
+    "path": "assets/ui/hint.webp",
+    "original": 13444,
+    "encoded": 10546,
+    "chosen": 10546
+  },
+  {
+    "path": "assets/ui/lock.webp",
+    "original": 28314,
+    "encoded": 20788,
+    "chosen": 20788
+  },
+  {
+    "path": "assets/ui/logo.webp",
+    "original": 138352,
+    "encoded": 102016,
+    "chosen": 102016
+  },
+  {
+    "path": "assets/ui/lucky-wheel.webp",
+    "original": 222378,
+    "encoded": 131416,
+    "chosen": 131416
+  },
+  {
+    "path": "assets/ui/mask-curl.webp",
+    "original": 40980,
+    "encoded": 25164,
+    "chosen": 25164
+  },
+  {
+    "path": "assets/ui/mist-cloud.webp",
+    "original": 95828,
+    "encoded": 71834,
+    "chosen": 71834
+  },
+  {
+    "path": "assets/ui/muted.webp",
+    "original": 13362,
+    "encoded": 10546,
+    "chosen": 10546
+  },
+  {
+    "path": "assets/ui/panel.webp",
+    "original": 40510,
+    "encoded": 28792,
+    "chosen": 28792
+  },
+  {
+    "path": "assets/ui/pass-medal.webp",
+    "original": 72836,
+    "encoded": 47516,
+    "chosen": 47516
+  },
+  {
+    "path": "assets/ui/pause.webp",
+    "original": 12712,
+    "encoded": 9932,
+    "chosen": 9932
+  },
+  {
+    "path": "assets/ui/petal.webp",
+    "original": 21902,
+    "encoded": 13568,
+    "chosen": 13568
+  },
+  {
+    "path": "assets/ui/pink-ribbon.webp",
+    "original": 36022,
+    "encoded": 26820,
+    "chosen": 26820
+  },
+  {
+    "path": "assets/ui/polaroid-front.webp",
+    "original": 55820,
+    "encoded": 42068,
+    "chosen": 42068
+  },
+  {
+    "path": "assets/ui/polaroid.webp",
+    "original": 56742,
+    "encoded": 41980,
+    "chosen": 41980
+  },
+  {
+    "path": "assets/ui/powder-stroke.webp",
+    "original": 62926,
+    "encoded": 37170,
+    "chosen": 37170
+  },
+  {
+    "path": "assets/ui/progress-fill.webp",
+    "original": 12604,
+    "encoded": 9662,
+    "chosen": 9662
+  },
+  {
+    "path": "assets/ui/progress-green.webp",
+    "original": 22354,
+    "encoded": 13222,
+    "chosen": 13222
+  },
+  {
+    "path": "assets/ui/progress-track.webp",
+    "original": 15904,
+    "encoded": 11732,
+    "chosen": 11732
+  },
+  {
+    "path": "assets/ui/purple-button.webp",
+    "original": 31430,
+    "encoded": 22080,
+    "chosen": 22080
+  },
+  {
+    "path": "assets/ui/puzzle-back-beauty.webp",
+    "original": 51182,
+    "encoded": 36082,
+    "chosen": 36082
+  },
+  {
+    "path": "assets/ui/puzzle-back-garden.webp",
+    "original": 49638,
+    "encoded": 34566,
+    "chosen": 34566
+  },
+  {
+    "path": "assets/ui/puzzle-back-pets.webp",
+    "original": 49954,
+    "encoded": 34494,
+    "chosen": 34494
+  },
+  {
+    "path": "assets/ui/puzzle-back-sweets.webp",
+    "original": 49348,
+    "encoded": 34226,
+    "chosen": 34226
+  },
+  {
+    "path": "assets/ui/puzzle-beauty-bow.webp",
+    "original": 52470,
+    "encoded": 36946,
+    "chosen": 36946
+  },
+  {
+    "path": "assets/ui/puzzle-beauty-brush.webp",
+    "original": 40350,
+    "encoded": 28328,
+    "chosen": 28328
+  },
+  {
+    "path": "assets/ui/puzzle-beauty-lipstick.webp",
+    "original": 42974,
+    "encoded": 30208,
+    "chosen": 30208
+  },
+  {
+    "path": "assets/ui/puzzle-beauty-mirror.webp",
+    "original": 55408,
+    "encoded": 39148,
+    "chosen": 39148
+  },
+  {
+    "path": "assets/ui/puzzle-beauty-perfume.webp",
+    "original": 49024,
+    "encoded": 33830,
+    "chosen": 33830
+  },
+  {
+    "path": "assets/ui/puzzle-beauty-polish.webp",
+    "original": 34262,
+    "encoded": 23540,
+    "chosen": 23540
+  },
+  {
+    "path": "assets/ui/puzzle-bee.webp",
+    "original": 24382,
+    "encoded": 17230,
+    "chosen": 17230
+  },
+  {
+    "path": "assets/ui/puzzle-cat.webp",
+    "original": 55666,
+    "encoded": 37040,
+    "chosen": 37040
+  },
+  {
+    "path": "assets/ui/puzzle-diff-garden.webp",
+    "original": 315366,
+    "encoded": 217522,
+    "chosen": 217522
+  },
+  {
+    "path": "assets/ui/puzzle-diff-pets.webp",
+    "original": 178756,
+    "encoded": 116738,
+    "chosen": 116738
+  },
+  {
+    "path": "assets/ui/puzzle-diff-tea.webp",
+    "original": 200608,
+    "encoded": 138250,
+    "chosen": 138250
+  },
+  {
+    "path": "assets/ui/puzzle-diff-vanity.webp",
+    "original": 178982,
+    "encoded": 115130,
+    "chosen": 115130
+  },
+  {
+    "path": "assets/ui/puzzle-dog.webp",
+    "original": 48690,
+    "encoded": 32998,
+    "chosen": 32998
+  },
+  {
+    "path": "assets/ui/puzzle-garden-bee.webp",
+    "original": 42244,
+    "encoded": 27596,
+    "chosen": 27596
+  },
+  {
+    "path": "assets/ui/puzzle-garden-butterfly.webp",
+    "original": 71232,
+    "encoded": 51740,
+    "chosen": 51740
+  },
+  {
+    "path": "assets/ui/puzzle-garden-can.webp",
+    "original": 52546,
+    "encoded": 36528,
+    "chosen": 36528
+  },
+  {
+    "path": "assets/ui/puzzle-garden-flower.webp",
+    "original": 47796,
+    "encoded": 33882,
+    "chosen": 33882
+  },
+  {
+    "path": "assets/ui/puzzle-garden-mushroom.webp",
+    "original": 48802,
+    "encoded": 31266,
+    "chosen": 31266
+  },
+  {
+    "path": "assets/ui/puzzle-garden-snail.webp",
+    "original": 46458,
+    "encoded": 31242,
+    "chosen": 31242
+  },
+  {
+    "path": "assets/ui/puzzle-grass.webp",
+    "original": 23808,
+    "encoded": 13970,
+    "chosen": 13970
+  },
+  {
+    "path": "assets/ui/puzzle-hive.webp",
+    "original": 46522,
+    "encoded": 30102,
+    "chosen": 30102
+  },
+  {
+    "path": "assets/ui/puzzle-mushroom.webp",
+    "original": 26474,
+    "encoded": 17280,
+    "chosen": 17280
+  },
+  {
+    "path": "assets/ui/puzzle-pencil.webp",
+    "original": 27960,
+    "encoded": 19476,
+    "chosen": 19476
+  },
+  {
+    "path": "assets/ui/puzzle-pet-bird.webp",
+    "original": 46716,
+    "encoded": 33196,
+    "chosen": 33196
+  },
+  {
+    "path": "assets/ui/puzzle-pet-bunny.webp",
+    "original": 46518,
+    "encoded": 33566,
+    "chosen": 33566
+  },
+  {
+    "path": "assets/ui/puzzle-pet-cat.webp",
+    "original": 59350,
+    "encoded": 42786,
+    "chosen": 42786
+  },
+  {
+    "path": "assets/ui/puzzle-pet-dog.webp",
+    "original": 52754,
+    "encoded": 37010,
+    "chosen": 37010
+  },
+  {
+    "path": "assets/ui/puzzle-pet-hamster.webp",
+    "original": 54048,
+    "encoded": 37070,
+    "chosen": 37070
+  },
+  {
+    "path": "assets/ui/puzzle-pet-turtle.webp",
+    "original": 58118,
+    "encoded": 41484,
+    "chosen": 41484
+  },
+  {
+    "path": "assets/ui/puzzle-rescue-meadow.webp",
+    "original": 179790,
+    "encoded": 108336,
+    "chosen": 108336
+  },
+  {
+    "path": "assets/ui/puzzle-rescue-moon.webp",
+    "original": 135254,
+    "encoded": 81386,
+    "chosen": 81386
+  },
+  {
+    "path": "assets/ui/puzzle-rescue-orchard.webp",
+    "original": 164852,
+    "encoded": 103106,
+    "chosen": 103106
+  },
+  {
+    "path": "assets/ui/puzzle-rescue-pond.webp",
+    "original": 149770,
+    "encoded": 86248,
+    "chosen": 86248
+  },
+  {
+    "path": "assets/ui/puzzle-shield.webp",
+    "original": 51510,
+    "encoded": 33538,
+    "chosen": 33538
+  },
+  {
+    "path": "assets/ui/puzzle-stone.webp",
+    "original": 22480,
+    "encoded": 14232,
+    "chosen": 14232
+  },
+  {
+    "path": "assets/ui/puzzle-sweet-berry.webp",
+    "original": 57032,
+    "encoded": 38820,
+    "chosen": 38820
+  },
+  {
+    "path": "assets/ui/puzzle-sweet-cookie.webp",
+    "original": 60124,
+    "encoded": 39772,
+    "chosen": 39772
+  },
+  {
+    "path": "assets/ui/puzzle-sweet-cup.webp",
+    "original": 69262,
+    "encoded": 49180,
+    "chosen": 49180
+  },
+  {
+    "path": "assets/ui/puzzle-sweet-cupcake.webp",
+    "original": 60472,
+    "encoded": 41130,
+    "chosen": 41130
+  },
+  {
+    "path": "assets/ui/puzzle-sweet-macaron.webp",
+    "original": 58904,
+    "encoded": 36756,
+    "chosen": 36756
+  },
+  {
+    "path": "assets/ui/puzzle-sweet-teapot.webp",
+    "original": 59548,
+    "encoded": 42252,
+    "chosen": 42252
+  },
+  {
+    "path": "assets/ui/reward-coin.webp",
+    "original": 14648,
+    "encoded": 9724,
+    "chosen": 9724
+  },
+  {
+    "path": "assets/ui/reward-rays.webp",
+    "original": 185262,
+    "encoded": 131444,
+    "chosen": 131444
+  },
+  {
+    "path": "assets/ui/reward-tile.webp",
+    "original": 21494,
+    "encoded": 10888,
+    "chosen": 10888
+  },
+  {
+    "path": "assets/ui/ribbon-gold.webp",
+    "original": 60556,
+    "encoded": 37774,
+    "chosen": 37774
+  },
+  {
+    "path": "assets/ui/ribbon-pink.webp",
+    "original": 59398,
+    "encoded": 37304,
+    "chosen": 37304
+  },
+  {
+    "path": "assets/ui/romance-amber-before.webp",
+    "original": 47720,
+    "encoded": 35598,
+    "chosen": 35598
+  },
+  {
+    "path": "assets/ui/romance-amber-bride.webp",
+    "original": 61352,
+    "encoded": 45710,
+    "chosen": 45710
+  },
+  {
+    "path": "assets/ui/romance-amber-clean.webp",
+    "original": 41872,
+    "encoded": 32110,
+    "chosen": 32110
+  },
+  {
+    "path": "assets/ui/romance-amber-dress.webp",
+    "original": 47734,
+    "encoded": 36316,
+    "chosen": 36316
+  },
+  {
+    "path": "assets/ui/romance-amber-gown.webp",
+    "original": 30872,
+    "encoded": 24402,
+    "chosen": 24402
+  },
+  {
+    "path": "assets/ui/romance-amber-hair.webp",
+    "original": 41204,
+    "encoded": 31584,
+    "chosen": 31584
+  },
+  {
+    "path": "assets/ui/romance-amber-proposal.webp",
+    "original": 283544,
+    "encoded": 192904,
+    "chosen": 192904
+  },
+  {
+    "path": "assets/ui/romance-amber-styled.webp",
+    "original": 48670,
+    "encoded": 37088,
+    "chosen": 37088
+  },
+  {
+    "path": "assets/ui/romance-amber-wedding.webp",
+    "original": 317292,
+    "encoded": 225766,
+    "chosen": 225766
+  },
+  {
+    "path": "assets/ui/romance-brush.webp",
+    "original": 38856,
+    "encoded": 28876,
+    "chosen": 28876
+  },
+  {
+    "path": "assets/ui/romance-cherry-before.webp",
+    "original": 44768,
+    "encoded": 33868,
+    "chosen": 33868
+  },
+  {
+    "path": "assets/ui/romance-cherry-bride.webp",
+    "original": 48240,
+    "encoded": 36040,
+    "chosen": 36040
+  },
+  {
+    "path": "assets/ui/romance-cherry-clean.webp",
+    "original": 42324,
+    "encoded": 32610,
+    "chosen": 32610
+  },
+  {
+    "path": "assets/ui/romance-cherry-dress.webp",
+    "original": 42750,
+    "encoded": 33714,
+    "chosen": 33714
+  },
+  {
+    "path": "assets/ui/romance-cherry-gown.webp",
+    "original": 26688,
+    "encoded": 20908,
+    "chosen": 20908
+  },
+  {
+    "path": "assets/ui/romance-cherry-hair.webp",
+    "original": 39218,
+    "encoded": 29958,
+    "chosen": 29958
+  },
+  {
+    "path": "assets/ui/romance-cherry-proposal.webp",
+    "original": 263608,
+    "encoded": 180724,
+    "chosen": 180724
+  },
+  {
+    "path": "assets/ui/romance-cherry-styled.webp",
+    "original": 40244,
+    "encoded": 31428,
+    "chosen": 31428
+  },
+  {
+    "path": "assets/ui/romance-cherry-wedding.webp",
+    "original": 291120,
+    "encoded": 190916,
+    "chosen": 190916
+  },
+  {
+    "path": "assets/ui/romance-coral-before.webp",
+    "original": 48022,
+    "encoded": 36214,
+    "chosen": 36214
+  },
+  {
+    "path": "assets/ui/romance-coral-bride.webp",
+    "original": 55770,
+    "encoded": 39736,
+    "chosen": 39736
+  },
+  {
+    "path": "assets/ui/romance-coral-clean.webp",
+    "original": 39826,
+    "encoded": 30712,
+    "chosen": 30712
+  },
+  {
+    "path": "assets/ui/romance-coral-dress.webp",
+    "original": 49370,
+    "encoded": 37602,
+    "chosen": 37602
+  },
+  {
+    "path": "assets/ui/romance-coral-gown.webp",
+    "original": 31734,
+    "encoded": 24416,
+    "chosen": 24416
+  },
+  {
+    "path": "assets/ui/romance-coral-hair.webp",
+    "original": 41606,
+    "encoded": 31954,
+    "chosen": 31954
+  },
+  {
+    "path": "assets/ui/romance-coral-proposal.webp",
+    "original": 318894,
+    "encoded": 186394,
+    "chosen": 186394
+  },
+  {
+    "path": "assets/ui/romance-coral-styled.webp",
+    "original": 50568,
+    "encoded": 38636,
+    "chosen": 38636
+  },
+  {
+    "path": "assets/ui/romance-coral-wedding.webp",
+    "original": 337960,
+    "encoded": 214722,
+    "chosen": 214722
+  },
+  {
+    "path": "assets/ui/romance-emerald-before.webp",
+    "original": 46824,
+    "encoded": 35388,
+    "chosen": 35388
+  },
+  {
+    "path": "assets/ui/romance-emerald-bride.webp",
+    "original": 61814,
+    "encoded": 46644,
+    "chosen": 46644
+  },
+  {
+    "path": "assets/ui/romance-emerald-clean.webp",
+    "original": 39920,
+    "encoded": 30276,
+    "chosen": 30276
+  },
+  {
+    "path": "assets/ui/romance-emerald-dress.webp",
+    "original": 48444,
+    "encoded": 35836,
+    "chosen": 35836
+  },
+  {
+    "path": "assets/ui/romance-emerald-gown.webp",
+    "original": 31040,
+    "encoded": 24182,
+    "chosen": 24182
+  },
+  {
+    "path": "assets/ui/romance-emerald-hair.webp",
+    "original": 42152,
+    "encoded": 32554,
+    "chosen": 32554
+  },
+  {
+    "path": "assets/ui/romance-emerald-proposal.webp",
+    "original": 222450,
+    "encoded": 151116,
+    "chosen": 151116
+  },
+  {
+    "path": "assets/ui/romance-emerald-styled.webp",
+    "original": 49112,
+    "encoded": 36778,
+    "chosen": 36778
+  },
+  {
+    "path": "assets/ui/romance-emerald-wedding.webp",
+    "original": 279058,
+    "encoded": 191158,
+    "chosen": 191158
+  },
+  {
+    "path": "assets/ui/romance-moon-before.webp",
+    "original": 46062,
+    "encoded": 35218,
+    "chosen": 35218
+  },
+  {
+    "path": "assets/ui/romance-moon-bride.webp",
+    "original": 58412,
+    "encoded": 44822,
+    "chosen": 44822
+  },
+  {
+    "path": "assets/ui/romance-moon-clean.webp",
+    "original": 42304,
+    "encoded": 32768,
+    "chosen": 32768
+  },
+  {
+    "path": "assets/ui/romance-moon-dress.webp",
+    "original": 46978,
+    "encoded": 35154,
+    "chosen": 35154
+  },
+  {
+    "path": "assets/ui/romance-moon-gown.webp",
+    "original": 30584,
+    "encoded": 23456,
+    "chosen": 23456
+  },
+  {
+    "path": "assets/ui/romance-moon-hair.webp",
+    "original": 42158,
+    "encoded": 32710,
+    "chosen": 32710
+  },
+  {
+    "path": "assets/ui/romance-moon-proposal.webp",
+    "original": 172688,
+    "encoded": 109876,
+    "chosen": 109876
+  },
+  {
+    "path": "assets/ui/romance-moon-styled.webp",
+    "original": 46680,
+    "encoded": 35752,
+    "chosen": 35752
+  },
+  {
+    "path": "assets/ui/romance-moon-wedding.webp",
+    "original": 305488,
+    "encoded": 211498,
+    "chosen": 211498
+  },
+  {
+    "path": "assets/ui/romance-necklace.webp",
+    "original": 29620,
+    "encoded": 24434,
+    "chosen": 24434
+  },
+  {
+    "path": "assets/ui/romance-pearl-before.webp",
+    "original": 48546,
+    "encoded": 36668,
+    "chosen": 36668
+  },
+  {
+    "path": "assets/ui/romance-pearl-bride.webp",
+    "original": 46606,
+    "encoded": 35042,
+    "chosen": 35042
+  },
+  {
+    "path": "assets/ui/romance-pearl-clean.webp",
+    "original": 42808,
+    "encoded": 32936,
+    "chosen": 32936
+  },
+  {
+    "path": "assets/ui/romance-pearl-dress.webp",
+    "original": 47148,
+    "encoded": 36782,
+    "chosen": 36782
+  },
+  {
+    "path": "assets/ui/romance-pearl-gown.webp",
+    "original": 30008,
+    "encoded": 23486,
+    "chosen": 23486
+  },
+  {
+    "path": "assets/ui/romance-pearl-hair.webp",
+    "original": 40656,
+    "encoded": 31772,
+    "chosen": 31772
+  },
+  {
+    "path": "assets/ui/romance-pearl-proposal.webp",
+    "original": 259516,
+    "encoded": 169902,
+    "chosen": 169902
+  },
+  {
+    "path": "assets/ui/romance-pearl-styled.webp",
+    "original": 46924,
+    "encoded": 36510,
+    "chosen": 36510
+  },
+  {
+    "path": "assets/ui/romance-pearl-wedding.webp",
+    "original": 283124,
+    "encoded": 191802,
+    "chosen": 191802
+  },
+  {
+    "path": "assets/ui/romance-ring.webp",
+    "original": 39616,
+    "encoded": 30944,
+    "chosen": 30944
+  },
+  {
+    "path": "assets/ui/romance-ringbox.webp",
+    "original": 35740,
+    "encoded": 25156,
+    "chosen": 25156
+  },
+  {
+    "path": "assets/ui/romance-rose-before.webp",
+    "original": 49010,
+    "encoded": 36866,
+    "chosen": 36866
+  },
+  {
+    "path": "assets/ui/romance-rose-bride.webp",
+    "original": 64502,
+    "encoded": 44722,
+    "chosen": 44722
+  },
+  {
+    "path": "assets/ui/romance-rose-clean.webp",
+    "original": 43476,
+    "encoded": 33968,
+    "chosen": 33968
+  },
+  {
+    "path": "assets/ui/romance-rose-dress.webp",
+    "original": 44582,
+    "encoded": 34062,
+    "chosen": 34062
+  },
+  {
+    "path": "assets/ui/romance-rose-gown.webp",
+    "original": 28460,
+    "encoded": 22058,
+    "chosen": 22058
+  },
+  {
+    "path": "assets/ui/romance-rose-hair.webp",
+    "original": 42296,
+    "encoded": 32696,
+    "chosen": 32696
+  },
+  {
+    "path": "assets/ui/romance-rose-proposal.webp",
+    "original": 298406,
+    "encoded": 197250,
+    "chosen": 197250
+  },
+  {
+    "path": "assets/ui/romance-rose-styled.webp",
+    "original": 45516,
+    "encoded": 34642,
+    "chosen": 34642
+  },
+  {
+    "path": "assets/ui/romance-rose-wedding.webp",
+    "original": 277856,
+    "encoded": 188892,
+    "chosen": 188892
+  },
+  {
+    "path": "assets/ui/romance-shower.webp",
+    "original": 35618,
+    "encoded": 26674,
+    "chosen": 26674
+  },
+  {
+    "path": "assets/ui/romance-sunflower-before.webp",
+    "original": 47962,
+    "encoded": 36190,
+    "chosen": 36190
+  },
+  {
+    "path": "assets/ui/romance-sunflower-bride.webp",
+    "original": 61756,
+    "encoded": 43876,
+    "chosen": 43876
+  },
+  {
+    "path": "assets/ui/romance-sunflower-clean.webp",
+    "original": 42118,
+    "encoded": 32604,
+    "chosen": 32604
+  },
+  {
+    "path": "assets/ui/romance-sunflower-dress.webp",
+    "original": 52930,
+    "encoded": 40304,
+    "chosen": 40304
+  },
+  {
+    "path": "assets/ui/romance-sunflower-gown.webp",
+    "original": 35382,
+    "encoded": 27934,
+    "chosen": 27934
+  },
+  {
+    "path": "assets/ui/romance-sunflower-hair.webp",
+    "original": 44060,
+    "encoded": 33926,
+    "chosen": 33926
+  },
+  {
+    "path": "assets/ui/romance-sunflower-proposal.webp",
+    "original": 238872,
+    "encoded": 160494,
+    "chosen": 160494
+  },
+  {
+    "path": "assets/ui/romance-sunflower-styled.webp",
+    "original": 54288,
+    "encoded": 41176,
+    "chosen": 41176
+  },
+  {
+    "path": "assets/ui/romance-sunflower-wedding.webp",
+    "original": 278870,
+    "encoded": 185132,
+    "chosen": 185132
+  },
+  {
+    "path": "assets/ui/romance-tiara.webp",
+    "original": 50098,
+    "encoded": 41538,
+    "chosen": 41538
+  },
+  {
+    "path": "assets/ui/romance-violet-before.webp",
+    "original": 48784,
+    "encoded": 35820,
+    "chosen": 35820
+  },
+  {
+    "path": "assets/ui/romance-violet-bride.webp",
+    "original": 67616,
+    "encoded": 49882,
+    "chosen": 49882
+  },
+  {
+    "path": "assets/ui/romance-violet-clean.webp",
+    "original": 45880,
+    "encoded": 34990,
+    "chosen": 34990
+  },
+  {
+    "path": "assets/ui/romance-violet-dress.webp",
+    "original": 43896,
+    "encoded": 33316,
+    "chosen": 33316
+  },
+  {
+    "path": "assets/ui/romance-violet-gown.webp",
+    "original": 26480,
+    "encoded": 20830,
+    "chosen": 20830
+  },
+  {
+    "path": "assets/ui/romance-violet-hair.webp",
+    "original": 40562,
+    "encoded": 30272,
+    "chosen": 30272
+  },
+  {
+    "path": "assets/ui/romance-violet-proposal.webp",
+    "original": 290670,
+    "encoded": 186146,
+    "chosen": 186146
+  },
+  {
+    "path": "assets/ui/romance-violet-styled.webp",
+    "original": 44758,
+    "encoded": 34338,
+    "chosen": 34338
+  },
+  {
+    "path": "assets/ui/romance-violet-wedding.webp",
+    "original": 306928,
+    "encoded": 209908,
+    "chosen": 209908
+  },
+  {
+    "path": "assets/ui/romance-winter-before.webp",
+    "original": 46478,
+    "encoded": 35360,
+    "chosen": 35360
+  },
+  {
+    "path": "assets/ui/romance-winter-bride.webp",
+    "original": 45442,
+    "encoded": 33864,
+    "chosen": 33864
+  },
+  {
+    "path": "assets/ui/romance-winter-clean.webp",
+    "original": 39588,
+    "encoded": 30068,
+    "chosen": 30068
+  },
+  {
+    "path": "assets/ui/romance-winter-dress.webp",
+    "original": 52920,
+    "encoded": 39688,
+    "chosen": 39688
+  },
+  {
+    "path": "assets/ui/romance-winter-gown.webp",
+    "original": 35118,
+    "encoded": 26848,
+    "chosen": 26848
+  },
+  {
+    "path": "assets/ui/romance-winter-hair.webp",
+    "original": 39666,
+    "encoded": 30256,
+    "chosen": 30256
+  },
+  {
+    "path": "assets/ui/romance-winter-proposal.webp",
+    "original": 216468,
+    "encoded": 141868,
+    "chosen": 141868
+  },
+  {
+    "path": "assets/ui/romance-winter-styled.webp",
+    "original": 53700,
+    "encoded": 40418,
+    "chosen": 40418
+  },
+  {
+    "path": "assets/ui/romance-winter-wedding.webp",
+    "original": 263558,
+    "encoded": 178944,
+    "chosen": 178944
+  },
+  {
+    "path": "assets/ui/rose-bow.webp",
+    "original": 70546,
+    "encoded": 45656,
+    "chosen": 45656
+  },
+  {
+    "path": "assets/ui/royal-serum.webp",
+    "original": 34362,
+    "encoded": 22420,
+    "chosen": 22420
+  },
+  {
+    "path": "assets/ui/score.webp",
+    "original": 16448,
+    "encoded": 12450,
+    "chosen": 12450
+  },
+  {
+    "path": "assets/ui/serum-drop.webp",
+    "original": 27488,
+    "encoded": 16870,
+    "chosen": 16870
+  },
+  {
+    "path": "assets/ui/settings.webp",
+    "original": 14392,
+    "encoded": 11300,
+    "chosen": 11300
+  },
+  {
+    "path": "assets/ui/sound.webp",
+    "original": 14078,
+    "encoded": 11100,
+    "chosen": 11100
+  },
+  {
+    "path": "assets/ui/spa-room.webp",
+    "original": 164244,
+    "encoded": 88092,
+    "chosen": 88092
+  },
+  {
+    "path": "assets/ui/star.webp",
+    "original": 31278,
+    "encoded": 23234,
+    "chosen": 23234
+  },
+  {
+    "path": "assets/ui/symbol-green-ad.webp",
+    "original": 14202,
+    "encoded": 9856,
+    "chosen": 9856
+  },
+  {
+    "path": "assets/ui/symbol-green-finish.webp",
+    "original": 14246,
+    "encoded": 10064,
+    "chosen": 10064
+  },
+  {
+    "path": "assets/ui/symbol-green-levels.webp",
+    "original": 10284,
+    "encoded": 6590,
+    "chosen": 6590
+  },
+  {
+    "path": "assets/ui/symbol-green-next.webp",
+    "original": 19742,
+    "encoded": 14100,
+    "chosen": 14100
+  },
+  {
+    "path": "assets/ui/symbol-green-play.webp",
+    "original": 12122,
+    "encoded": 8722,
+    "chosen": 8722
+  },
+  {
+    "path": "assets/ui/symbol-green-restart.webp",
+    "original": 21130,
+    "encoded": 15578,
+    "chosen": 15578
+  },
+  {
+    "path": "assets/ui/symbol-purple-ad.webp",
+    "original": 14200,
+    "encoded": 10084,
+    "chosen": 10084
+  },
+  {
+    "path": "assets/ui/symbol-purple-finish.webp",
+    "original": 14330,
+    "encoded": 10130,
+    "chosen": 10130
+  },
+  {
+    "path": "assets/ui/symbol-purple-levels.webp",
+    "original": 10392,
+    "encoded": 6534,
+    "chosen": 6534
+  },
+  {
+    "path": "assets/ui/symbol-purple-next.webp",
+    "original": 20118,
+    "encoded": 14288,
+    "chosen": 14288
+  },
+  {
+    "path": "assets/ui/symbol-purple-play.webp",
+    "original": 12512,
+    "encoded": 8688,
+    "chosen": 8688
+  },
+  {
+    "path": "assets/ui/symbol-purple-restart.webp",
+    "original": 20866,
+    "encoded": 15492,
+    "chosen": 15492
+  },
+  {
+    "path": "assets/ui/tiles.webp",
+    "original": 50380,
+    "encoded": 35190,
+    "chosen": 35190
+  },
+  {
+    "path": "assets/ui/timer.webp",
+    "original": 45256,
+    "encoded": 33754,
+    "chosen": 33754
+  },
+  {
+    "path": "assets/ui/trophy.webp",
+    "original": 98084,
+    "encoded": 73344,
+    "chosen": 73344
+  },
+  {
+    "path": "assets/ui/vip-brooch.webp",
+    "original": 63334,
+    "encoded": 43774,
+    "chosen": 43774
+  },
+  {
+    "path": "assets/ui/vip-crown.webp",
+    "original": 67626,
+    "encoded": 44548,
+    "chosen": 44548
+  },
+  {
+    "path": "assets/ui/vip-fan.webp",
+    "original": 62042,
+    "encoded": 39938,
+    "chosen": 39938
+  },
+  {
+    "path": "assets/ui/vip-frame.webp",
+    "original": 100612,
+    "encoded": 54666,
+    "chosen": 54666
+  },
+  {
+    "path": "assets/ui/vip-globe.webp",
+    "original": 86558,
+    "encoded": 58568,
+    "chosen": 58568
+  },
+  {
+    "path": "assets/ui/vip-lantern.webp",
+    "original": 60308,
+    "encoded": 41428,
+    "chosen": 41428
+  },
+  {
+    "path": "assets/ui/vip-locket.webp",
+    "original": 62078,
+    "encoded": 42744,
+    "chosen": 42744
+  },
+  {
+    "path": "assets/ui/vip-mask.webp",
+    "original": 65558,
+    "encoded": 44650,
+    "chosen": 44650
+  },
+  {
+    "path": "assets/ui/vip-mirror.webp",
+    "original": 54680,
+    "encoded": 38728,
+    "chosen": 38728
+  },
+  {
+    "path": "assets/ui/vip-music.webp",
+    "original": 59222,
+    "encoded": 41000,
+    "chosen": 41000
+  },
+  {
+    "path": "assets/ui/vip-perfume.webp",
+    "original": 56264,
+    "encoded": 36558,
+    "chosen": 36558
+  },
+  {
+    "path": "assets/ui/vip-tea.webp",
+    "original": 56534,
+    "encoded": 39268,
+    "chosen": 39268
+  },
+  {
+    "path": "assets/ui/vip-tiara.webp",
+    "original": 50170,
+    "encoded": 36854,
+    "chosen": 36854
+  },
+  {
+    "path": "assets/ui/water-puddle.webp",
+    "original": 63282,
+    "encoded": 46028,
+    "chosen": 46028
+  },
+  {
+    "path": "assets/ui/world-bath-bomb.webp",
+    "original": 25754,
+    "encoded": 14410,
+    "chosen": 14410
+  },
+  {
+    "path": "assets/ui/world-bath-lavender.webp",
+    "original": 134790,
+    "encoded": 78442,
+    "chosen": 78442
+  },
+  {
+    "path": "assets/ui/world-bath.webp",
+    "original": 109880,
+    "encoded": 67188,
+    "chosen": 67188
+  },
+  {
+    "path": "assets/ui/world-blush.webp",
+    "original": 37666,
+    "encoded": 23976,
+    "chosen": 23976
+  },
+  {
+    "path": "assets/ui/world-bouquet-wrapped.webp",
+    "original": 195948,
+    "encoded": 131798,
+    "chosen": 131798
+  },
+  {
+    "path": "assets/ui/world-bouquet.webp",
+    "original": 195190,
+    "encoded": 138046,
+    "chosen": 138046
+  },
+  {
+    "path": "assets/ui/world-brush.webp",
+    "original": 16858,
+    "encoded": 11858,
+    "chosen": 11858
+  },
+  {
+    "path": "assets/ui/world-candle-filled.webp",
+    "original": 114796,
+    "encoded": 65318,
+    "chosen": 65318
+  },
+  {
+    "path": "assets/ui/world-candle.webp",
+    "original": 110834,
+    "encoded": 65344,
+    "chosen": 65344
+  },
+  {
+    "path": "assets/ui/world-comb.webp",
+    "original": 33364,
+    "encoded": 24038,
+    "chosen": 24038
+  },
+  {
+    "path": "assets/ui/world-dress-finished.webp",
+    "original": 87358,
+    "encoded": 60190,
+    "chosen": 60190
+  },
+  {
+    "path": "assets/ui/world-dress-layered.webp",
+    "original": 91678,
+    "encoded": 62922,
+    "chosen": 62922
+  },
+  {
+    "path": "assets/ui/world-dress-pink.webp",
+    "original": 91670,
+    "encoded": 62438,
+    "chosen": 62438
+  },
+  {
+    "path": "assets/ui/world-dress.webp",
+    "original": 74014,
+    "encoded": 50208,
+    "chosen": 50208
+  },
+  {
+    "path": "assets/ui/world-flats.webp",
+    "original": 35976,
+    "encoded": 25472,
+    "chosen": 25472
+  },
+  {
+    "path": "assets/ui/world-gem.webp",
+    "original": 27564,
+    "encoded": 18040,
+    "chosen": 18040
+  },
+  {
+    "path": "assets/ui/world-glam-finished.webp",
+    "original": 107026,
+    "encoded": 64168,
+    "chosen": 64168
+  },
+  {
+    "path": "assets/ui/world-glam.webp",
+    "original": 104478,
+    "encoded": 62312,
+    "chosen": 62312
+  },
+  {
+    "path": "assets/ui/world-hair-braided.webp",
+    "original": 146338,
+    "encoded": 86620,
+    "chosen": 86620
+  },
+  {
+    "path": "assets/ui/world-hair.webp",
+    "original": 131806,
+    "encoded": 75184,
+    "chosen": 75184
+  },
+  {
+    "path": "assets/ui/world-hairpin.webp",
+    "original": 40742,
+    "encoded": 29450,
+    "chosen": 29450
+  },
+  {
+    "path": "assets/ui/world-handbag.webp",
+    "original": 28294,
+    "encoded": 20946,
+    "chosen": 20946
+  },
+  {
+    "path": "assets/ui/world-iron.webp",
+    "original": 34228,
+    "encoded": 22670,
+    "chosen": 22670
+  },
+  {
+    "path": "assets/ui/world-jacket.webp",
+    "original": 26218,
+    "encoded": 17672,
+    "chosen": 17672
+  },
+  {
+    "path": "assets/ui/world-jewels.webp",
+    "original": 68412,
+    "encoded": 33916,
+    "chosen": 33916
+  },
+  {
+    "path": "assets/ui/world-jug.webp",
+    "original": 29568,
+    "encoded": 19574,
+    "chosen": 19574
+  },
+  {
+    "path": "assets/ui/world-kitten.webp",
+    "original": 155428,
+    "encoded": 86188,
+    "chosen": 86188
+  },
+  {
+    "path": "assets/ui/world-laundry-folded.webp",
+    "original": 142394,
+    "encoded": 81810,
+    "chosen": 81810
+  },
+  {
+    "path": "assets/ui/world-laundry.webp",
+    "original": 142460,
+    "encoded": 78486,
+    "chosen": 78486
+  },
+  {
+    "path": "assets/ui/world-lipstick.webp",
+    "original": 15708,
+    "encoded": 10004,
+    "chosen": 10004
+  },
+  {
+    "path": "assets/ui/world-macaron-top.webp",
+    "original": 21348,
+    "encoded": 13628,
+    "chosen": 13628
+  },
+  {
+    "path": "assets/ui/world-macaron.webp",
+    "original": 106770,
+    "encoded": 64442,
+    "chosen": 64442
+  },
+  {
+    "path": "assets/ui/world-mascara.webp",
+    "original": 15242,
+    "encoded": 10104,
+    "chosen": 10104
+  },
+  {
+    "path": "assets/ui/world-nails-polished.webp",
+    "original": 82956,
+    "encoded": 55170,
+    "chosen": 55170
+  },
+  {
+    "path": "assets/ui/world-nails.webp",
+    "original": 80594,
+    "encoded": 53186,
+    "chosen": 53186
+  },
+  {
+    "path": "assets/ui/world-needle.webp",
+    "original": 29352,
+    "encoded": 21866,
+    "chosen": 21866
+  },
+  {
+    "path": "assets/ui/world-organizer.webp",
+    "original": 48566,
+    "encoded": 28248,
+    "chosen": 28248
+  },
+  {
+    "path": "assets/ui/world-outfit-city-bag.webp",
+    "original": 34322,
+    "encoded": 17888,
+    "chosen": 17888
+  },
+  {
+    "path": "assets/ui/world-outfit-city-base.webp",
+    "original": 50866,
+    "encoded": 35320,
+    "chosen": 35320
+  },
+  {
+    "path": "assets/ui/world-outfit-city-clip.webp",
+    "original": 10090,
+    "encoded": 7246,
+    "chosen": 7246
+  },
+  {
+    "path": "assets/ui/world-outfit-city-dress.webp",
+    "original": 27952,
+    "encoded": 18072,
+    "chosen": 18072
+  },
+  {
+    "path": "assets/ui/world-outfit-city-dressed.webp",
+    "original": 57364,
+    "encoded": 39272,
+    "chosen": 39272
+  },
+  {
+    "path": "assets/ui/world-outfit-city-finished.webp",
+    "original": 66100,
+    "encoded": 43016,
+    "chosen": 43016
+  },
+  {
+    "path": "assets/ui/world-outfit-city-jacket.webp",
+    "original": 38962,
+    "encoded": 23902,
+    "chosen": 23902
+  },
+  {
+    "path": "assets/ui/world-outfit-city-layered.webp",
+    "original": 59092,
+    "encoded": 38726,
+    "chosen": 38726
+  },
+  {
+    "path": "assets/ui/world-outfit-city-shoes.webp",
+    "original": 23518,
+    "encoded": 12570,
+    "chosen": 12570
+  },
+  {
+    "path": "assets/ui/world-outfit-evening-bag.webp",
+    "original": 28430,
+    "encoded": 17850,
+    "chosen": 17850
+  },
+  {
+    "path": "assets/ui/world-outfit-evening-base.webp",
+    "original": 49588,
+    "encoded": 33946,
+    "chosen": 33946
+  },
+  {
+    "path": "assets/ui/world-outfit-evening-clip.webp",
+    "original": 11482,
+    "encoded": 8272,
+    "chosen": 8272
+  },
+  {
+    "path": "assets/ui/world-outfit-evening-dress.webp",
+    "original": 31930,
+    "encoded": 18542,
+    "chosen": 18542
+  },
+  {
+    "path": "assets/ui/world-outfit-evening-dressed.webp",
+    "original": 56636,
+    "encoded": 38336,
+    "chosen": 38336
+  },
+  {
+    "path": "assets/ui/world-outfit-evening-finished.webp",
+    "original": 61770,
+    "encoded": 40622,
+    "chosen": 40622
+  },
+  {
+    "path": "assets/ui/world-outfit-evening-jacket.webp",
+    "original": 41260,
+    "encoded": 23436,
+    "chosen": 23436
+  },
+  {
+    "path": "assets/ui/world-outfit-evening-layered.webp",
+    "original": 58038,
+    "encoded": 38182,
+    "chosen": 38182
+  },
+  {
+    "path": "assets/ui/world-outfit-evening-shoes.webp",
+    "original": 28906,
+    "encoded": 18074,
+    "chosen": 18074
+  },
+  {
+    "path": "assets/ui/world-outfit-garden-bag.webp",
+    "original": 33202,
+    "encoded": 21840,
+    "chosen": 21840
+  },
+  {
+    "path": "assets/ui/world-outfit-garden-base.webp",
+    "original": 53248,
+    "encoded": 37410,
+    "chosen": 37410
+  },
+  {
+    "path": "assets/ui/world-outfit-garden-clip.webp",
+    "original": 14236,
+    "encoded": 9486,
+    "chosen": 9486
+  },
+  {
+    "path": "assets/ui/world-outfit-garden-dress.webp",
+    "original": 45600,
+    "encoded": 29476,
+    "chosen": 29476
+  },
+  {
+    "path": "assets/ui/world-outfit-garden-dressed.webp",
+    "original": 74332,
+    "encoded": 49642,
+    "chosen": 49642
+  },
+  {
+    "path": "assets/ui/world-outfit-garden-finished.webp",
+    "original": 77356,
+    "encoded": 50586,
+    "chosen": 50586
+  },
+  {
+    "path": "assets/ui/world-outfit-garden-jacket.webp",
+    "original": 40782,
+    "encoded": 24236,
+    "chosen": 24236
+  },
+  {
+    "path": "assets/ui/world-outfit-garden-layered.webp",
+    "original": 71380,
+    "encoded": 47440,
+    "chosen": 47440
+  },
+  {
+    "path": "assets/ui/world-outfit-garden-shoes.webp",
+    "original": 22294,
+    "encoded": 15026,
+    "chosen": 15026
+  },
+  {
+    "path": "assets/ui/world-outfit-seaside-bag.webp",
+    "original": 39900,
+    "encoded": 22810,
+    "chosen": 22810
+  },
+  {
+    "path": "assets/ui/world-outfit-seaside-base.webp",
+    "original": 59474,
+    "encoded": 39490,
+    "chosen": 39490
+  },
+  {
+    "path": "assets/ui/world-outfit-seaside-clip.webp",
+    "original": 21362,
+    "encoded": 13610,
+    "chosen": 13610
+  },
+  {
+    "path": "assets/ui/world-outfit-seaside-dress.webp",
+    "original": 35200,
+    "encoded": 21682,
+    "chosen": 21682
+  },
+  {
+    "path": "assets/ui/world-outfit-seaside-dressed.webp",
+    "original": 65554,
+    "encoded": 43100,
+    "chosen": 43100
+  },
+  {
+    "path": "assets/ui/world-outfit-seaside-finished.webp",
+    "original": 74130,
+    "encoded": 47658,
+    "chosen": 47658
+  },
+  {
+    "path": "assets/ui/world-outfit-seaside-jacket.webp",
+    "original": 56202,
+    "encoded": 31374,
+    "chosen": 31374
+  },
+  {
+    "path": "assets/ui/world-outfit-seaside-layered.webp",
+    "original": 68884,
+    "encoded": 44616,
+    "chosen": 44616
+  },
+  {
+    "path": "assets/ui/world-outfit-seaside-shoes.webp",
+    "original": 37522,
+    "encoded": 23992,
+    "chosen": 23992
+  },
+  {
+    "path": "assets/ui/world-palette.webp",
+    "original": 32676,
+    "encoded": 21304,
+    "chosen": 21304
+  },
+  {
+    "path": "assets/ui/world-party-dress.webp",
+    "original": 23272,
+    "encoded": 16032,
+    "chosen": 16032
+  },
+  {
+    "path": "assets/ui/world-pearl.webp",
+    "original": 23536,
+    "encoded": 14608,
+    "chosen": 14608
+  },
+  {
+    "path": "assets/ui/world-perfume.webp",
+    "original": 36784,
+    "encoded": 26762,
+    "chosen": 26762
+  },
+  {
+    "path": "assets/ui/world-pet-brush.webp",
+    "original": 33154,
+    "encoded": 22166,
+    "chosen": 22166
+  },
+  {
+    "path": "assets/ui/world-pouch.webp",
+    "original": 77100,
+    "encoded": 45868,
+    "chosen": 45868
+  },
+  {
+    "path": "assets/ui/world-ribbon.webp",
+    "original": 32600,
+    "encoded": 22752,
+    "chosen": 22752
+  },
+  {
+    "path": "assets/ui/world-sachet.webp",
+    "original": 37060,
+    "encoded": 23836,
+    "chosen": 23836
+  },
+  {
+    "path": "assets/ui/world-scissors.webp",
+    "original": 29948,
+    "encoded": 21906,
+    "chosen": 21906
+  },
+  {
+    "path": "assets/ui/world-shell.webp",
+    "original": 22848,
+    "encoded": 14370,
+    "chosen": 14370
+  },
+  {
+    "path": "assets/ui/world-sneaker.webp",
+    "original": 122724,
+    "encoded": 76140,
+    "chosen": 76140
+  },
+  {
+    "path": "assets/ui/world-stitch-finished.webp",
+    "original": 293922,
+    "encoded": 181432,
+    "chosen": 181432
+  },
+  {
+    "path": "assets/ui/world-stitch.webp",
+    "original": 210532,
+    "encoded": 99808,
+    "chosen": 99808
+  },
+  {
+    "path": "assets/ui/zen-stone.webp",
+    "original": 24008,
+    "encoded": 15842,
+    "chosen": 15842
+  }
+]
