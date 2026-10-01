@@ -10,7 +10,6 @@ try{
  for(const viewport of [{width:390,height:844},{width:1703,height:820}]){
   const page=await browser.newPage({viewport,deviceScaleFactor:2,reducedMotion:'reduce'});
   page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)errors.push(r.url());});
-  await page.route('https://www.youtube.com/game_api/v1',r=>r.fulfill({contentType:'application/javascript',body:'window.ytgame={IN_PLAYABLES_ENV:false};'}));
   if(variant==='optimized')await page.route('**/*.webp',r=>{
    const name=decodeURIComponent(new URL(r.request().url()).pathname).replace(/^\//,'');
    const file=path.resolve('dist',name);assert.ok(file.startsWith(path.resolve('dist')+path.sep));

@@ -1,5 +1,6 @@
 import {chromium} from '@playwright/test';
 import assert from 'node:assert/strict';
+import {bridgeDouble} from './bridge-double.mjs';
 
 const browser=await chromium.launch({executablePath:process.env.CHROME_PATH||'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true,args:['--autoplay-policy=no-user-gesture-required']});
 try{
@@ -7,14 +8,7 @@ try{
     const page=await browser.newPage();
     const errors=[];
     page.on('pageerror',e=>errors.push(e.message));
-    await page.route('https://www.youtube.com/game_api/v1',route=>route.fulfill({contentType:'application/javascript',body:`
-      window.host={};
-      window.ytgame={IN_PLAYABLES_ENV:true,
-        game:{firstFrameReady(){},gameReady(){},async loadData(){return '';},async saveData(){}},
-        system:{isAudioEnabled:()=>${initialEnabled},onAudioEnabledChange(f){host.audio=f;},onPause(f){host.pause=f;},onResume(f){host.resume=f;}},
-        engagement:{async sendScore(){}},health:{logWarning(){},logError(){}},
-        ads:{requestRewardedAd(){return new Promise(r=>host.finishAd=r);},async requestInterstitialAd(){}}
-      };` }));
+    await page.route('**/playgama-bridge.js',route=>route.fulfill({contentType:'application/javascript',body:bridgeDouble({audio:initialEnabled})}));
     await page.goto(process.env.GAME_URL||'http://localhost:5173');
     await page.waitForSelector('#start-button');
     await page.waitForFunction(()=>window.__spa.app.audio.music.readyState>=2);

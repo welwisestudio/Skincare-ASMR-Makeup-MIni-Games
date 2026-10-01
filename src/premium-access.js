@@ -1,6 +1,7 @@
 import {LEVELS,LEVEL_ORDER,levelNumber} from './levels.js';
 import {unlocked} from './save.js';
 import {randomIndex} from './meta-content.js';
+import {lang} from './i18n.js';
 
 export function campaignDestination(save,index){
  const remaining=LEVEL_ORDER.filter(i=>!save.premiumSkipped.includes(i)&&save.stars[i]===0);
@@ -44,7 +45,11 @@ export function installPremiumUI(UI){Object.assign(UI.prototype,{
   this.art(level.hero,0,-h*.04,w*.65,h*.52,g);
   if(expired)this.image('vip-frame',0,0,w,h,g).setTint(0x000000).setAlpha(.65);
   this.text(expired?'MISSED':'VIP',0,-h*.30,Math.max(12,h*.09),{color:'#fff1ae',stroke:'#78502e',thickness:2,fitWidth:w*.6},g);
-  if(!expired&&!open){this.art('ad-badge',-w*.17,h*.18,w*.19,h*.14,g);this.text('WATCH',w*.10,h*.18,Math.max(11,h*.07),{color:'#fff7d1',stroke:'#775033',fitWidth:w*.44},g);}
+  if(!expired&&!open){
+    // The longer Russian label takes the full picture width; the video badge becomes a corner sticker.
+    if(lang==='ru'){this.art('ad-badge',-w*.27,h*.07,w*.16,h*.12,g);this.text('WATCH',0,h*.185,Math.max(15,h*.085),{color:'#fff7d1',stroke:'#775033',thickness:2.4,fitWidth:w*.74,fitHeight:h*.17},g);}
+    else{this.art('ad-badge',-w*.17,h*.18,w*.19,h*.14,g);this.text('WATCH',w*.10,h*.18,Math.max(11,h*.07),{color:'#fff7d1',stroke:'#775033',fitWidth:w*.44},g);}
+  }
   if(open)for(let i=0;i<3;i++)this.image('star',(i-1)*w*.17,h*.34,w*.17,w*.17,g).setAlpha(a.save.stars[index]>i?1:.3);
   this.text(String(levelNumber(index)),w*.30,h*.35,Math.min(21,h*.11),{color:'#725080',stroke:'#fff0b9',fitWidth:w*.15},g);
   this.hit(`level-card-${index}`,`${level.name}. VIP. ${expired?'Missed permanently':open?'Play':'Watch a video to unlock'}`,x,y,w,h,()=>open?a.start(index):a.offerPremium(index),g,{level:index});

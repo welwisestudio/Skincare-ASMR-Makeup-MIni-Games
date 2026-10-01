@@ -98,12 +98,14 @@ Save version 3 migrates existing version 1/2/3 progress to 42 slots while preser
 - `src/feedback.js`: animated idle/treatment eyes, falling serum and absorption, foam, directional mist, towel drying, cream and makeup feedback.
 - `src/main.js`: game flow, pause, rewards, sound preferences and level selection.
 - `src/ui-scene.js`: illustrated Phaser interface, responsive album, HUD, settings, result screen and star collection; transparent semantic buttons provide keyboard access.
-- `src/audio.js`: loops the root `BackgroundMusic.ogg` through one HTML audio player. Level effects are mapped in `src/level-sounds.js` to the 22 retained files in `Sounds`; they play on successful level actions, with throttling and the same host mute gate as music. Playback requires the local music preference AND YouTube audio permission, and stops during host pause/ads. Autoplay is attempted once the host state is known, with retries on user input when browser policy requires a gesture. Test with `node scripts/audio-test.mjs` (dev server required).
-- `src/save.js`: defensive local storage loading and non-duplicating completion rewards.
+- `src/audio.js`: loops the root `BackgroundMusic.ogg` through one HTML audio player. Level effects are mapped in `src/level-sounds.js` to the 22 retained files in `Sounds`; they play on successful level actions, with throttling and the same host mute gate as music. Playback requires the local music preference AND the Playgama Bridge audio state, and stops during host pause/ads. Autoplay is attempted once the host state is known, with retries on user input when browser policy requires a gesture. Test with `node scripts/audio-test.mjs` (dev server required).
+- `src/save.js`: defensive progress loading through Playgama Bridge storage and non-duplicating completion rewards.
+- `src/platform.js`: Playgama Bridge adapter: initialization, storage, pause/audio events, interstitial and rewarded ads, `game_ready` and level messages. See [PLAYGAMA.md](./PLAYGAMA.md).
+- `src/i18n.js`: English/Russian localization; the language comes from `bridge.platform.language`.
 - `src/meta-controller.js`: rewards, purchases, inventory, preview ads, daily/pass tracks and bonus game state.
 - `src/meta-ui.js`: responsive illustrated reward screens and bonus game interactions.
 - `src/meta-content.js`: reward tables, item/card catalog and configurable economy values.
-- `src/ads.js`: cancellable preview provider, ready to replace with a real SDK adapter.
+- `src/ads.js`: rewarded provider on top of Playgama Bridge; local preview grants test rewards.
 - `public/assets/`: optimized WebP character, animated eye and tool sprites. `ui/` includes 36 new monetization sprites alongside the existing interface and effects.
 - `reference/assets-manifest.json`: exact generation prompts, model, job IDs and output URLs.
 - `scripts/prepare_assets.py`: original-to-web asset packing, matte extraction and atlas slicing; requires Pillow.

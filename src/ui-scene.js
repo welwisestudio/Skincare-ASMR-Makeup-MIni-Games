@@ -2,6 +2,7 @@ import { installAlbumPaging } from './album-swipe.js';
 import { installPremiumUI } from './premium-access.js';
 import * as Phaser from 'phaser';
 import { LEVELS, LEVEL_ORDER, levelNumber } from './levels.js';
+import { t, shortLabel } from './i18n.js';
 import { unlocked } from './save.js';
 import { installEngagementUI } from './engagement.js';
 import { installMetaUI, META_MODES } from './meta-ui.js';
@@ -62,7 +63,7 @@ export class IllustratedUI extends Phaser.Scene {
   }
   hit(id,label,x,y,w,h,callback,visual,{disabled=false,className='',level}={}){
     if(this.albumPreview)return;
-    const button=document.createElement('button');button.id=id;button.className=`ui-hit ${className}`;button.setAttribute('aria-label',label);button.textContent=label;button.disabled=disabled;
+    const button=document.createElement('button');button.id=id;button.className=`ui-hit ${className}`;button.setAttribute('aria-label',t(label));button.textContent=t(label);button.disabled=disabled;
     if(level!==undefined)button.dataset.level=level;
     const l=this.layout;button.style.left=`${l.x+(x-w/2)*l.scale}px`;button.style.top=`${l.y+(y-h/2)*l.scale}px`;button.style.width=`${w*l.scale}px`;button.style.height=`${h*l.scale}px`;
     button.onclick=event=>{event.stopPropagation();if(!disabled)callback(event);};
@@ -78,7 +79,7 @@ export class IllustratedUI extends Phaser.Scene {
   button(id,label,x,y,w=244,h=72,callback,kind='green-button',size=31,iconOverride,iconSide='left'){
     const group=this.add.container(x,y);this.root.add(group);const background=this.image(kind,0,0,w,h,group),spaPass=label==='SPA PASS';
     const icon=spaPass?'chest':iconOverride||(label==='RESTART'||label==='REPLAY'||label==='BACK'?'restart':label==='LEVELS'?'levels':label==='NEXT'?'next':label==='FINISH'?'finish':'play');
-    const iconSize=h*(spaPass?.64:.40),gap=spaPass?5:10,text=this.text(label,0,-2,size,{stroke:kind==='green-button'?'#527934':'#604281',thickness:2.4},group);
+    const iconSize=h*(spaPass?.64:.40),gap=spaPass?5:10,text=this.text(w<200?shortLabel(label):label,0,-2,size,{stroke:kind==='green-button'?'#527934':'#604281',thickness:2.4},group);
     this.fitText(text,w*.80-iconSize-gap,h*.65);
     const contentWidth=text.width+iconSize+gap;
     const iconX=(iconSide==='right'?1:-1)*(contentWidth/2-iconSize/2);
@@ -118,7 +119,7 @@ export class IllustratedUI extends Phaser.Scene {
   }
   drawLevels(){
     const {W,H,landscape}=this.layout;
-    this.pop(this.image('logo',W/2,65,191,109));
+    this.pop(this.image('studio-logo',W/2,63,206,108));
     if(this.app.state==='playing'||this.app.state==='result')this.icon('modal-close','back','Back to the game',40,40,50,()=>this.app.closeModal());else this.soundIcon(40,40);
     this.icon('settings-button','settings','Settings',W-40,40,50,()=>this.app.openPause());
     this.walletBadge(W/2,141,142,true);
@@ -131,7 +132,7 @@ export class IllustratedUI extends Phaser.Scene {
     this.albumCurrent=this.drawAlbumPage(this.app.albumPage||0,true);
     this.albumPager('album',H-105);
     this.pop(this.button('start-button',this.app.save.stars.every(Boolean)?'PLAY AGAIN':'PLAY',W/2,H-105,250,65,()=>this.app.startNext(),'green-button',31),180);
-    [['rewards','MY GIFTS','bow'],['cards','CARDS','levels'],['pass','SPA PASS','finish']].forEach(([mode,label,symbol],i)=>this.button(`nav-${mode}`,label,W/2+(i-1)*148,H-38,141,47,()=>this.app.openMeta(mode),'purple-button',18,symbol));
+    [['rewards','MY GIFTS','bow'],['cards','CARDS','levels'],['pass','SPA PASS','finish']].forEach(([mode,label,symbol],i)=>this.button(`nav-${mode}`,label,W/2+(i-1)*156,H-38,152,47,()=>this.app.openMeta(mode),'purple-button',18,symbol));
   }
   albumPager(kind,y){
     const {W}=this.layout,key=kind==='album'?'albumPage':'shopPage',page=this.app[key]||0,total=Math.ceil(LEVELS.length/5);
@@ -221,7 +222,7 @@ export class IllustratedUI extends Phaser.Scene {
     this.stepStars.forEach((sprite,i)=>sprite.setTint(i<=this.app.currentStepIndex?0xffffff:0xbbacc6).setAlpha(i<=this.app.currentStepIndex?1:.6));
     if(animate&&!this.app.reducedMotion){for(const t of [this.stepTitle,this.stepHint]){this.tweens.killTweensOf(t);t.setAlpha(0);this.tweens.add({targets:t,alpha:1,duration:420});}const star=this.stepStars[this.app.currentStepIndex];if(star){const sx=star.scaleX,sy=star.scaleY;this.tweens.add({targets:star,scaleX:sx*1.3,scaleY:sy*1.3,duration:250,yoyo:true,ease:'Sine.Out'});}}
   }
-  refreshSound(){this.soundSprites.forEach(s=>s.setTexture(this.app.audio.enabled?'ui-sound':'ui-muted'));for(const id of ['sound-button','modal-sound']){const b=document.getElementById(id);if(b){b.setAttribute('aria-pressed',String(this.app.audio.enabled));b.setAttribute('aria-label',this.app.audio.enabled?'Mute sound':'Enable sound');}}this.soundLabel?.setText(this.app.audio.enabled?'Sound on':'Sound off');}
+  refreshSound(){this.soundSprites.forEach(s=>s.setTexture(this.app.audio.enabled?'ui-sound':'ui-muted'));for(const id of ['sound-button','modal-sound']){const b=document.getElementById(id);if(b){b.setAttribute('aria-pressed',String(this.app.audio.enabled));b.setAttribute('aria-label',t(this.app.audio.enabled?'Mute sound':'Enable sound'));}}this.soundLabel?.setText(this.app.audio.enabled?'Sound on':'Sound off');}
   drawPuzzleFailure(){
     const {W,H}=this.layout,cx=W/2,cy=H/2;
     // Screen-space sizing keeps the dialog readable even on small game boards.

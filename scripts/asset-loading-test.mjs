@@ -9,7 +9,6 @@ try{
  page.on('pageerror',error=>errors.push(error.message));
  page.on('console',message=>{if(/Texture.*not found|texture.*missing/i.test(message.text()))missing.push(message.text());});
  page.on('request',request=>{if(request.url().endsWith('.webp'))requests.push(new URL(request.url()).pathname);});
- await page.route('https://www.youtube.com/game_api/v1',route=>route.fulfill({body:''}));
  let fail=true;
  await page.route('**/assets/ui/spa-room.webp',async route=>{
   await new Promise(resolve=>setTimeout(resolve,200));

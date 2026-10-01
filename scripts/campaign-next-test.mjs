@@ -5,7 +5,6 @@ const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chr
 try{
  const page=await browser.newPage(),errors=[];
  page.on('pageerror',error=>errors.push(error.message));
- await page.route('https://www.youtube.com/game_api/v1',route=>route.fulfill({body:''}));
  await page.goto('http://localhost:5173');await page.waitForSelector('#start-button');
  await page.evaluate(async()=>{
   const a=window.__spa.app,{LEVELS,LEVEL_ORDER}=await import('/src/levels.js');

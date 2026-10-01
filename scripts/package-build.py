@@ -15,7 +15,7 @@ invalid = [path.relative_to(dist).as_posix() for path in files
            if any(not re.fullmatch(r'[A-Za-z0-9_.-]+', part)
                   for part in path.relative_to(dist).parts)]
 if invalid:
-    raise SystemExit('Invalid Playables filenames:\n' + '\n'.join(invalid))
+    raise SystemExit('Invalid archive filenames (Latin only):\n' + '\n'.join(invalid))
 target = root / ('Skincare-ASMR-adtest.zip' if args.adtest else 'Skincare-ASMR-web.zip')
 with ZipFile(target, 'w', ZIP_DEFLATED, compresslevel=9) as archive:
     for path in files:

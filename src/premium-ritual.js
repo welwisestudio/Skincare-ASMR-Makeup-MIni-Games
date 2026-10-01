@@ -1,5 +1,6 @@
 import {CLEANING_PACE,cleaningRadius} from './premium-balance.js';
 import {LEVELS} from './levels.js';
+import {t as tr} from './i18n.js';
 import {CLEAN_SCENES,SHOP_CATALOGS} from './premium-scenes.js';
 const B={x:80,y:0,w:440,h:550};
 const dist=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y),clamp=v=>Math.max(0,Math.min(1,v));
@@ -134,12 +135,12 @@ export class PremiumRitual{
   if(this.mode==='shop'){
    const chosen=this.items.filter(t=>t.selected),sum=chosen.reduce((n,t)=>n+t.price,0);this.budget.setText(`BUDGET $${this.catalog.budget}   |   BASKET $${sum}`);
    this.shopInfo.setText(this.catalog.categories.map((name,i)=>(chosen.some(t=>t.category===i)?'[x] ':'[ ] ')+name).join('   '));
-   c.fillStyle='rgba(255,244,230,.95)';c.strokeStyle='#a883ab';c.lineWidth=4;c.beginPath();c.roundRect(89,440,430,140,16);c.fill();c.stroke();c.fillStyle='#765484';c.fillText('YOUR BASKET - drag out to return',300,469);
+   c.fillStyle='rgba(255,244,230,.95)';c.strokeStyle='#a883ab';c.lineWidth=4;c.beginPath();c.roundRect(89,440,430,140,16);c.fill();c.stroke();c.fillStyle='#765484';c.fillText(tr('YOUR BASKET - drag out to return'),300,469);
    for(const t of this.items){this.drawArt(c,t.key,t.x,t.y,t.selected?62:77,t.selected?66:90,1,t.tint);if(!t.selected){c.fillStyle='#fff8e9';c.fillRect(t.x-28,t.y+46,56,26);c.fillStyle='#725183';c.fillText('$'+t.price,t.x,t.y+65);}}
   }
   if(this.mode==='checkout'){
-   c.fillStyle='rgba(255,245,232,.94)';c.fillRect(90,80,430,455);c.fillStyle='#735784';c.beginPath();c.roundRect(205,289,190,82,14);c.fill();c.strokeStyle=this.drag?.scanned?'#aceda4':'#ffb8da';c.lineWidth=5;c.beginPath();c.moveTo(214,330);c.lineTo(386,330);c.stroke();c.fillStyle='#725183';c.fillText('SCAN HERE',300,408);this.drawArt(c,'clean-bag',465,550,130,150);
-   for(const t of this.items)if(!t.done){this.drawArt(c,t.key,t.x,t.y,78,88,1,t.tint);if(t.scanned){c.fillStyle='#5d9d68';c.fillText('SCANNED',t.x,t.y+56);}}
+   c.fillStyle='rgba(255,245,232,.94)';c.fillRect(90,80,430,455);c.fillStyle='#735784';c.beginPath();c.roundRect(205,289,190,82,14);c.fill();c.strokeStyle=this.drag?.scanned?'#aceda4':'#ffb8da';c.lineWidth=5;c.beginPath();c.moveTo(214,330);c.lineTo(386,330);c.stroke();c.fillStyle='#725183';c.fillText(tr('SCAN HERE'),300,408);this.drawArt(c,'clean-bag',465,550,130,150);
+   for(const t of this.items)if(!t.done){this.drawArt(c,t.key,t.x,t.y,78,88,1,t.tint);if(t.scanned){c.fillStyle='#5d9d68';c.fillText(tr('SCANNED'),t.x,t.y+56);}}
   }
   if(this.mode==='pack'){
    c.fillStyle='#d9b2df';c.strokeStyle='#735080';c.lineWidth=6;c.beginPath();c.roundRect(100,105,400,405,30);c.fill();c.stroke();

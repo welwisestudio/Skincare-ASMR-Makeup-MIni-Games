@@ -1,4 +1,5 @@
 import { PACE } from './levels.js';
+import { t } from './i18n.js';
 
 const clamp = (n, a = 0, b = 1) => Math.max(a, Math.min(b, n));
 const point = p => ({ x: p.x, y: p.y });
@@ -142,7 +143,7 @@ class GestureHint {
   caption(message) {
     const ui = this.s.app.ui, text = ui?.stepHint;
     if (!text?.active || ui.toastText) return;
-    if (text.text !== message) { text.setText(message); ui.fitText(text, ui.layout.landscape ? 710 : 390, 49); }
+    if (text.text !== t(message)) { text.setText(message); ui.fitText(text, ui.layout.landscape ? 710 : 390, 49); }
   }
   update(dt) {
     if (!this.active) return;

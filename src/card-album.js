@@ -1,4 +1,5 @@
 import { CARDS } from './meta-content.js';
+import { t } from './i18n.js';
 
 export function installCardAlbum(UI) { Object.assign(UI.prototype, {
   drawCards() {
@@ -13,7 +14,7 @@ export function installCardAlbum(UI) { Object.assign(UI.prototype, {
     const l=this.layout,ratio=a.pixelRatio;
     this.cardsMaskShape=this.make.graphics({add:false}).fillStyle(0xffffff).fillRect((l.x+left*l.scale)*ratio,(l.y+y*l.scale)*ratio,width*l.pixelScale,height*l.pixelScale);
     this.cardsMask=this.cardsMaskShape.createGeometryMask();this.cardsContent.setMask(this.cardsMask);
-    const scroll=document.createElement('div');scroll.id='cards-scroll';scroll.className='cards-scroll';scroll.tabIndex=0;scroll.setAttribute('role','region');scroll.setAttribute('aria-label','Achievement card collection. Scroll to explore.');
+    const scroll=document.createElement('div');scroll.id='cards-scroll';scroll.className='cards-scroll';scroll.tabIndex=0;scroll.setAttribute('role','region');scroll.setAttribute('aria-label',t('Achievement card collection. Scroll to explore.'));
     Object.assign(scroll.style,{left:`${l.x+left*l.scale}px`,top:`${l.y+y*l.scale}px`,width:`${width*l.scale}px`,height:`${height*l.scale}px`});
     const inner=document.createElement('div');Object.assign(inner.style,{position:'relative',height:`${contentHeight*l.scale}px`,width:'100%'});scroll.append(inner);
     document.getElementById('ui-accessibility').append(scroll);this.cardsScroller=scroll;this.cardTiles=[];

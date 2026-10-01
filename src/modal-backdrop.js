@@ -20,10 +20,23 @@ export function installModalBackdrop(UI) {
       const game = this.app.scene;
       const layers = [game?.background, game?.root, this.backdrop, this.root, this.effects]
         .filter(layer => layer?.visible);
-      snapshot.draw(layers);
       if (this.game.renderer.type === Phaser.WEBGL) {
-        snapshot.postFX.addBlur(2, this.app.pixelRatio, this.app.pixelRatio, 1, 0xffffff, 6);
+        // The view under a modal is frozen, so blur it once into the backdrop
+        // texture. A postFX left on the displayed object re-runs all six
+        // full-resolution blur passes every frame.
+        const source = this.make.renderTexture({ x: 0, y: 0, width, height }, false);
+        source.draw(layers);
+        // Draw through a plain Image: a RenderTexture entry is copied as a raw
+        // texture frame and would skip its postFX.
+        const blurred = this.make.image({ x: 0, y: 0, key: source.texture }, false).setOrigin(0);
+        blurred.postFX.addBlur(2, this.app.pixelRatio, this.app.pixelRatio, 1, 0xffffff, 6);
+        // A fresh postFX pipeline boots lazily during its first draw and that
+        // draw lands unblurred, so warm it up once and redraw.
+        snapshot.draw(blurred, 0, 0).clear().draw(blurred, 0, 0);
+        blurred.destroy();
+        source.destroy();
       } else {
+        snapshot.draw(layers);
         // Canvas renderer fallback: blur only the captured pixels, never UI text.
         const canvas = snapshot.texture.canvas, copy = document.createElement('canvas');
         copy.width = canvas.width; copy.height = canvas.height;

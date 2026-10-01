@@ -1,4 +1,4 @@
-import {playables} from './playables.js';
+import {platform} from './platform.js';
 import {ECONOMY} from './economy.js';
 import { LEVELS, LEVEL_ORDER, LEGACY_LEVEL_ORDER, V4_LEVEL_ORDER, V5_LEVEL_ORDER, levelNumber } from './levels.js';
 import { CAMPAIGN_CARD_IDS } from './workshop-levels.js';
@@ -45,10 +45,10 @@ export function parseCloudSave(raw){
   if(![1,2,3].includes(version))throw new Error('Unsupported cloud save version');
   return normalizeSave({...parsed,version});
 }
-export async function loadSave(platform=playables){
-  const raw=await platform.load();
-  const save=parseCloudSave(raw);platform.acceptLoad();return save;
+export async function loadSave(host=platform){
+  const raw=await host.load();
+  const save=parseCloudSave(raw);host.acceptLoad();return save;
 }
-export function writeSave(save){return playables.save(JSON.stringify(save));}
+export function writeSave(save){return platform.save(JSON.stringify(save));}
 export function reward(save,level,stars){const improved=Math.max(0,stars-save.stars[level]);save.stars[level]=Math.max(stars,save.stars[level]);const coins=Math.min(ECONOMY.coinCap-save.coins,improved*ECONOMY.coinsPerStar);save.coins+=coins;writeSave(save);return coins;}
 export function unlocked(save,index){if(LEVELS[index]?.premium)return save.premiumUnlocked?.includes(index)&&!save.premiumSkipped?.includes(index);if(LEVELS[index]?.free)return true;const position=levelNumber(index)-1;return position>=0&&(position===0||save.stars[index]>0||save.stars[LEVEL_ORDER.slice(0,position).reverse().find(i=>!save.premiumSkipped?.includes(i))]>0||save.stars[LEVEL_ORDER.slice(0,position).reverse().find(i=>!LEVELS[i].premium)]>0||save.purchased?.includes(index));}

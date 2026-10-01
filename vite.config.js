@@ -1,17 +1,18 @@
 import { defineConfig } from 'vite';
 import { fileURLToPath } from 'node:url';
 
-// Remove Phaser's automatic browser suspension at build time. Runtime overrides
-// still register forbidden browser listeners and leave them in the uploaded ZIP.
+// Remove Phaser's automatic browser suspension at build time. Playgama Bridge
+// reports tab switches and ads through PAUSE_STATE_CHANGED/AUDIO_STATE_CHANGED,
+// so a single host-driven pause path controls the game loop and audio.
 function hostControlledPhaser() {
   return {
-    name: 'playables-host-controlled-phaser',
+    name: 'bridge-host-controlled-phaser',
     enforce: 'pre',
     transform(code, id) {
       if (!/\/phaser\/dist\/phaser(?:\.esm)?\.js$/.test(id.replaceAll('\\', '/'))) return;
       const handler = /var VisibilityHandler = function \(game\)[\s\S]*?module\.exports = VisibilityHandler;/g;
       const matches = [...code.matchAll(handler)];
-      if (matches.length !== 1) throw new Error('Phaser suspension adapter changed; review the Playables integration');
+      if (matches.length !== 1) throw new Error('Phaser suspension adapter changed; review the Bridge integration');
       return { code: code.replace(handler, 'module.exports = function () {};'), map: null };
     },
   };

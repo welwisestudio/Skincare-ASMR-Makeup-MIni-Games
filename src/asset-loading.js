@@ -1,4 +1,5 @@
 import { LEVELS, TOOLS } from './levels.js';
+import { t } from './i18n.js';
 import { UI_ASSETS } from './ui-assets.js';
 import { META_ASSETS } from './meta-assets.js';
 import { CARDS, ITEMS, DAILY, PASS, WHEEL, MODES } from './meta-content.js';
@@ -16,7 +17,7 @@ const menuNames=new Set([
   ...META_ASSETS,...[...CARDS,...ITEMS,...DAILY,...PASS,...WHEEL,...MODES,...SUPPLIES].map(item=>item.art),
   ...LEVELS.flatMap(level=>[level.hero||level.character,level.steps[0].tool]),
   'back','settings','hint','sound','muted','score','coins','star','green-button',
-  'purple-button','polaroid','polaroid-front','panel','trophy','lock','logo','tiles',
+  'purple-button','polaroid','polaroid-front','panel','trophy','lock','studio-logo','tiles',
   'celebration','ribbon-pink','ribbon-gold','progress-track','progress-green',
   'bubble','heart','petal','glint','hint-hand','reward-coin','reward-rays','vip-frame',
 ]);
@@ -33,25 +34,25 @@ export function installAssetLoading(App){Object.assign(App.prototype,{
     this.assetsLoading=true;this.freeze();this.platformState();
     const overlay=document.createElement('div');overlay.id='content-loading';
     overlay.setAttribute('role','status');overlay.setAttribute('aria-live','polite');
-    const logo=document.createElement('img');logo.src='./assets/ui/logo.webp';logo.alt='Skincare ASMR';
-    const label=document.createElement('p');label.textContent='Loading all levels… 0%';
+    const logo=document.createElement('img');logo.src='./assets/ui/studio-logo.webp';logo.alt='Welwise Studio';
+    const label=document.createElement('p');label.textContent=t('Loading all levels… 0%');
     const progress=document.createElement('progress');progress.max=1;progress.value=0;
-    const retry=document.createElement('button');retry.textContent='TRY AGAIN';retry.hidden=true;
+    const retry=document.createElement('button');retry.textContent=t('TRY AGAIN');retry.hidden=true;
     overlay.append(logo,label,progress,retry);document.getElementById('app').append(overlay);
     this.assetsPromise=(async()=>{
       for(;;){
         const success=await new Promise(resolve=>{
           const loader=this.scene.load;let failed=false;
-          const onProgress=value=>{progress.value=value;label.textContent=`Loading all levels… ${Math.round(value*100)}%`;};
+          const onProgress=value=>{progress.value=value;label.textContent=t(`Loading all levels… ${Math.round(value*100)}%`);};
           const onError=()=>{failed=true;};
           const onComplete=()=>{loader.off('progress',onProgress);loader.off('loaderror',onError);resolve(!failed);};
           loader.on('progress',onProgress);loader.on('loaderror',onError);loader.once('complete',onComplete);
           queueAssets(this.scene,ALL_ASSETS);loader.start();
         });
         if(success)break;
-        this.platform.warning();label.textContent='Could not load all levels. Please try again.';retry.hidden=false;
+        label.textContent=t('Could not load all levels. Please try again.');retry.hidden=false;
         await new Promise(resolve=>{retry.onclick=resolve;});
-        retry.hidden=true;progress.value=0;label.textContent='Loading all levels… 0%';
+        retry.hidden=true;progress.value=0;label.textContent=t('Loading all levels… 0%');
       }
       await this.platform.whenActive();
       this.gameAssetsReady=true;

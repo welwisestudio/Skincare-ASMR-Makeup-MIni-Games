@@ -5,6 +5,7 @@ import { installRomance } from './romance.js';
 import { installHints } from './hints.js';
 import * as Phaser from 'phaser';
 import { LEVELS, PACE } from './levels.js';
+import { t } from './i18n.js';
 import { MENU_ASSETS, queueAssets } from './asset-loading.js';
 import { CareFeedback } from './feedback.js';
 
@@ -21,7 +22,7 @@ const FACE={
 export class SpaScene extends Phaser.Scene {
   constructor(controller){super('Spa');this.app=controller;this.active=false;this.frozen=false;this.stepIndex=0;this.local={x:300,y:560};this.down=false;this.pointerId=null;this.particles=[];this.transitioning=false;this.effectId=0;}
   preload(){
-    this.load.on('progress',p=>{const bar=document.querySelector('#load-progress');if(bar)bar.textContent=`Loading… ${Math.round(p*100)}%`;});
+    this.load.on('progress',p=>{const bar=document.querySelector('#load-progress');if(bar)bar.textContent=t(`Loading… ${Math.round(p*100)}%`);});
     const onError=file=>this.app.loadError(file.key);
     this.load.on('loaderror',onError);
     this.load.once('complete',()=>this.load.off('loaderror',onError));

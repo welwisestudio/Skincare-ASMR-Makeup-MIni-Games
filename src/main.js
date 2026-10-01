@@ -1,4 +1,5 @@
-import {playables} from './playables.js';
+import {platform} from './platform.js';
+import { setLanguage, t, loadFonts, installTextTranslation } from './i18n.js';
 import { installAssetLoading } from './asset-loading.js';
 import { installPremiumAccess, campaignDestination } from './premium-access.js';
 import * as Phaser from 'phaser';
@@ -13,10 +14,11 @@ import { LEVELS, levelNumber } from './levels.js';
 import { CAMPAIGN_CARD_IDS } from './workshop-levels.js';
 
 const $=id=>document.getElementById(id);
+installTextTranslation(Phaser);
 
 class SpaApp {
   constructor(save){
-    this.platform=playables;this.save=save;this.audio=new SpaAudio(this.save.sound);this.state='loading';this.modalName=null;this.lastPercent=0;this.elapsed=0;
+    this.platform=platform;this.save=save;this.audio=new SpaAudio(this.save.sound);this.state='loading';this.modalName=null;this.lastPercent=0;this.elapsed=0;
     this.initMeta();
     this.pixelRatio=Math.min(devicePixelRatio||1,2);this.reducedMotion=matchMedia('(prefers-reduced-motion: reduce)').matches;
     // Phaser defaults pixelArt to true when zoom !== 1; HiDPI zoom must keep smooth filtering.
@@ -49,7 +51,7 @@ class SpaApp {
     if($('ui-accessibility'))$('ui-accessibility').inert=blocked||!!this.navigationBusy||!!this.assetsLoading;
     if(blocked){
       if(!this.platformSuspended){this.platformSuspended=true;this.suspendedAt=performance.now();this.freeze();this.game.loop.sleep();}
-      if(this.platform.paused){writeSave(this.save);this.platform.flush(true);}
+      if(this.platform.paused){writeSave(this.save);this.platform.flush();}
     }else if(this.platformSuspended){
       const gap=performance.now()-this.suspendedAt;
       for(const [obj,key] of [[this.reveal,'start'],[this.chestReveal,'started'],[this.chestSequence,'started'],[this.cardCelebration,'start'],[this.bonus,'start']])if(obj?.[key])obj[key]+=gap;
@@ -58,19 +60,18 @@ class SpaApp {
     }
   }
   saveStatus(state){
-    let label=$('cloud-status');if(!label){label=document.createElement('button');label.id='cloud-status';label.onclick=()=>{this.platform.flush();this.platform.flushScore();};document.body.append(label);}
-    label.hidden=state!=='error';label.textContent='Cloud save pending. Tap to retry.';
+    let label=$('cloud-status');if(!label){label=document.createElement('button');label.id='cloud-status';label.onclick=()=>this.platform.flush();document.body.append(label);}
+    label.hidden=state!=='error';label.textContent=t('Progress not saved yet. Tap to retry.');
   }
-  sendScore(){this.platform.score(this.save.stars.filter(stars=>stars>0).length);}
   async transition(placement,action){
     if(this.navigationBusy||this.rewardBusy||this.platform.paused||this.platform.adBusy)return;
     this.navigationBusy=true;this.freeze();$('ui-accessibility').inert=true;
-    try{if(!this.applyingReward)await this.platform.interstitial();await this.platform.whenActive();return await action();}
+    try{if(!this.applyingReward)await this.platform.interstitial(placement);await this.platform.whenActive();return await action();}
     finally{this.navigationBusy=false;$('ui-accessibility').inert=this.platform.paused||this.platform.adBusy;if(this.ui.mode==='playing'&&!this.modalName)this.unfreeze();}
   }
   ready(scene){this.scene=scene;if(!this.hasLoadError)scene.scene.launch('IllustratedUI');}
-  uiReady(ui){this.ui=ui;$('loading').remove();this.welcome();this.platformState();this.platform.whenActive().then(()=>{this.platform.ready();this.sendScore();});}
-  loadError(key){this.platform.error();this.hasLoadError=true;console.error(`Could not load game asset: ${key}`);$('loading').innerHTML='<p>Could not open the spa.<br>Please refresh to try again.</p>';}
+  uiReady(ui){this.ui=ui;$('loading').remove();this.welcome();this.platformState();this.platform.ready();}
+  loadError(key){this.hasLoadError=true;console.error(`Could not load game asset: ${key}`);const text=document.createElement('p');text.textContent=t('Could not open the spa. Please refresh to try again.');$('loading').replaceChildren(text);}
   updateWallet(){$('star-count').textContent=`${this.save.stars.reduce((a,b)=>a+b,0)} / ${LEVELS.length*3}`;this.ui?.syncWallet();$('coin-count').textContent=this.displayCoins;}
   toggleSound(){this.save.sound=this.audio.toggle();writeSave(this.save);this.ui?.refreshSound();}
   welcome(){this.metaStack=[];this.modalName=null;this.unfreeze();this.state='welcome';this.scene.runId=(this.scene.runId||0)+1;this.scene.showWelcome();this.ui.show('levels');this.updateWallet();}
@@ -82,11 +83,12 @@ class SpaApp {
     await this.ensureGameAssets();
     this.metaStack=[];this.metaData={};this.pauseReturn=null;
     await this.audio.unlock();this.audio.resume();this.modalName=null;this.unfreeze();this.state='playing';this.lastPercent=0;this.elapsed=0;this.albumPage=Math.floor((levelNumber(index)-1)/5);this.scene.begin(index);this.ui.show('playing');this.progress(0,0);this.persist();
+    this.platform.message('level_started',{level:String(levelNumber(index))});
   }
   startNext(){this.start(campaignDestination(this.save,undefined),'campaign');}
-  stepChanged(level,index,step){this.audio.prepareStep(step);this.currentStep=step;this.currentStepIndex=index;$('game-status').textContent=`${level.name}. ${step.name}. ${step.hint}`;this.ui?.updateStep();}
+  stepChanged(level,index,step){this.audio.prepareStep(step);this.currentStep=step;this.currentStepIndex=index;$('game-status').textContent=`${t(level.name)}. ${t(step.name)}. ${t(step.hint)}`;this.ui?.updateStep();}
   progress(value,elapsed){this.audio.levelProgress(this.scene);this.lastPercent=Math.min(100,Math.round(value*100));this.elapsed=elapsed;$('progress-label').textContent=`${this.lastPercent}%`;this.ui?.updateProgress();}
-  toast(message){this.ui?.toast(message);$('game-status').textContent=message;}
+  toast(message){this.ui?.toast(message);$('game-status').textContent=t(message);}
   freeze(){this.audio.stopEffects();if(!this.scene)return;this.scene.pause();this.scene.time.paused=true;this.scene.tweens.pauseAll();}
   unfreeze(){if(!this.scene||this.platform.paused||this.platform.adBusy)return;this.scene.resume();this.scene.time.paused=false;this.scene.tweens.resumeAll();}
   closeModal(){if(this.ui.mode==='pause'&&this.pauseReturn){const back=this.pauseReturn;this.pauseReturn=null;this.modalName=back.modal;this.audio.resume();this.ui.show(back.mode);if(back.mode==='playing')this.unfreeze();else this.freeze();return;}if(this.metaStack.length){this.backMeta();return;}this.modalName=null;this.audio.resume();this.unfreeze();this.ui.show(this.state==='welcome'?'levels':this.state==='result'?'result':'playing');}
@@ -96,7 +98,8 @@ class SpaApp {
     if(this.finishedRun===this.scene.runId)return;this.finishedRun=this.scene.runId;this.advanceChest();
     this.resultIndex=index;this.elapsedResult=elapsed;this.resultCanvas=this.scene.capturePortrait(true);this.resultCoins=reward(this.save,index,3);this.state='result';this.modalName='result';this.updateWallet();this.freeze();
     const id=CAMPAIGN_CARD_IDS[index],newCard=!this.save.cards.includes(id);if(newCard)this.save.cards.push(id);
-    this.resultId=crypto.randomUUID();this.save.pendingResult={id:this.resultId,base:this.resultCoins,tripled:false};this.persist();this.sendScore();
+    this.resultId=crypto.randomUUID();this.save.pendingResult={id:this.resultId,base:this.resultCoins,tripled:false};this.persist();
+    this.platform.message('level_completed',{level:String(levelNumber(index))});
     if(newCard)this.celebrateCard(id);else this.ui.show('result');
   }
   showCollection(){this.modalName='collection';this.freeze();this.ui.show('collection');}
@@ -118,22 +121,24 @@ async function boot(){
   try{
     save=await loadSave();
   }catch(error){
-    console.error('Playables cloud load failed:',error?.errorType??error?.name??'SDK rejection',error?.message??'No error details returned by SDK');
-    playables.warning();await playables.whenActive();loading.replaceChildren();
-    const text=document.createElement('p');text.textContent='Could not load your cloud progress. Please try again.';
-    const retry=document.createElement('button');retry.id='cloud-retry';retry.textContent='TRY AGAIN';retry.onclick=()=>{retry.disabled=true;boot();};loading.append(text,retry);
+    console.error('Progress load failed:',error?.code??error?.name??'Bridge rejection',error?.message??'No error details returned by Bridge');
+    await platform.whenActive();loading.replaceChildren();
+    const text=document.createElement('p');text.textContent=t('Could not load your progress. Please try again.');
+    const retry=document.createElement('button');retry.id='cloud-retry';retry.textContent=t('TRY AGAIN');retry.onclick=()=>{retry.disabled=true;boot();};loading.append(text,retry);
     return;
   }
   try{
-    // A font failure must not masquerade as a failed cloud read.
-    await Promise.allSettled([document.fonts.load('900 24px Nunito'),document.fonts.load('800 18px Nunito')]);
-    await playables.whenActive();new SpaApp(save);
-    if(playables.enabled)Promise.resolve().then(()=>playables.sdk.system.getLanguage()).then(lang=>{playables.language=lang||'en';}).catch(()=>playables.warning());
+    // A font failure must not masquerade as a failed progress read.
+    await loadFonts();
+    await platform.whenActive();new SpaApp(save);
   }catch(error){
-    console.error('Playables game startup failed:',error);playables.error();
+    console.error('Game startup failed:',error);
     const screen=$('loading')??document.createElement('div');screen.id='loading';screen.replaceChildren();
-    const text=document.createElement('p');text.textContent='Could not start the game. Please reload to try again.';
-    const retry=document.createElement('button');retry.textContent='RELOAD';retry.onclick=()=>location.reload();screen.append(text,retry);if(!screen.isConnected)document.body.append(screen);
+    const text=document.createElement('p');text.textContent=t('Could not start the game. Please reload to try again.');
+    const retry=document.createElement('button');retry.textContent=t('RELOAD');retry.onclick=()=>location.reload();screen.append(text,retry);if(!screen.isConnected)document.body.append(screen);
   }
 }
-boot();
+// The language comes from the Bridge once, right after initialization.
+// Dev-only override for manual checks: ?lang=ru / ?lang=en. Production always uses the Bridge.
+const devLanguage=import.meta.env.DEV?new URLSearchParams(location.search).get('lang'):null;
+platform.init().then(()=>{setLanguage(devLanguage||platform.language);boot();});

@@ -2,10 +2,13 @@ import {ECONOMY,SUPPLIES,bonusRoundsLeft} from './economy.js';
 import {ITEMS,CARDS,DAILY,PASS,WHEEL,MODES,LEVEL_PRICES,dailyReady,rewardLines} from './meta-content.js';
 import {LEVELS,LEVEL_ORDER,levelNumber} from './levels.js';
 import {unlocked} from './save.js';
+import {lang} from './i18n.js';
 
 export const META_MODES=['premium-offer','chest-reveal','level-chest','play-gift','rewards','daily','wheel','boxes','coins','shop','purchase','cards','card-detail','pass','items','help','modes','mode-offer','bonus','reward'];
 const ink={color:'#715080',thickness:0};
 const light={color:'#fff9ff',stroke:'#553563',thickness:2};
+// Russian prize words do not fit the wheel; the icon names the prize, the label keeps the amount.
+const wheelAmount=label=>label.match(/^\d+/)?.[0]??'1';
 
 export function installMetaUI(UI){Object.assign(UI.prototype,{
   art(key,x,y,w,h,parent=this.root){const texture=this.textures.exists(key)?key:`ui-${key}`,f=this.textures.get(texture).getSourceImage(),s=Math.min(w/f.width,h/f.height),image=this.add.image(x,y,texture).setScale(s);parent.add(image);return image;},
@@ -102,13 +105,12 @@ export function installMetaUI(UI){Object.assign(UI.prototype,{
     const {cx,top,landscape,H}=this.metaHeader('Lucky Spin'),a=this.app,radius=landscape?192:203;
     const x=landscape?cx-165:cx,y=top+(landscape?326:382);
     this.wheel=this.add.container(x,y);this.root.add(this.wheel);this.image('lucky-wheel',0,0,radius*2,radius*2,this.wheel).setAngle(15);
-    WHEEL.forEach((r,i)=>{const group=this.add.container(0,0).setAngle(i*30);this.wheel.add(group);this.art(r.art,0,-radius*.67,34,34,group);this.text(r.label,0,-radius*.47,12,{color:'#604178',thickness:0,maxWidth:52},group);});
+    WHEEL.forEach((r,i)=>{const group=this.add.container(0,0).setAngle(i*30);this.wheel.add(group);this.art(r.art,0,-radius*.67,34,34,group);this.text(lang==='ru'?wheelAmount(r.label):r.label,0,-radius*.47,12,{color:'#604178',thickness:0,maxWidth:52},group);});
     this.wheelPointer=this.art('symbol-purple-play',x,y-radius+5,36,36).setAngle(90);
     const bx=landscape?cx+228:cx,by=top+(landscape?385:646);
     if(landscape){this.art('coin-pile',bx,top+222,120,100);this.text('Spin the wheel,\nunlock your glow!',bx,top+313,25,{...light,maxWidth:290});}
     const button=this.button('wheel-spin',a.reveal?'SPINNING...':'SPIN',bx,by,255,72,()=>a.spinWheel(),'green-button',31,'ad');
     if(a.reveal){this.disable('wheel-spin',button);this.disable('meta-close');}
-    this.text('1 video · 1 prize · equal 1 in 12 chances',bx,by+62,landscape?14:16,light);
     if(!landscape)this.text('A little luck. A lovely surprise.',cx,top+145,19,light);
   },
   drawBoxes(){

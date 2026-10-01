@@ -1,5 +1,7 @@
 @import '@fontsource/nunito/latin-800.css';
 @import '@fontsource/nunito/latin-900.css';
+@import '@fontsource/nunito/cyrillic-800.css';
+@import '@fontsource/nunito/cyrillic-900.css';
 /* Phaser renders every visible widget from raster art. These rules only size
    the canvas and invisible semantic hit targets, never paint UI surfaces. */
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}

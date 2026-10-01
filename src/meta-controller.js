@@ -2,10 +2,10 @@ import {ECONOMY,SUPPLIES,reserveBonusRound,bubbleCoins} from './economy.js';
 import {LEVELS,levelNumber} from './levels.js';
 import {writeSave,unlocked} from './save.js';
 import {ITEMS,CARDS,DAILY,PASS,WHEEL,MODES,LEVEL_PRICES,dailyReady,dayKey,grant,randomIndex,rollBox} from './meta-content.js';
-import {YouTubeRewardedProvider} from './ads.js';
+import {RewardedProvider} from './ads.js';
 
 export function installMeta(App){Object.assign(App.prototype,{
-  initMeta(){this.firstSession=!this.save.hasLaunched;this.levelMenuVisits=0;this.dailyAutoShown=false;this.ads=new YouTubeRewardedProvider();this.metaStack=[];this.metaData={};this.rewardBusy=false;this.cardScroll=0;this.observedCoins=this.save.coins;this.displayCoins=this.save.coins;this.coinQueue=0;},
+  initMeta(){this.firstSession=!this.save.hasLaunched;this.levelMenuVisits=0;this.dailyAutoShown=false;this.ads=new RewardedProvider();this.metaStack=[];this.metaData={};this.rewardBusy=false;this.cardScroll=0;this.observedCoins=this.save.coins;this.displayCoins=this.save.coins;this.coinQueue=0;},
   onLevelMenuShown(previousMode){
     if(previousMode==='levels'&&this.levelMenuVisits>0)return;
     this.levelMenuVisits++;
@@ -16,7 +16,7 @@ export function installMeta(App){Object.assign(App.prototype,{
   },
   celebrateCard(id,returnMode='result'){this.cardCelebration={card:CARDS.find(c=>c.id===id),start:performance.now(),returnMode};this.modalName='card-earned';this.freeze();this.ui.show('card-earned');},
   finishCardCelebration(){if(!this.cardCelebration)return;const mode=this.cardCelebration.returnMode||'result';this.cardCelebration=null;this.modalName=mode==='playing'?null:mode;if(mode==='playing')this.unfreeze();this.ui.show(mode);},
-  persist(){writeSave(this.save);this.platform.flushScore();this.updateWallet();},
+  persist(){writeSave(this.save);this.updateWallet();},
   openMeta(mode,data={}){
     if(this.rewardBusy||this.reveal)return;
     if(this.ui.mode===mode&&JSON.stringify(this.metaData)===JSON.stringify(data))return;

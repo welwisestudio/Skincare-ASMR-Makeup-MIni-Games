@@ -1,16 +1,17 @@
-﻿import {chromium} from '@playwright/test';
+import {chromium} from '@playwright/test';
 import assert from 'node:assert/strict';
 import {freshSave} from '../src/save.js';
 import {dayKey} from '../src/meta-content.js';
+import {bridgeDouble} from './bridge-double.mjs';
 const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});
 const page=await browser.newPage({viewport:{width:390,height:844}}),errors=[];
 let cloud='';
 page.on('pageerror',e=>errors.push(e.message));
 await page.exposeFunction('__cloudRead',()=>cloud);
 await page.exposeFunction('__cloudWrite',data=>{cloud=data;});
-await page.route('https://www.youtube.com/game_api/v1',route=>route.fulfill({contentType:'application/javascript',body:`window.ytgame={IN_PLAYABLES_ENV:true,game:{firstFrameReady(){},gameReady(){},loadData:()=>__cloudRead(),saveData:data=>__cloudWrite(data)},system:{isAudioEnabled:()=>false,getLanguage:async()=>'en',onAudioEnabledChange(){},onPause(){},onResume(){}},engagement:{sendScore:async()=>{}},health:{logWarning(){},logError(){}},ads:{requestInterstitialAd:async()=>{},requestRewardedAd:async()=>true}};`}));
+await page.route('**/playgama-bridge.js',route=>route.fulfill({contentType:'application/javascript',body:bridgeDouble({audio:false})}));
 const mode=()=>page.evaluate(()=>window.__spa.app.ui.mode);
-const reload=async()=>{await page.goto('http://localhost:5173');await page.waitForFunction(()=>window.__spa?.app.ui&&window.__spa.app.state!=='loading');};
+const reload=async()=>{await page.goto(process.env.GAME_URL||'http://localhost:5173');await page.waitForFunction(()=>window.__spa?.app.ui&&window.__spa.app.state!=='loading');};
 try{
  await reload();assert.equal(await mode(),'levels');
  assert.equal(await page.locator('#nav-rewards').textContent(),'MY GIFTS');
